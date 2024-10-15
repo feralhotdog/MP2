@@ -572,3 +572,217 @@ Module                                       User      System        Wall       
 --------------------------------------------------------------------------------------
 
 **************************************************************************************
+
+Host: fedora
+
+Timers On : Mon Oct 14 07:34:48 2024
+Timers Off: Mon Oct 14 07:34:49 2024
+
+Wall Time:        0.90 seconds
+
+                                                       Time (seconds)
+Module                                       User      System        Wall        Calls
+
+--------------------------------------------------------------------------------------
+
+**************************************************************************************
+
+Host: fedora
+
+Timers On : Mon Oct 14 07:35:27 2024
+Timers Off: Mon Oct 14 07:35:28 2024
+
+Wall Time:        0.54 seconds
+
+                                                       Time (seconds)
+Module                                       User      System        Wall        Calls
+
+--------------------------------------------------------------------------------------
+
+**************************************************************************************
+
+Host: fedora
+
+Timers On : Mon Oct 14 07:36:17 2024
+Timers Off: Mon Oct 14 07:36:17 2024
+
+Wall Time:        0.52 seconds
+
+                                                       Time (seconds)
+Module                                       User      System        Wall        Calls
+
+--------------------------------------------------------------------------------------
+
+**************************************************************************************
+
+Host: fedora
+
+Timers On : Mon Oct 14 07:36:28 2024
+Timers Off: Mon Oct 14 07:36:28 2024
+
+Wall Time:        0.52 seconds
+
+                                                       Time (seconds)
+Module                                       User      System        Wall        Calls
+
+--------------------------------------------------------------------------------------
+
+**************************************************************************************
+
+Host: fedora
+
+Timers On : Mon Oct 14 07:38:16 2024
+Timers Off: Mon Oct 14 07:38:16 2024
+
+Wall Time:        0.54 seconds
+
+                                                       Time (seconds)
+Module                                       User      System        Wall        Calls
+
+--------------------------------------------------------------------------------------
+
+**************************************************************************************
+
+Host: fedora
+
+Timers On : Mon Oct 14 07:39:31 2024
+Timers Off: Mon Oct 14 07:39:32 2024
+
+Wall Time:        0.64 seconds
+
+                                                       Time (seconds)
+Module                                       User      System        Wall        Calls
+Libint2ERI::Libint2ERI              :      0.000u      0.033s      0.045w      1 calls
+
+--------------------------------------------------------------------------------------
+Libint2ERI::Libint2ERI              :      0.000u      0.033s      0.045w      1 calls
+
+**************************************************************************************
+
+Host: fedora
+
+Timers On : Mon Oct 14 08:34:31 2024
+Timers Off: Mon Oct 14 08:34:32 2024
+
+Wall Time:        1.02 seconds
+
+                                                       Time (seconds)
+Module                                       User      System        Wall        Calls
+Libint2ERI::Libint2ERI              :      0.000u      0.033s      0.036w      1 calls
+
+--------------------------------------------------------------------------------------
+Libint2ERI::Libint2ERI              :      0.000u      0.033s      0.036w      1 calls
+
+**************************************************************************************
+
+Host: fedora
+
+Timers On : Mon Oct 14 08:37:17 2024
+Timers Off: Mon Oct 14 08:37:18 2024
+
+Wall Time:        0.98 seconds
+
+                                                       Time (seconds)
+Module                                       User      System        Wall        Calls
+Libint2ERI::Libint2ERI              :      0.000u      0.017s      0.021w      1 calls
+
+--------------------------------------------------------------------------------------
+Libint2ERI::Libint2ERI              :      0.000u      0.017s      0.021w      1 calls
+
+**************************************************************************************
+
+Host: fedora
+
+Timers On : Tue Oct 15 08:01:31 2024
+Timers Off: Tue Oct 15 08:01:32 2024
+
+Wall Time:        0.92 seconds
+
+                                                       Time (seconds)
+Module                                       User      System        Wall        Calls
+Libint2ERI::Libint2ERI              :      0.017u      0.033s      0.039w      1 calls
+
+--------------------------------------------------------------------------------------
+Libint2ERI::Libint2ERI              :      0.017u      0.033s      0.039w      1 calls
+
+**************************************************************************************
+
+Host: fedora
+
+Timers On : Tue Oct 15 08:32:40 2024
+Timers Off: Tue Oct 15 08:32:41 2024
+
+Wall Time:        0.91 seconds
+
+                                                       Time (seconds)
+Module                                       User      System        Wall        Calls
+Libint2ERI::Libint2ERI              :      0.017u      0.033s      0.036w      1 calls
+
+--------------------------------------------------------------------------------------
+Libint2ERI::Libint2ERI              :      0.017u      0.033s      0.036w      1 calls
+
+**************************************************************************************
+
+Host: fedora
+
+Timers On : Tue Oct 15 08:33:41 2024
+Timers Off: Tue Oct 15 08:33:41 2024
+
+Wall Time:        0.59 seconds
+
+                                                       Time (seconds)
+Module                                       User      System        Wall        Calls
+Libint2ERI::Libint2ERI              :      0.000u      0.017s      0.009w      1 calls
+
+--------------------------------------------------------------------------------------
+Libint2ERI::Libint2ERI              :      0.000u      0.017s      0.009w      1 calls
+
+**************************************************************************************
+
+Host: fedora
+
+Timers On : Tue Oct 15 08:36:23 2024
+Timers Off: Tue Oct 15 08:36:24 2024
+
+Wall Time:        0.67 seconds
+
+                                                       Time (seconds)
+Module                                       User      System        Wall        Calls
+Libint2ERI::Libint2ERI              :      0.000u      0.017s      0.013w      1 calls
+
+--------------------------------------------------------------------------------------
+Libint2ERI::Libint2ERI              :      0.000u      0.017s      0.013w      1 calls
+
+**************************************************************************************
+
+Host: fedora
+
+Timers On : Tue Oct 15 08:37:04 2024
+Timers Off: Tue Oct 15 08:37:04 2024
+
+Wall Time:        0.59 seconds
+
+                                                       Time (seconds)
+Module                                       User      System        Wall        Calls
+Libint2ERI::Libint2ERI              :      0.000u      0.017s      0.011w      1 calls
+
+--------------------------------------------------------------------------------------
+Libint2ERI::Libint2ERI              :      0.000u      0.017s      0.011w      1 calls
+
+**************************************************************************************
+
+Host: fedora
+
+Timers On : Tue Oct 15 08:39:44 2024
+Timers Off: Tue Oct 15 08:39:45 2024
+
+Wall Time:        0.60 seconds
+
+                                                       Time (seconds)
+Module                                       User      System        Wall        Calls
+Libint2ERI::Libint2ERI              :      0.000u      0.017s      0.012w      1 calls
+
+--------------------------------------------------------------------------------------
+Libint2ERI::Libint2ERI              :      0.000u      0.017s      0.012w      1 calls
+
+**************************************************************************************

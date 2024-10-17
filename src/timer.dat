@@ -1,24 +1,10 @@
 
 Host: fedora
 
-Timers On : Tue Oct  8 10:27:25 2024
-Timers Off: Tue Oct  8 10:27:25 2024
+Timers On : Tue Oct 15 15:58:43 2024
+Timers Off: Tue Oct 15 15:58:43 2024
 
-Wall Time:        0.90 seconds
-
-                                                       Time (seconds)
-Module                                       User      System        Wall        Calls
-
---------------------------------------------------------------------------------------
-
-**************************************************************************************
-
-Host: fedora
-
-Timers On : Tue Oct  8 11:42:39 2024
-Timers Off: Tue Oct  8 11:42:40 2024
-
-Wall Time:        0.50 seconds
+Wall Time:        0.38 seconds
 
                                                        Time (seconds)
 Module                                       User      System        Wall        Calls
@@ -29,24 +15,10 @@ Module                                       User      System        Wall       
 
 Host: fedora
 
-Timers On : Tue Oct  8 11:42:54 2024
-Timers Off: Tue Oct  8 11:42:55 2024
+Timers On : Tue Oct 15 15:59:12 2024
+Timers Off: Tue Oct 15 15:59:13 2024
 
-Wall Time:        0.53 seconds
-
-                                                       Time (seconds)
-Module                                       User      System        Wall        Calls
-
---------------------------------------------------------------------------------------
-
-**************************************************************************************
-
-Host: fedora
-
-Timers On : Tue Oct  8 11:43:01 2024
-Timers Off: Tue Oct  8 11:43:01 2024
-
-Wall Time:        0.49 seconds
+Wall Time:        0.38 seconds
 
                                                        Time (seconds)
 Module                                       User      System        Wall        Calls
@@ -57,10 +29,10 @@ Module                                       User      System        Wall       
 
 Host: fedora
 
-Timers On : Tue Oct  8 11:43:28 2024
-Timers Off: Tue Oct  8 11:43:28 2024
+Timers On : Tue Oct 15 15:59:42 2024
+Timers Off: Tue Oct 15 15:59:43 2024
 
-Wall Time:        0.55 seconds
+Wall Time:        0.38 seconds
 
                                                        Time (seconds)
 Module                                       User      System        Wall        Calls
@@ -71,718 +43,218 @@ Module                                       User      System        Wall       
 
 Host: fedora
 
-Timers On : Tue Oct  8 11:43:31 2024
-Timers Off: Tue Oct  8 11:43:32 2024
+Timers On : Tue Oct 15 16:03:48 2024
+Timers Off: Tue Oct 15 16:03:49 2024
+
+Wall Time:        0.38 seconds
+
+                                                       Time (seconds)
+Module                                       User      System        Wall        Calls
+
+--------------------------------------------------------------------------------------
+
+**************************************************************************************
+
+Host: fedora
+
+Timers On : Tue Oct 15 16:04:41 2024
+Timers Off: Tue Oct 15 16:04:41 2024
+
+Wall Time:        0.38 seconds
+
+                                                       Time (seconds)
+Module                                       User      System        Wall        Calls
+
+--------------------------------------------------------------------------------------
+
+**************************************************************************************
+
+Host: fedora
+
+Timers On : Tue Oct 15 16:07:34 2024
+Timers Off: Tue Oct 15 16:07:34 2024
+
+Wall Time:        0.37 seconds
+
+                                                       Time (seconds)
+Module                                       User      System        Wall        Calls
+
+--------------------------------------------------------------------------------------
+
+**************************************************************************************
+
+Host: fedora
+
+Timers On : Tue Oct 15 16:08:02 2024
+Timers Off: Tue Oct 15 16:08:02 2024
+
+Wall Time:        0.38 seconds
+
+                                                       Time (seconds)
+Module                                       User      System        Wall        Calls
+
+--------------------------------------------------------------------------------------
+
+**************************************************************************************
+
+Host: fedora
+
+Timers On : Tue Oct 15 16:10:22 2024
+Timers Off: Tue Oct 15 16:10:22 2024
+
+Wall Time:        0.38 seconds
+
+                                                       Time (seconds)
+Module                                       User      System        Wall        Calls
+
+--------------------------------------------------------------------------------------
+
+**************************************************************************************
+
+Host: fedora
+
+Timers On : Tue Oct 15 16:10:54 2024
+Timers Off: Tue Oct 15 16:10:54 2024
+
+Wall Time:        0.37 seconds
+
+                                                       Time (seconds)
+Module                                       User      System        Wall        Calls
+
+--------------------------------------------------------------------------------------
+
+**************************************************************************************
+
+Host: fedora
+
+Timers On : Tue Oct 15 16:12:42 2024
+Timers Off: Tue Oct 15 16:12:42 2024
+
+Wall Time:        0.38 seconds
+
+                                                       Time (seconds)
+Module                                       User      System        Wall        Calls
+
+--------------------------------------------------------------------------------------
+
+**************************************************************************************
+
+Host: fedora
+
+Timers On : Tue Oct 15 16:14:51 2024
+Timers Off: Tue Oct 15 16:14:51 2024
+
+Wall Time:        0.38 seconds
+
+                                                       Time (seconds)
+Module                                       User      System        Wall        Calls
+
+--------------------------------------------------------------------------------------
+
+**************************************************************************************
+
+Host: fedora
+
+Timers On : Tue Oct 15 16:26:18 2024
+Timers Off: Tue Oct 15 16:26:19 2024
+
+Wall Time:        0.39 seconds
+
+                                                       Time (seconds)
+Module                                       User      System        Wall        Calls
+
+--------------------------------------------------------------------------------------
+
+**************************************************************************************
+
+Host: fedora
+
+Timers On : Tue Oct 15 16:26:57 2024
+Timers Off: Tue Oct 15 16:26:58 2024
+
+Wall Time:        0.42 seconds
+
+                                                       Time (seconds)
+Module                                       User      System        Wall        Calls
+
+--------------------------------------------------------------------------------------
+
+**************************************************************************************
+
+Host: fedora
+
+Timers On : Tue Oct 15 16:27:44 2024
+Timers Off: Tue Oct 15 16:27:45 2024
+
+Wall Time:        0.44 seconds
+
+                                                       Time (seconds)
+Module                                       User      System        Wall        Calls
+
+--------------------------------------------------------------------------------------
+
+**************************************************************************************
+
+Host: fedora
+
+Timers On : Tue Oct 15 16:28:19 2024
+Timers Off: Tue Oct 15 16:28:19 2024
+
+Wall Time:        0.52 seconds
+
+                                                       Time (seconds)
+Module                                       User      System        Wall        Calls
+Libint2ERI::Libint2ERI              :      0.000u      0.000s      0.009w      1 calls
+
+--------------------------------------------------------------------------------------
+Libint2ERI::Libint2ERI              :      0.000u      0.000s      0.009w      1 calls
+
+**************************************************************************************
+
+Host: fedora
+
+Timers On : Tue Oct 15 16:28:54 2024
+Timers Off: Tue Oct 15 16:28:55 2024
+
+Wall Time:        0.52 seconds
+
+                                                       Time (seconds)
+Module                                       User      System        Wall        Calls
+Libint2ERI::Libint2ERI              :      0.017u      0.017s      0.010w      1 calls
+
+--------------------------------------------------------------------------------------
+Libint2ERI::Libint2ERI              :      0.017u      0.017s      0.010w      1 calls
+
+**************************************************************************************
+
+Host: fedora
+
+Timers On : Tue Oct 15 16:49:30 2024
+Timers Off: Tue Oct 15 16:49:31 2024
+
+Wall Time:        0.52 seconds
+
+                                                       Time (seconds)
+Module                                       User      System        Wall        Calls
+Libint2ERI::Libint2ERI              :      0.000u      0.000s      0.009w      1 calls
+
+--------------------------------------------------------------------------------------
+Libint2ERI::Libint2ERI              :      0.000u      0.000s      0.009w      1 calls
+
+**************************************************************************************
+
+Host: fedora
+
+Timers On : Tue Oct 15 16:56:31 2024
+Timers Off: Tue Oct 15 16:56:32 2024
 
 Wall Time:        0.51 seconds
 
                                                        Time (seconds)
 Module                                       User      System        Wall        Calls
+Libint2ERI::Libint2ERI              :      0.000u      0.000s      0.009w      1 calls
 
 --------------------------------------------------------------------------------------
-
-**************************************************************************************
-
-Host: fedora
-
-Timers On : Tue Oct  8 11:48:38 2024
-Timers Off: Tue Oct  8 11:48:39 2024
-
-Wall Time:        0.62 seconds
-
-                                                       Time (seconds)
-Module                                       User      System        Wall        Calls
-
---------------------------------------------------------------------------------------
-
-**************************************************************************************
-
-Host: fedora
-
-Timers On : Tue Oct  8 11:48:45 2024
-Timers Off: Tue Oct  8 11:48:46 2024
-
-Wall Time:        0.50 seconds
-
-                                                       Time (seconds)
-Module                                       User      System        Wall        Calls
-
---------------------------------------------------------------------------------------
-
-**************************************************************************************
-
-Host: fedora
-
-Timers On : Tue Oct  8 11:53:12 2024
-Timers Off: Tue Oct  8 11:53:13 2024
-
-Wall Time:        0.56 seconds
-
-                                                       Time (seconds)
-Module                                       User      System        Wall        Calls
-
---------------------------------------------------------------------------------------
-
-**************************************************************************************
-
-Host: fedora
-
-Timers On : Tue Oct  8 11:53:19 2024
-Timers Off: Tue Oct  8 11:53:20 2024
-
-Wall Time:        0.49 seconds
-
-                                                       Time (seconds)
-Module                                       User      System        Wall        Calls
-
---------------------------------------------------------------------------------------
-
-**************************************************************************************
-
-Host: fedora
-
-Timers On : Tue Oct  8 11:59:51 2024
-Timers Off: Tue Oct  8 11:59:52 2024
-
-Wall Time:        0.52 seconds
-
-                                                       Time (seconds)
-Module                                       User      System        Wall        Calls
-
---------------------------------------------------------------------------------------
-
-**************************************************************************************
-
-Host: fedora
-
-Timers On : Tue Oct  8 11:59:54 2024
-Timers Off: Tue Oct  8 11:59:55 2024
-
-Wall Time:        0.49 seconds
-
-                                                       Time (seconds)
-Module                                       User      System        Wall        Calls
-
---------------------------------------------------------------------------------------
-
-**************************************************************************************
-
-Host: fedora
-
-Timers On : Wed Oct  9 07:44:54 2024
-Timers Off: Wed Oct  9 07:44:56 2024
-
-Wall Time:        1.23 seconds
-
-                                                       Time (seconds)
-Module                                       User      System        Wall        Calls
-
---------------------------------------------------------------------------------------
-
-**************************************************************************************
-
-Host: fedora
-
-Timers On : Wed Oct  9 07:45:03 2024
-Timers Off: Wed Oct  9 07:45:03 2024
-
-Wall Time:        0.53 seconds
-
-                                                       Time (seconds)
-Module                                       User      System        Wall        Calls
-
---------------------------------------------------------------------------------------
-
-**************************************************************************************
-
-Host: fedora
-
-Timers On : Wed Oct  9 07:52:03 2024
-Timers Off: Wed Oct  9 07:52:04 2024
-
-Wall Time:        0.77 seconds
-
-                                                       Time (seconds)
-Module                                       User      System        Wall        Calls
-
---------------------------------------------------------------------------------------
-
-**************************************************************************************
-
-Host: fedora
-
-Timers On : Wed Oct  9 07:52:08 2024
-Timers Off: Wed Oct  9 07:52:08 2024
-
-Wall Time:        0.48 seconds
-
-                                                       Time (seconds)
-Module                                       User      System        Wall        Calls
-
---------------------------------------------------------------------------------------
-
-**************************************************************************************
-
-Host: fedora
-
-Timers On : Wed Oct  9 07:52:27 2024
-Timers Off: Wed Oct  9 07:52:28 2024
-
-Wall Time:        0.54 seconds
-
-                                                       Time (seconds)
-Module                                       User      System        Wall        Calls
-
---------------------------------------------------------------------------------------
-
-**************************************************************************************
-
-Host: fedora
-
-Timers On : Wed Oct  9 07:52:32 2024
-Timers Off: Wed Oct  9 07:52:32 2024
-
-Wall Time:        0.52 seconds
-
-                                                       Time (seconds)
-Module                                       User      System        Wall        Calls
-
---------------------------------------------------------------------------------------
-
-**************************************************************************************
-
-Host: fedora
-
-Timers On : Wed Oct  9 07:55:13 2024
-Timers Off: Wed Oct  9 07:55:13 2024
-
-Wall Time:        0.55 seconds
-
-                                                       Time (seconds)
-Module                                       User      System        Wall        Calls
-
---------------------------------------------------------------------------------------
-
-**************************************************************************************
-
-Host: fedora
-
-Timers On : Wed Oct  9 07:55:18 2024
-Timers Off: Wed Oct  9 07:55:18 2024
-
-Wall Time:        0.49 seconds
-
-                                                       Time (seconds)
-Module                                       User      System        Wall        Calls
-
---------------------------------------------------------------------------------------
-
-**************************************************************************************
-
-Host: fedora
-
-Timers On : Wed Oct  9 07:57:10 2024
-Timers Off: Wed Oct  9 07:57:11 2024
-
-Wall Time:        0.58 seconds
-
-                                                       Time (seconds)
-Module                                       User      System        Wall        Calls
-
---------------------------------------------------------------------------------------
-
-**************************************************************************************
-
-Host: fedora
-
-Timers On : Wed Oct  9 07:57:14 2024
-Timers Off: Wed Oct  9 07:57:15 2024
-
-Wall Time:        0.49 seconds
-
-                                                       Time (seconds)
-Module                                       User      System        Wall        Calls
-
---------------------------------------------------------------------------------------
-
-**************************************************************************************
-
-Host: fedora
-
-Timers On : Wed Oct  9 07:58:01 2024
-Timers Off: Wed Oct  9 07:58:02 2024
-
-Wall Time:        0.51 seconds
-
-                                                       Time (seconds)
-Module                                       User      System        Wall        Calls
-
---------------------------------------------------------------------------------------
-
-**************************************************************************************
-
-Host: fedora
-
-Timers On : Wed Oct  9 07:58:05 2024
-Timers Off: Wed Oct  9 07:58:05 2024
-
-Wall Time:        0.49 seconds
-
-                                                       Time (seconds)
-Module                                       User      System        Wall        Calls
-
---------------------------------------------------------------------------------------
-
-**************************************************************************************
-
-Host: fedora
-
-Timers On : Wed Oct  9 07:58:27 2024
-Timers Off: Wed Oct  9 07:58:27 2024
-
-Wall Time:        0.55 seconds
-
-                                                       Time (seconds)
-Module                                       User      System        Wall        Calls
-
---------------------------------------------------------------------------------------
-
-**************************************************************************************
-
-Host: fedora
-
-Timers On : Wed Oct  9 07:58:29 2024
-Timers Off: Wed Oct  9 07:58:30 2024
-
-Wall Time:        0.50 seconds
-
-                                                       Time (seconds)
-Module                                       User      System        Wall        Calls
-
---------------------------------------------------------------------------------------
-
-**************************************************************************************
-
-Host: fedora
-
-Timers On : Wed Oct  9 07:58:40 2024
-Timers Off: Wed Oct  9 07:58:40 2024
-
-Wall Time:        0.50 seconds
-
-                                                       Time (seconds)
-Module                                       User      System        Wall        Calls
-
---------------------------------------------------------------------------------------
-
-**************************************************************************************
-
-Host: fedora
-
-Timers On : Wed Oct  9 08:03:28 2024
-Timers Off: Wed Oct  9 08:03:28 2024
-
-Wall Time:        0.61 seconds
-
-                                                       Time (seconds)
-Module                                       User      System        Wall        Calls
-
---------------------------------------------------------------------------------------
-
-**************************************************************************************
-
-Host: fedora
-
-Timers On : Wed Oct  9 08:03:31 2024
-Timers Off: Wed Oct  9 08:03:31 2024
-
-Wall Time:        0.51 seconds
-
-                                                       Time (seconds)
-Module                                       User      System        Wall        Calls
-
---------------------------------------------------------------------------------------
-
-**************************************************************************************
-
-Host: fedora
-
-Timers On : Wed Oct  9 08:13:14 2024
-Timers Off: Wed Oct  9 08:13:15 2024
-
-Wall Time:        1.05 seconds
-
-                                                       Time (seconds)
-Module                                       User      System        Wall        Calls
-
---------------------------------------------------------------------------------------
-
-**************************************************************************************
-
-Host: fedora
-
-Timers On : Wed Oct  9 08:13:22 2024
-Timers Off: Wed Oct  9 08:13:22 2024
-
-Wall Time:        0.52 seconds
-
-                                                       Time (seconds)
-Module                                       User      System        Wall        Calls
-
---------------------------------------------------------------------------------------
-
-**************************************************************************************
-
-Host: fedora
-
-Timers On : Wed Oct  9 08:13:56 2024
-Timers Off: Wed Oct  9 08:13:57 2024
-
-Wall Time:        0.56 seconds
-
-                                                       Time (seconds)
-Module                                       User      System        Wall        Calls
-
---------------------------------------------------------------------------------------
-
-**************************************************************************************
-
-Host: fedora
-
-Timers On : Wed Oct  9 08:14:01 2024
-Timers Off: Wed Oct  9 08:14:02 2024
-
-Wall Time:        0.49 seconds
-
-                                                       Time (seconds)
-Module                                       User      System        Wall        Calls
-
---------------------------------------------------------------------------------------
-
-**************************************************************************************
-
-Host: fedora
-
-Timers On : Wed Oct  9 08:36:02 2024
-Timers Off: Wed Oct  9 08:36:03 2024
-
-Wall Time:        0.75 seconds
-
-                                                       Time (seconds)
-Module                                       User      System        Wall        Calls
-
---------------------------------------------------------------------------------------
-
-**************************************************************************************
-
-Host: fedora
-
-Timers On : Wed Oct  9 08:36:06 2024
-Timers Off: Wed Oct  9 08:36:06 2024
-
-Wall Time:        0.50 seconds
-
-                                                       Time (seconds)
-Module                                       User      System        Wall        Calls
-
---------------------------------------------------------------------------------------
-
-**************************************************************************************
-
-Host: fedora
-
-Timers On : Wed Oct  9 08:36:18 2024
-Timers Off: Wed Oct  9 08:36:18 2024
-
-Wall Time:        0.53 seconds
-
-                                                       Time (seconds)
-Module                                       User      System        Wall        Calls
-
---------------------------------------------------------------------------------------
-
-**************************************************************************************
-
-Host: fedora
-
-Timers On : Wed Oct  9 08:36:20 2024
-Timers Off: Wed Oct  9 08:36:21 2024
-
-Wall Time:        0.49 seconds
-
-                                                       Time (seconds)
-Module                                       User      System        Wall        Calls
-
---------------------------------------------------------------------------------------
-
-**************************************************************************************
-
-Host: fedora
-
-Timers On : Wed Oct  9 08:36:28 2024
-Timers Off: Wed Oct  9 08:36:28 2024
-
-Wall Time:        0.52 seconds
-
-                                                       Time (seconds)
-Module                                       User      System        Wall        Calls
-
---------------------------------------------------------------------------------------
-
-**************************************************************************************
-
-Host: fedora
-
-Timers On : Wed Oct  9 08:36:31 2024
-Timers Off: Wed Oct  9 08:36:32 2024
-
-Wall Time:        0.49 seconds
-
-                                                       Time (seconds)
-Module                                       User      System        Wall        Calls
-
---------------------------------------------------------------------------------------
-
-**************************************************************************************
-
-Host: fedora
-
-Timers On : Wed Oct  9 08:37:42 2024
-Timers Off: Wed Oct  9 08:37:43 2024
-
-Wall Time:        0.55 seconds
-
-                                                       Time (seconds)
-Module                                       User      System        Wall        Calls
-
---------------------------------------------------------------------------------------
-
-**************************************************************************************
-
-Host: fedora
-
-Timers On : Wed Oct  9 08:37:46 2024
-Timers Off: Wed Oct  9 08:37:47 2024
-
-Wall Time:        0.50 seconds
-
-                                                       Time (seconds)
-Module                                       User      System        Wall        Calls
-
---------------------------------------------------------------------------------------
-
-**************************************************************************************
-
-Host: fedora
-
-Timers On : Mon Oct 14 07:34:48 2024
-Timers Off: Mon Oct 14 07:34:49 2024
-
-Wall Time:        0.90 seconds
-
-                                                       Time (seconds)
-Module                                       User      System        Wall        Calls
-
---------------------------------------------------------------------------------------
-
-**************************************************************************************
-
-Host: fedora
-
-Timers On : Mon Oct 14 07:35:27 2024
-Timers Off: Mon Oct 14 07:35:28 2024
-
-Wall Time:        0.54 seconds
-
-                                                       Time (seconds)
-Module                                       User      System        Wall        Calls
-
---------------------------------------------------------------------------------------
-
-**************************************************************************************
-
-Host: fedora
-
-Timers On : Mon Oct 14 07:36:17 2024
-Timers Off: Mon Oct 14 07:36:17 2024
-
-Wall Time:        0.52 seconds
-
-                                                       Time (seconds)
-Module                                       User      System        Wall        Calls
-
---------------------------------------------------------------------------------------
-
-**************************************************************************************
-
-Host: fedora
-
-Timers On : Mon Oct 14 07:36:28 2024
-Timers Off: Mon Oct 14 07:36:28 2024
-
-Wall Time:        0.52 seconds
-
-                                                       Time (seconds)
-Module                                       User      System        Wall        Calls
-
---------------------------------------------------------------------------------------
-
-**************************************************************************************
-
-Host: fedora
-
-Timers On : Mon Oct 14 07:38:16 2024
-Timers Off: Mon Oct 14 07:38:16 2024
-
-Wall Time:        0.54 seconds
-
-                                                       Time (seconds)
-Module                                       User      System        Wall        Calls
-
---------------------------------------------------------------------------------------
-
-**************************************************************************************
-
-Host: fedora
-
-Timers On : Mon Oct 14 07:39:31 2024
-Timers Off: Mon Oct 14 07:39:32 2024
-
-Wall Time:        0.64 seconds
-
-                                                       Time (seconds)
-Module                                       User      System        Wall        Calls
-Libint2ERI::Libint2ERI              :      0.000u      0.033s      0.045w      1 calls
-
---------------------------------------------------------------------------------------
-Libint2ERI::Libint2ERI              :      0.000u      0.033s      0.045w      1 calls
-
-**************************************************************************************
-
-Host: fedora
-
-Timers On : Mon Oct 14 08:34:31 2024
-Timers Off: Mon Oct 14 08:34:32 2024
-
-Wall Time:        1.02 seconds
-
-                                                       Time (seconds)
-Module                                       User      System        Wall        Calls
-Libint2ERI::Libint2ERI              :      0.000u      0.033s      0.036w      1 calls
-
---------------------------------------------------------------------------------------
-Libint2ERI::Libint2ERI              :      0.000u      0.033s      0.036w      1 calls
-
-**************************************************************************************
-
-Host: fedora
-
-Timers On : Mon Oct 14 08:37:17 2024
-Timers Off: Mon Oct 14 08:37:18 2024
-
-Wall Time:        0.98 seconds
-
-                                                       Time (seconds)
-Module                                       User      System        Wall        Calls
-Libint2ERI::Libint2ERI              :      0.000u      0.017s      0.021w      1 calls
-
---------------------------------------------------------------------------------------
-Libint2ERI::Libint2ERI              :      0.000u      0.017s      0.021w      1 calls
-
-**************************************************************************************
-
-Host: fedora
-
-Timers On : Tue Oct 15 08:01:31 2024
-Timers Off: Tue Oct 15 08:01:32 2024
-
-Wall Time:        0.92 seconds
-
-                                                       Time (seconds)
-Module                                       User      System        Wall        Calls
-Libint2ERI::Libint2ERI              :      0.017u      0.033s      0.039w      1 calls
-
---------------------------------------------------------------------------------------
-Libint2ERI::Libint2ERI              :      0.017u      0.033s      0.039w      1 calls
-
-**************************************************************************************
-
-Host: fedora
-
-Timers On : Tue Oct 15 08:32:40 2024
-Timers Off: Tue Oct 15 08:32:41 2024
-
-Wall Time:        0.91 seconds
-
-                                                       Time (seconds)
-Module                                       User      System        Wall        Calls
-Libint2ERI::Libint2ERI              :      0.017u      0.033s      0.036w      1 calls
-
---------------------------------------------------------------------------------------
-Libint2ERI::Libint2ERI              :      0.017u      0.033s      0.036w      1 calls
-
-**************************************************************************************
-
-Host: fedora
-
-Timers On : Tue Oct 15 08:33:41 2024
-Timers Off: Tue Oct 15 08:33:41 2024
-
-Wall Time:        0.59 seconds
-
-                                                       Time (seconds)
-Module                                       User      System        Wall        Calls
-Libint2ERI::Libint2ERI              :      0.000u      0.017s      0.009w      1 calls
-
---------------------------------------------------------------------------------------
-Libint2ERI::Libint2ERI              :      0.000u      0.017s      0.009w      1 calls
-
-**************************************************************************************
-
-Host: fedora
-
-Timers On : Tue Oct 15 08:36:23 2024
-Timers Off: Tue Oct 15 08:36:24 2024
-
-Wall Time:        0.67 seconds
-
-                                                       Time (seconds)
-Module                                       User      System        Wall        Calls
-Libint2ERI::Libint2ERI              :      0.000u      0.017s      0.013w      1 calls
-
---------------------------------------------------------------------------------------
-Libint2ERI::Libint2ERI              :      0.000u      0.017s      0.013w      1 calls
-
-**************************************************************************************
-
-Host: fedora
-
-Timers On : Tue Oct 15 08:37:04 2024
-Timers Off: Tue Oct 15 08:37:04 2024
-
-Wall Time:        0.59 seconds
-
-                                                       Time (seconds)
-Module                                       User      System        Wall        Calls
-Libint2ERI::Libint2ERI              :      0.000u      0.017s      0.011w      1 calls
-
---------------------------------------------------------------------------------------
-Libint2ERI::Libint2ERI              :      0.000u      0.017s      0.011w      1 calls
-
-**************************************************************************************
-
-Host: fedora
-
-Timers On : Tue Oct 15 08:39:44 2024
-Timers Off: Tue Oct 15 08:39:45 2024
-
-Wall Time:        0.60 seconds
-
-                                                       Time (seconds)
-Module                                       User      System        Wall        Calls
-Libint2ERI::Libint2ERI              :      0.000u      0.017s      0.012w      1 calls
-
---------------------------------------------------------------------------------------
-Libint2ERI::Libint2ERI              :      0.000u      0.017s      0.012w      1 calls
+Libint2ERI::Libint2ERI              :      0.000u      0.000s      0.009w      1 calls
 
 **************************************************************************************

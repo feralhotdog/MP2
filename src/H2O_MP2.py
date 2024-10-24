@@ -3,10 +3,11 @@
 #===> Import Statements and Global Options <===#
 import psi4
 import numpy as np
+from pathlib import Path
 
 psi4.set_memory(int(2e9))
 numpy_memory = 2
-psi4.core.set_output_file('H20_MP2_out.dat', False)
+psi4.core.set_output_file(Path("../Data/results/'H20_MP2_out.dat'"), False)
 
 #===> Molecule and Psi4 Options Definitions <===#
 mol = psi4.geometry("""

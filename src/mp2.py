@@ -1,21 +1,34 @@
 #implement MP2 calculation here. 
 
 #===> Import Statements and Global Options <===#
+import os
+import sys
 import psi4
 import numpy as np
 from pathlib import Path
 
 psi4.set_memory(int(2e9))
 numpy_memory = 2
-psi4.core.set_output_file(Path("../Data/results/'H20_MP2_out.dat'"), False)
+
+#setting output and reading input files
+filename = sys.argv[1]
+print(filename)
+
+fh = open(filename, 'r')
+text = fh.read()
+
+
+
+input_file_name = os.path.basename(sys.argv[1])
+name = input_file_name.split(sep=".")
+print("/home/aubclsd0286/MP2/Data/results/" + name[0] + ".out")
+
+psi4.core.set_output_file("/home/aubclsd0286/MP2/Data/results/" + name[0] + ".out", False)
 
 #===> Molecule and Psi4 Options Definitions <===#
-mol = psi4.geometry("""
-O
-H 1 1.1
-H 1 1.1 2 104
-symmetry c1
-""")
+mol = psi4.geometry(
+    text
+)
 
 psi4.set_options({
     'basis':            '6-31g',

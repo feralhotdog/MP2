@@ -1,29 +1,30 @@
-#implement MP2 calculation here. 
-
 #===> Import Statements and Global Options <===#
 import os
 import sys
 import psi4
 import numpy as np
+import time
 from pathlib import Path
 
+#setting memory
 psi4.set_memory(int(2e9))
 numpy_memory = 2
 
-#setting output and reading input files
-filename = sys.argv[1]
-print(filename)
+## Input and Output File Handling
+#detecting file path outside of MP2 directory
+current_dir = str(Path.cwd())
+outer_dir = current_dir.split(sep="MP2")
 
+#reading input files
+filename = sys.argv[1]
 fh = open(filename, 'r')
 text = fh.read()
 
-
-
+#setting output filenames
 input_file_name = os.path.basename(sys.argv[1])
 name = input_file_name.split(sep=".")
-print("/home/aubclsd0286/MP2/Data/results/" + name[0] + ".out")
-
-psi4.core.set_output_file("/home/aubclsd0286/MP2/Data/results/" + name[0] + ".out", False)
+psi4.core.set_output_file(outer_dir[0] + "MP2/Data/results/" + name[0] + "_psi4.out", False)
+out_file = outer_dir[0] + "MP2/Data/results/" + name[0] + "_my_mp2.out"
 
 #===> Molecule and Psi4 Options Definitions <===#
 mol = psi4.geometry(
@@ -56,10 +57,11 @@ e_ab = eps[ndocc:]
 mints = psi4.core.MintsHelper(scf_wfn.basisset())
 
 #mem check of ERI tensor
-I_size = (nmo**4) * 8.e-9
-print('\nSize of ERI tensor is %4.2f GB.' % I_size)
+I_size = (nmo**4) 
+I_size_gb = I_size * 1e-9
+print('\nSize of ERI tensor is %4.2f bytes.' % I_size)
 memory_footprint = I_size * 1.5
-if I_size >  numpy_memory:
+if I_size_gb >  numpy_memory:
     psi4.core.clean()
     raise Exception("Estimated memory utilization (%4.2f GB) exceeds alloted memory limit of %4.2f GB" % (memory_footprint, numpy_memory))
 
@@ -102,14 +104,9 @@ for i in range(ndocc):
 e_denom = 1 / (e_ij.reshape(-1, 1, 1, 1) - e_ab.reshape(-1, 1, 1) + e_ij.reshape(-1,1) - e_ab)
 
 # Total MP2 Energy
-MP2_E = scf_e + mp2_os_corr+ mp2_ss_corr
+MP2_E = scf_e + mp2_os_corr + mp2_ss_corr
 
 #==> Comparing with Psi4 <==#
 # ==> Compare to Psi4 <==
 psi4.compare_values(psi4.energy('mp2'), MP2_E, 6, 'MP2 Energy')
-
-
-
-
-
 

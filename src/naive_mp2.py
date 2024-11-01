@@ -5,6 +5,7 @@ import psi4
 import numpy as np
 import time
 from pathlib import Path
+from ..utils import Perf_Track
 
 #setting memory
 psi4.set_memory(int(2e9))
@@ -24,7 +25,11 @@ text = fh.read()
 input_file_name = os.path.basename(sys.argv[1])
 name = input_file_name.split(sep=".")
 psi4.core.set_output_file(outer_dir[0] + "MP2/Data/results/" + name[0] + "_psi4.out", False)
-out_file = outer_dir[0] + "MP2/Data/results/" + name[0] + "_my_mp2.out"
+out = outer_dir[0] + "MP2/Data/results/" + name[0] + "_my_mp2"
+log_file = out + ".log"
+#initiating tracking
+tracker = PerformanceTracker(log_file=log_file)
+tracker.start_tracking()
 
 #===> Molecule and Psi4 Options Definitions <===#
 mol = psi4.geometry(
@@ -105,6 +110,9 @@ e_denom = 1 / (e_ij.reshape(-1, 1, 1, 1) - e_ab.reshape(-1, 1, 1) + e_ij.reshape
 
 # Total MP2 Energy
 MP2_E = scf_e + mp2_os_corr + mp2_ss_corr
+
+#stopping tracking
+tracker.stop_tracking()
 
 #==> Comparing with Psi4 <==#
 # ==> Compare to Psi4 <==

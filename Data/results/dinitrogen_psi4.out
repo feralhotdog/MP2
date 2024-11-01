@@ -1,21 +1,15 @@
 
 Scratch directory: /tmp/
-   => Libint2 <=
 
-    Primary   basis highest AM E, G, H:  6, 6, 3
-    Auxiliary basis highest AM E, G, H:  7, 7, 4
-    Onebody   basis highest AM E, G, H:  -, -, -
-    Solid Harmonics ordering:            Gaussian
-
-*** tstart() called on fedora
-*** at Tue Oct 29 15:01:33 2024
+*** tstart() called on asaxlogin1.asc.edu
+*** at Fri Nov  1 12:27:09 2024
 
    => Loading Basis Set <=
 
     Name: 6-31G
     Role: ORBITAL
     Keyword: BASIS
-    atoms 1-2 entry N          line   102 file /home/wh/.conda/envs/mp2/share/psi4/basis/6-31g.gbs 
+    atoms 1-2 entry N          line   102 file /home/aubclsd0286/.conda/envs/mp2/share/psi4/basis/6-31g.gbs 
 
 
          ---------------------------------------------------------
@@ -119,15 +113,15 @@ Scratch directory: /tmp/
 
                         Total Energy        Delta E     RMS |[F,P]|
 
-   @RHF iter SAD:  -107.35013099719927   -1.07350e+02   0.00000e+00 
-   @RHF iter   1:  -108.67390499591467   -1.32377e+00   6.94670e-03 ADIIS/DIIS
-   @RHF iter   2:  -108.68375679654881   -9.85180e-03   1.52657e-03 ADIIS/DIIS
-   @RHF iter   3:  -108.68440230120332   -6.45505e-04   4.17515e-04 ADIIS/DIIS
-   @RHF iter   4:  -108.68444436785468   -4.20667e-05   2.55913e-05 DIIS
-   @RHF iter   5:  -108.68444452795967   -1.60105e-07   3.92747e-06 DIIS
-   @RHF iter   6:  -108.68444453192357   -3.96390e-09   1.67724e-07 DIIS
-   @RHF iter   7:  -108.68444453193206   -8.48388e-12   2.54040e-08 DIIS
-   @RHF iter   8:  -108.68444453193219   -1.27898e-13   2.01146e-09 DIIS
+   @RHF iter SAD:  -107.35013099719919   -1.07350e+02   0.00000e+00 
+   @RHF iter   1:  -108.67390499591481   -1.32377e+00   6.94670e-03 ADIIS/DIIS
+   @RHF iter   2:  -108.68375679654891   -9.85180e-03   1.52657e-03 ADIIS/DIIS
+   @RHF iter   3:  -108.68440230120346   -6.45505e-04   4.17515e-04 ADIIS/DIIS
+   @RHF iter   4:  -108.68444436785470   -4.20667e-05   2.55913e-05 DIIS
+   @RHF iter   5:  -108.68444452795973   -1.60105e-07   3.92747e-06 DIIS
+   @RHF iter   6:  -108.68444453192365   -3.96392e-09   1.67724e-07 DIIS
+   @RHF iter   7:  -108.68444453193220   -8.55493e-12   2.54040e-08 DIIS
+   @RHF iter   8:  -108.68444453193231   -1.13687e-13   2.01146e-09 DIIS
   Energy and wave function converged.
 
 
@@ -152,17 +146,15 @@ Scratch directory: /tmp/
     Final Occupation by Irrep:
               A 
     DOCC [     7 ]
-    NA   [     7 ]
-    NB   [     7 ]
 
-  @RHF Final Energy:  -108.68444453193219
+  @RHF Final Energy:  -108.68444453193231
 
    => Energetics <=
 
     Nuclear Repulsion Energy =             18.2603403681901426
-    One-Electron Energy =                -183.1226077498605491
-    Two-Electron Energy =                  56.1778228497382059
-    Total Energy =                       -108.6844445319321864
+    One-Electron Energy =                -183.1226077498606628
+    Two-Electron Energy =                  56.1778228497381917
+    Total Energy =                       -108.6844445319323142
 
 Computation Completed
 
@@ -179,40 +171,34 @@ Properties computed using the SCF density matrix
  ------------------------------------------------------------------------------------
 
  L = 1.  Multiply by 2.5417464519 to convert [e a0] to [Debye]
- Dipole X            :          0.0000000            0.0000000            0.0000000
- Dipole Y            :         -0.0000000            0.0000000           -0.0000000
+ Dipole X            :         -0.0000000            0.0000000           -0.0000000
+ Dipole Y            :          0.0000000            0.0000000            0.0000000
  Dipole Z            :          0.0000000            0.0000000            0.0000000
  Magnitude           :                                                    0.0000000
 
  ------------------------------------------------------------------------------------
 
-*** tstop() called on fedora at Tue Oct 29 15:01:33 2024
+*** tstop() called on asaxlogin1.asc.edu at Fri Nov  1 12:27:10 2024
 Module time:
-	user time   =       0.25 seconds =       0.00 minutes
-	system time =       0.04 seconds =       0.00 minutes
-	total time  =          0 seconds =       0.00 minutes
+	user time   =       0.15 seconds =       0.00 minutes
+	system time =       0.03 seconds =       0.00 minutes
+	total time  =          1 seconds =       0.02 minutes
 Total time:
-	user time   =       0.25 seconds =       0.00 minutes
-	system time =       0.04 seconds =       0.00 minutes
-	total time  =          0 seconds =       0.00 minutes
+	user time   =       0.15 seconds =       0.00 minutes
+	system time =       0.03 seconds =       0.00 minutes
+	total time  =          1 seconds =       0.02 minutes
 
 Scratch directory: /tmp/
-   => Libint2 <=
 
-    Primary   basis highest AM E, G, H:  6, 6, 3
-    Auxiliary basis highest AM E, G, H:  7, 7, 4
-    Onebody   basis highest AM E, G, H:  -, -, -
-    Solid Harmonics ordering:            Gaussian
-
-*** tstart() called on fedora
-*** at Tue Oct 29 15:01:33 2024
+*** tstart() called on asaxlogin1.asc.edu
+*** at Fri Nov  1 12:27:13 2024
 
    => Loading Basis Set <=
 
     Name: 6-31G
     Role: ORBITAL
     Keyword: BASIS
-    atoms 1-2 entry N          line   102 file /home/wh/.conda/envs/mp2/share/psi4/basis/6-31g.gbs 
+    atoms 1-2 entry N          line   102 file /home/aubclsd0286/.conda/envs/mp2/share/psi4/basis/6-31g.gbs 
 
 
          ---------------------------------------------------------
@@ -316,15 +302,15 @@ Scratch directory: /tmp/
 
                         Total Energy        Delta E     RMS |[F,P]|
 
-   @RHF iter SAD:  -107.35013099719927   -1.07350e+02   0.00000e+00 
-   @RHF iter   1:  -108.67390499591467   -1.32377e+00   6.94670e-03 ADIIS/DIIS
-   @RHF iter   2:  -108.68375679654881   -9.85180e-03   1.52657e-03 ADIIS/DIIS
-   @RHF iter   3:  -108.68440230120332   -6.45505e-04   4.17515e-04 ADIIS/DIIS
-   @RHF iter   4:  -108.68444436785468   -4.20667e-05   2.55913e-05 DIIS
-   @RHF iter   5:  -108.68444452795967   -1.60105e-07   3.92747e-06 DIIS
-   @RHF iter   6:  -108.68444453192357   -3.96390e-09   1.67724e-07 DIIS
-   @RHF iter   7:  -108.68444453193206   -8.48388e-12   2.54040e-08 DIIS
-   @RHF iter   8:  -108.68444453193219   -1.27898e-13   2.01146e-09 DIIS
+   @RHF iter SAD:  -107.35013099719919   -1.07350e+02   0.00000e+00 
+   @RHF iter   1:  -108.67390499591481   -1.32377e+00   6.94670e-03 ADIIS/DIIS
+   @RHF iter   2:  -108.68375679654891   -9.85180e-03   1.52657e-03 ADIIS/DIIS
+   @RHF iter   3:  -108.68440230120346   -6.45505e-04   4.17515e-04 ADIIS/DIIS
+   @RHF iter   4:  -108.68444436785470   -4.20667e-05   2.55913e-05 DIIS
+   @RHF iter   5:  -108.68444452795973   -1.60105e-07   3.92747e-06 DIIS
+   @RHF iter   6:  -108.68444453192365   -3.96392e-09   1.67724e-07 DIIS
+   @RHF iter   7:  -108.68444453193220   -8.55493e-12   2.54040e-08 DIIS
+   @RHF iter   8:  -108.68444453193231   -1.13687e-13   2.01146e-09 DIIS
   Energy and wave function converged.
 
 
@@ -349,17 +335,15 @@ Scratch directory: /tmp/
     Final Occupation by Irrep:
               A 
     DOCC [     7 ]
-    NA   [     7 ]
-    NB   [     7 ]
 
-  @RHF Final Energy:  -108.68444453193219
+  @RHF Final Energy:  -108.68444453193231
 
    => Energetics <=
 
     Nuclear Repulsion Energy =             18.2603403681901426
-    One-Electron Energy =                -183.1226077498605491
-    Two-Electron Energy =                  56.1778228497382059
-    Total Energy =                       -108.6844445319321864
+    One-Electron Energy =                -183.1226077498606628
+    Two-Electron Energy =                  56.1778228497381917
+    Total Energy =                       -108.6844445319323142
 
 Computation Completed
 
@@ -376,22 +360,22 @@ Properties computed using the SCF density matrix
  ------------------------------------------------------------------------------------
 
  L = 1.  Multiply by 2.5417464519 to convert [e a0] to [Debye]
- Dipole X            :          0.0000000            0.0000000            0.0000000
- Dipole Y            :         -0.0000000            0.0000000           -0.0000000
+ Dipole X            :         -0.0000000            0.0000000           -0.0000000
+ Dipole Y            :          0.0000000            0.0000000            0.0000000
  Dipole Z            :          0.0000000            0.0000000            0.0000000
  Magnitude           :                                                    0.0000000
 
  ------------------------------------------------------------------------------------
 
-*** tstop() called on fedora at Tue Oct 29 15:01:33 2024
+*** tstop() called on asaxlogin1.asc.edu at Fri Nov  1 12:27:13 2024
 Module time:
-	user time   =       0.13 seconds =       0.00 minutes
+	user time   =       0.10 seconds =       0.00 minutes
 	system time =       0.00 seconds =       0.00 minutes
 	total time  =          0 seconds =       0.00 minutes
 Total time:
-	user time   =       0.52 seconds =       0.01 minutes
-	system time =       0.04 seconds =       0.00 minutes
-	total time  =          0 seconds =       0.00 minutes
+	user time   =       3.86 seconds =       0.06 minutes
+	system time =       0.03 seconds =       0.00 minutes
+	total time  =          4 seconds =       0.07 minutes
  MINTS: Wrapper to libmints.
    by Justin Turney
 
@@ -416,8 +400,8 @@ Total time:
         Stored in file 33.
 
 
-*** tstart() called on fedora
-*** at Tue Oct 29 15:01:33 2024
+*** tstart() called on asaxlogin1.asc.edu
+*** at Fri Nov  1 12:27:14 2024
 
 
 
@@ -445,7 +429,6 @@ Total time:
   CUBIC_GRID_OVERAGE            => (empty)          
   CUBIC_GRID_SPACING            => (empty)          
   CUTOFF                        => (empty)          
-  DDX                           => (empty)          
   DEBUG                         => (empty)          
   DERTYPE                       => (empty)          
   DF_BASIS_CC                   => (empty)          
@@ -468,12 +451,12 @@ Total time:
   EXTERNAL_POTENTIAL_SYMMETRY   => (empty)          
   E_CONVERGENCE                 => 1e-08           !
   FREEZE_CORE                   => (empty)          
-  FREEZE_CORE_POLICY            => (empty)          
   FROZEN_DOCC                   => (empty)          
   FROZEN_UOCC                   => (empty)          
   INTEGRAL_PACKAGE              => (empty)          
   IP_POLES                      => (empty)          
   LEVEL_SHIFT                   => (empty)          
+  LINEQ_SOLVER                  => (empty)          
   LITERAL_CFOUR                 => (empty)          
   MAT_NUM_COLUMN_PRINT          => (empty)          
   MAX_MOGRAD_CONVERGENCE        => (empty)          
@@ -524,7 +507,6 @@ Total time:
   RAS4                          => (empty)          
   RELATIVISTIC                  => (empty)          
   RELAXED                       => (empty)          
-  REMP_A                        => (empty)          
   RESTRICTED_DOCC               => (empty)          
   RESTRICTED_UOCC               => (empty)          
   RMS_MOGRAD_CONVERGENCE        => (empty)          
@@ -571,30 +553,30 @@ Total time:
 	Computing MP2 energy using SCF MOs (Canonical MP2)... 
 	============================================================================== 
 	Nuclear Repulsion Energy (a.u.)    :    18.26034036819014
-	SCF Energy (a.u.)                  :  -108.68444453193219
-	REF Energy (a.u.)                  :  -108.68444453193219
+	SCF Energy (a.u.)                  :  -108.68444453193231
+	REF Energy (a.u.)                  :  -108.68444453193231
 	Alpha-Alpha Contribution (a.u.)    :    -0.05433676468002
 	Alpha-Beta Contribution (a.u.)     :    -0.26373603875220
 	Beta-Beta Contribution (a.u.)      :    -0.05433676468002
 	Scaled_SS Correlation Energy (a.u.):    -0.03622450978668
 	Scaled_OS Correlation Energy (a.u.):    -0.31648324650264
-	SCS-MP2 Total Energy (a.u.)        :  -109.03715228822151
-	SOS-MP2 Total Energy (a.u.)        :  -109.00092777843483
-	SCSN-MP2 Total Energy (a.u.)       :  -108.87570994360588
-	SCS-MP2-VDW Total Energy (a.u.)    :  -109.07636342621502
-	SOS-PI-MP2 Total Energy (a.u.)     :  -109.05367498618527
+	SCS-MP2 Total Energy (a.u.)        :  -109.03715228822163
+	SOS-MP2 Total Energy (a.u.)        :  -109.02730138231017
+	SCSN-MP2 Total Energy (a.u.)       :  -108.87570994360601
+	SCS-MP2-VDW Total Energy (a.u.)    :  -109.07636342621515
+	SOS-PI-MP2 Total Energy (a.u.)     :  -109.05367498618540
 	MP2 Correlation Energy (a.u.)      :    -0.37240956811225
-	MP2 Total Energy (a.u.)            :  -109.05685410004443
+	MP2 Total Energy (a.u.)            :  -109.05685410004456
 	============================================================================== 
 
 
-*** tstop() called on fedora at Tue Oct 29 15:01:33 2024
+*** tstop() called on asaxlogin1.asc.edu at Fri Nov  1 12:27:14 2024
 Module time:
 	user time   =       0.00 seconds =       0.00 minutes
 	system time =       0.01 seconds =       0.00 minutes
 	total time  =          0 seconds =       0.00 minutes
 Total time:
-	user time   =       0.53 seconds =       0.01 minutes
-	system time =       0.05 seconds =       0.00 minutes
-	total time  =          0 seconds =       0.00 minutes
+	user time   =       3.87 seconds =       0.06 minutes
+	system time =       0.04 seconds =       0.00 minutes
+	total time  =          5 seconds =       0.08 minutes
     MP2 Energy............................................................................PASSED

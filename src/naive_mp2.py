@@ -5,6 +5,7 @@ import psi4
 import numpy as np
 import time
 from pathlib import Path
+import tracemalloc
 
 #setting memory
 psi4.set_memory(int(2e9))
@@ -26,13 +27,21 @@ name = input_file_name.split(sep=".")
 psi4.core.set_output_file(outer_dir[0] + "MP2/Data/results/" + name[0] + "_psi4.out", False)
 out = outer_dir[0] + "MP2/Data/results/" + name[0] + "_my_mp2"
 
+#setting basis set
+basis = sys.argv[2]
+print(basis, name[0])
+
+#initiating timer and memory tracking
+start_time = time.process_time_ns()
+tracemalloc.start()
+
 #===> Molecule and Psi4 Options Definitions <===#
 mol = psi4.geometry(
     text
 )
 
 psi4.set_options({
-    'basis':            '6-31g',
+    'basis':            basis,
     'scf_type':         'pk',
     'mp2_type':         'conv',
     'e_convergence':    1e-8,
@@ -74,7 +83,7 @@ Cocc = C[:, :ndocc]
 Cvirt = C[:, ndocc:]
 
 #===> Naive ERI tranformation <===#
-Imo = np.einsum('pi,qa,pqrs,rj,sb->iajb', Cocc, Cvirt, I, Cocc, Cvirt, optimize=False)
+Imo = np.einsum('pi,qa,pqrs,rj,sb->iajb', Cocc, Cvirt, I, Cocc, Cvirt, optimize=True)
 
 #===> Compare Imo with Mintshelper <===#
 Co = scf_wfn.Ca_subset('AO','OCC')
@@ -105,9 +114,18 @@ e_denom = 1 / (e_ij.reshape(-1, 1, 1, 1) - e_ab.reshape(-1, 1, 1) + e_ij.reshape
 
 # Total MP2 Energy
 MP2_E = scf_e + mp2_os_corr + mp2_ss_corr
-print(MP2_E)
+print("MP2 energy calculated as:" + str(MP2_E) + " Hartree")
+
+#ending timer, memory tracking and reporting
+end_time = time.process_time_ns()
+delta_time = end_time - start_time
+print("Time to complete calculation:" + str(delta_time) + "ns")
+
+current, peak = tracemalloc.get_traced_memory()
+print(f"Peak memory usage was {peak} bytes")
+tracemalloc.stop
 
 #==> Comparing with Psi4 <==#
 # ==> Compare to Psi4 <==
 psi4.compare_values(psi4.energy('mp2'), MP2_E, 6, 'MP2 Energy')
-
+print ("\n")

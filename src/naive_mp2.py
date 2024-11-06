@@ -8,8 +8,8 @@ from pathlib import Path
 import tracemalloc
 
 #setting memory
-psi4.set_memory(int(120e9))
-numpy_memory = 120
+psi4.set_memory(int(480e9))
+numpy_memory = 480
 
 ## Input and Output File Handling
 #detecting file path outside of MP2 directory

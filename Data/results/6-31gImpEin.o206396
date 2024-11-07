@@ -1,0 +1,196 @@
+setting asax scratch directory
+ 
+============================================================
+=====         Summary of your script job               =====
+============================================================
+  The script file is: src/batch.sh
+  The time limit is 12:00:00 HH:MM:SS.
+  The target directory is: /home/aubclsd0286/MP2
+  The working directory is:  /scratch-local/aubclsd0286.6-31gImpEin.206396.asax-pbs1
+  The memory limit is: 64gb
+  The job will start running after: 202411061405.03
+  Job Name: 6-31gImpEin
+  Queue: -q class -W group_list=classq
+  Constraints: 
+  Using  1  cores on master node  asax020.asc.edu
+  Node list:  asax020.asc.edu
+  Cores:  1
+  Command typed:
+/scripts/run_script src/batch.sh     
+  Queue submit command:
+qsub -q class -W group_list=classq -j oe -N 6-31gImpEin -a 202411061405.03 -r n -M wmh0011@auburn.edu -l walltime=12:00:00 -l select=ncpus=1:mem=64000mb 
+
+  Memory set to  59.605 GiB by Python driver.
+g-31g benzene
+
+QcdbException BasisSetNotFound: BasisSet::construct: Unable to find a basis set for atom 1 for key BASIS among:
+  Shell Entries: ['C']
+  Basis Sets: [('G-31G', 'G-31G', None)]
+  File Path: /home/aubclsd0286/MP2, /home/aubclsd0286/MP2, /home/aubclsd0286/.conda/envs/mp2/share/psi4/basis
+  Input Blocks: 
+
+
+
+Traceback (most recent call last):
+  File "/home/aubclsd0286/MP2/src/naive_mp2.py", line 54, in <module>
+    scf_e, scf_wfn = psi4.energy('scf', return_wfn=True)
+  File "/home/aubclsd0286/.conda/envs/mp2/lib/python3.9/site-packages/psi4/driver/driver.py", line 501, in energy
+    wfn = procedures['energy'][lowername](lowername, molecule=molecule, **kwargs)
+  File "/home/aubclsd0286/.conda/envs/mp2/lib/python3.9/site-packages/psi4/driver/procrouting/proc.py", line 2455, in run_scf
+    scf_wfn = scf_helper(name, post_scf=False, **kwargs)
+  File "/home/aubclsd0286/.conda/envs/mp2/lib/python3.9/site-packages/psi4/driver/procrouting/proc.py", line 1571, in scf_helper
+    base_wfn = core.Wavefunction.build(scf_molecule, core.get_global_option('BASIS'))
+  File "/home/aubclsd0286/.conda/envs/mp2/lib/python3.9/site-packages/psi4/driver/p4util/python_helpers.py", line 126, in _core_wavefunction_build
+    basis = core.BasisSet.build(mol, "ORBITAL", basis, quiet=quiet)
+  File "/home/aubclsd0286/.conda/envs/mp2/lib/python3.9/site-packages/psi4/driver/p4util/python_helpers.py", line 85, in _pybuild_basis
+    bs, basisdict = qcdb.BasisSet.pyconstruct(mol.to_dict(),
+  File "/home/aubclsd0286/.conda/envs/mp2/lib/python3.9/site-packages/psi4/driver/qcdb/libmintsbasisset.py", line 696, in pyconstruct
+    bs, msg, ecp = BasisSet.construct(parser, mol,
+  File "/home/aubclsd0286/.conda/envs/mp2/lib/python3.9/site-packages/psi4/driver/qcdb/libmintsbasisset.py", line 918, in construct
+    raise BasisSetNotFound(f'BasisSet::construct: Unable to find a basis set for atom {at + 1} for key {key} among:\n{text2}')
+psi4.driver.qcdb.exceptions.BasisSetNotFound: BasisSet::construct: Unable to find a basis set for atom 1 for key BASIS among:
+  Shell Entries: ['C']
+  Basis Sets: [('G-31G', 'G-31G', None)]
+  File Path: /home/aubclsd0286/MP2, /home/aubclsd0286/MP2, /home/aubclsd0286/.conda/envs/mp2/share/psi4/basis
+  Input Blocks: 
+
+
+  Memory set to  59.605 GiB by Python driver.
+g-31g dinitrogen
+
+QcdbException BasisSetNotFound: BasisSet::construct: Unable to find a basis set for atom 1 for key BASIS among:
+  Shell Entries: ['N']
+  Basis Sets: [('G-31G', 'G-31G', None)]
+  File Path: /home/aubclsd0286/MP2, /home/aubclsd0286/MP2, /home/aubclsd0286/.conda/envs/mp2/share/psi4/basis
+  Input Blocks: 
+
+
+
+Traceback (most recent call last):
+  File "/home/aubclsd0286/MP2/src/naive_mp2.py", line 54, in <module>
+    scf_e, scf_wfn = psi4.energy('scf', return_wfn=True)
+  File "/home/aubclsd0286/.conda/envs/mp2/lib/python3.9/site-packages/psi4/driver/driver.py", line 501, in energy
+    wfn = procedures['energy'][lowername](lowername, molecule=molecule, **kwargs)
+  File "/home/aubclsd0286/.conda/envs/mp2/lib/python3.9/site-packages/psi4/driver/procrouting/proc.py", line 2455, in run_scf
+    scf_wfn = scf_helper(name, post_scf=False, **kwargs)
+  File "/home/aubclsd0286/.conda/envs/mp2/lib/python3.9/site-packages/psi4/driver/procrouting/proc.py", line 1571, in scf_helper
+    base_wfn = core.Wavefunction.build(scf_molecule, core.get_global_option('BASIS'))
+  File "/home/aubclsd0286/.conda/envs/mp2/lib/python3.9/site-packages/psi4/driver/p4util/python_helpers.py", line 126, in _core_wavefunction_build
+    basis = core.BasisSet.build(mol, "ORBITAL", basis, quiet=quiet)
+  File "/home/aubclsd0286/.conda/envs/mp2/lib/python3.9/site-packages/psi4/driver/p4util/python_helpers.py", line 85, in _pybuild_basis
+    bs, basisdict = qcdb.BasisSet.pyconstruct(mol.to_dict(),
+  File "/home/aubclsd0286/.conda/envs/mp2/lib/python3.9/site-packages/psi4/driver/qcdb/libmintsbasisset.py", line 696, in pyconstruct
+    bs, msg, ecp = BasisSet.construct(parser, mol,
+  File "/home/aubclsd0286/.conda/envs/mp2/lib/python3.9/site-packages/psi4/driver/qcdb/libmintsbasisset.py", line 918, in construct
+    raise BasisSetNotFound(f'BasisSet::construct: Unable to find a basis set for atom {at + 1} for key {key} among:\n{text2}')
+psi4.driver.qcdb.exceptions.BasisSetNotFound: BasisSet::construct: Unable to find a basis set for atom 1 for key BASIS among:
+  Shell Entries: ['N']
+  Basis Sets: [('G-31G', 'G-31G', None)]
+  File Path: /home/aubclsd0286/MP2, /home/aubclsd0286/MP2, /home/aubclsd0286/.conda/envs/mp2/share/psi4/basis
+  Input Blocks: 
+
+
+  Memory set to  59.605 GiB by Python driver.
+g-31g h_peroxide
+
+QcdbException BasisSetNotFound: BasisSet::construct: Unable to find a basis set for atom 1 for key BASIS among:
+  Shell Entries: ['O']
+  Basis Sets: [('G-31G', 'G-31G', None)]
+  File Path: /home/aubclsd0286/MP2, /home/aubclsd0286/MP2, /home/aubclsd0286/.conda/envs/mp2/share/psi4/basis
+  Input Blocks: 
+
+
+
+Traceback (most recent call last):
+  File "/home/aubclsd0286/MP2/src/naive_mp2.py", line 54, in <module>
+    scf_e, scf_wfn = psi4.energy('scf', return_wfn=True)
+  File "/home/aubclsd0286/.conda/envs/mp2/lib/python3.9/site-packages/psi4/driver/driver.py", line 501, in energy
+    wfn = procedures['energy'][lowername](lowername, molecule=molecule, **kwargs)
+  File "/home/aubclsd0286/.conda/envs/mp2/lib/python3.9/site-packages/psi4/driver/procrouting/proc.py", line 2455, in run_scf
+    scf_wfn = scf_helper(name, post_scf=False, **kwargs)
+  File "/home/aubclsd0286/.conda/envs/mp2/lib/python3.9/site-packages/psi4/driver/procrouting/proc.py", line 1571, in scf_helper
+    base_wfn = core.Wavefunction.build(scf_molecule, core.get_global_option('BASIS'))
+  File "/home/aubclsd0286/.conda/envs/mp2/lib/python3.9/site-packages/psi4/driver/p4util/python_helpers.py", line 126, in _core_wavefunction_build
+    basis = core.BasisSet.build(mol, "ORBITAL", basis, quiet=quiet)
+  File "/home/aubclsd0286/.conda/envs/mp2/lib/python3.9/site-packages/psi4/driver/p4util/python_helpers.py", line 85, in _pybuild_basis
+    bs, basisdict = qcdb.BasisSet.pyconstruct(mol.to_dict(),
+  File "/home/aubclsd0286/.conda/envs/mp2/lib/python3.9/site-packages/psi4/driver/qcdb/libmintsbasisset.py", line 696, in pyconstruct
+    bs, msg, ecp = BasisSet.construct(parser, mol,
+  File "/home/aubclsd0286/.conda/envs/mp2/lib/python3.9/site-packages/psi4/driver/qcdb/libmintsbasisset.py", line 918, in construct
+    raise BasisSetNotFound(f'BasisSet::construct: Unable to find a basis set for atom {at + 1} for key {key} among:\n{text2}')
+psi4.driver.qcdb.exceptions.BasisSetNotFound: BasisSet::construct: Unable to find a basis set for atom 1 for key BASIS among:
+  Shell Entries: ['O']
+  Basis Sets: [('G-31G', 'G-31G', None)]
+  File Path: /home/aubclsd0286/MP2, /home/aubclsd0286/MP2, /home/aubclsd0286/.conda/envs/mp2/share/psi4/basis
+  Input Blocks: 
+
+
+  Memory set to  59.605 GiB by Python driver.
+g-31g pyrrole
+
+QcdbException BasisSetNotFound: BasisSet::construct: Unable to find a basis set for atom 1 for key BASIS among:
+  Shell Entries: ['N']
+  Basis Sets: [('G-31G', 'G-31G', None)]
+  File Path: /home/aubclsd0286/MP2, /home/aubclsd0286/MP2, /home/aubclsd0286/.conda/envs/mp2/share/psi4/basis
+  Input Blocks: 
+
+
+
+Traceback (most recent call last):
+  File "/home/aubclsd0286/MP2/src/naive_mp2.py", line 54, in <module>
+    scf_e, scf_wfn = psi4.energy('scf', return_wfn=True)
+  File "/home/aubclsd0286/.conda/envs/mp2/lib/python3.9/site-packages/psi4/driver/driver.py", line 501, in energy
+    wfn = procedures['energy'][lowername](lowername, molecule=molecule, **kwargs)
+  File "/home/aubclsd0286/.conda/envs/mp2/lib/python3.9/site-packages/psi4/driver/procrouting/proc.py", line 2455, in run_scf
+    scf_wfn = scf_helper(name, post_scf=False, **kwargs)
+  File "/home/aubclsd0286/.conda/envs/mp2/lib/python3.9/site-packages/psi4/driver/procrouting/proc.py", line 1571, in scf_helper
+    base_wfn = core.Wavefunction.build(scf_molecule, core.get_global_option('BASIS'))
+  File "/home/aubclsd0286/.conda/envs/mp2/lib/python3.9/site-packages/psi4/driver/p4util/python_helpers.py", line 126, in _core_wavefunction_build
+    basis = core.BasisSet.build(mol, "ORBITAL", basis, quiet=quiet)
+  File "/home/aubclsd0286/.conda/envs/mp2/lib/python3.9/site-packages/psi4/driver/p4util/python_helpers.py", line 85, in _pybuild_basis
+    bs, basisdict = qcdb.BasisSet.pyconstruct(mol.to_dict(),
+  File "/home/aubclsd0286/.conda/envs/mp2/lib/python3.9/site-packages/psi4/driver/qcdb/libmintsbasisset.py", line 696, in pyconstruct
+    bs, msg, ecp = BasisSet.construct(parser, mol,
+  File "/home/aubclsd0286/.conda/envs/mp2/lib/python3.9/site-packages/psi4/driver/qcdb/libmintsbasisset.py", line 918, in construct
+    raise BasisSetNotFound(f'BasisSet::construct: Unable to find a basis set for atom {at + 1} for key {key} among:\n{text2}')
+psi4.driver.qcdb.exceptions.BasisSetNotFound: BasisSet::construct: Unable to find a basis set for atom 1 for key BASIS among:
+  Shell Entries: ['N']
+  Basis Sets: [('G-31G', 'G-31G', None)]
+  File Path: /home/aubclsd0286/MP2, /home/aubclsd0286/MP2, /home/aubclsd0286/.conda/envs/mp2/share/psi4/basis
+  Input Blocks: 
+
+
+  Memory set to  59.605 GiB by Python driver.
+g-31g water
+
+QcdbException BasisSetNotFound: BasisSet::construct: Unable to find a basis set for atom 1 for key BASIS among:
+  Shell Entries: ['O']
+  Basis Sets: [('G-31G', 'G-31G', None)]
+  File Path: /home/aubclsd0286/MP2, /home/aubclsd0286/MP2, /home/aubclsd0286/.conda/envs/mp2/share/psi4/basis
+  Input Blocks: 
+
+
+
+Traceback (most recent call last):
+  File "/home/aubclsd0286/MP2/src/naive_mp2.py", line 54, in <module>
+    scf_e, scf_wfn = psi4.energy('scf', return_wfn=True)
+  File "/home/aubclsd0286/.conda/envs/mp2/lib/python3.9/site-packages/psi4/driver/driver.py", line 501, in energy
+    wfn = procedures['energy'][lowername](lowername, molecule=molecule, **kwargs)
+  File "/home/aubclsd0286/.conda/envs/mp2/lib/python3.9/site-packages/psi4/driver/procrouting/proc.py", line 2455, in run_scf
+    scf_wfn = scf_helper(name, post_scf=False, **kwargs)
+  File "/home/aubclsd0286/.conda/envs/mp2/lib/python3.9/site-packages/psi4/driver/procrouting/proc.py", line 1571, in scf_helper
+    base_wfn = core.Wavefunction.build(scf_molecule, core.get_global_option('BASIS'))
+  File "/home/aubclsd0286/.conda/envs/mp2/lib/python3.9/site-packages/psi4/driver/p4util/python_helpers.py", line 126, in _core_wavefunction_build
+    basis = core.BasisSet.build(mol, "ORBITAL", basis, quiet=quiet)
+  File "/home/aubclsd0286/.conda/envs/mp2/lib/python3.9/site-packages/psi4/driver/p4util/python_helpers.py", line 85, in _pybuild_basis
+    bs, basisdict = qcdb.BasisSet.pyconstruct(mol.to_dict(),
+  File "/home/aubclsd0286/.conda/envs/mp2/lib/python3.9/site-packages/psi4/driver/qcdb/libmintsbasisset.py", line 696, in pyconstruct
+    bs, msg, ecp = BasisSet.construct(parser, mol,
+  File "/home/aubclsd0286/.conda/envs/mp2/lib/python3.9/site-packages/psi4/driver/qcdb/libmintsbasisset.py", line 918, in construct
+    raise BasisSetNotFound(f'BasisSet::construct: Unable to find a basis set for atom {at + 1} for key {key} among:\n{text2}')
+psi4.driver.qcdb.exceptions.BasisSetNotFound: BasisSet::construct: Unable to find a basis set for atom 1 for key BASIS among:
+  Shell Entries: ['O']
+  Basis Sets: [('G-31G', 'G-31G', None)]
+  File Path: /home/aubclsd0286/MP2, /home/aubclsd0286/MP2, /home/aubclsd0286/.conda/envs/mp2/share/psi4/basis
+  Input Blocks: 
+

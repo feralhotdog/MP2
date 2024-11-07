@@ -3,33 +3,35 @@ import os
 import sys
 import psi4
 import numpy as np
+from opt_einsum import contract
 import time
 from pathlib import Path
 import tracemalloc
 
 #setting memory
-psi4.set_memory(int(2e9))
-numpy_memory = 2
+psi4.set_memory(int(500e9))
+numpy_memory = 500
 
 ## Input and Output File Handling
 #detecting file path outside of MP2 directory
 current_dir = str(Path.cwd())
 outer_dir = current_dir.split(sep="MP2")
 
-#reading input files
+#parsing input data
 filename = sys.argv[1]
 fh = open(filename, 'r')
 text = fh.read()
 
-#setting output filenames
 input_file_name = os.path.basename(sys.argv[1])
 name = input_file_name.split(sep=".")
-psi4.core.set_output_file(outer_dir[0] + "MP2/Data/results/" + name[0] + "_psi4.out", False)
-out = outer_dir[0] + "MP2/Data/results/" + name[0] + "_my_mp2"
 
-#setting basis set
 basis = sys.argv[2]
 print(basis, name[0])
+
+#setting output files
+psi4.core.set_output_file(outer_dir[0] + "MP2/Data/results/" + name[0] + "." + basis + ".out", False)
+
+
 
 #initiating timer and memory tracking
 start_time = time.process_time_ns()
@@ -83,7 +85,7 @@ Cocc = C[:, :ndocc]
 Cvirt = C[:, ndocc:]
 
 #===> Naive ERI tranformation <===#
-Imo = np.einsum('pi,qa,pqrs,rj,sb->iajb', Cocc, Cvirt, I, Cocc, Cvirt, optimize=True)
+Imo = contract('pi,qa,pqrs,rj,sb->iajb', Cocc, Cvirt, I, Cocc, Cvirt)
 
 #===> Compare Imo with Mintshelper <===#
 Co = scf_wfn.Ca_subset('AO','OCC')

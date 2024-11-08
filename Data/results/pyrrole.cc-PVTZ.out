@@ -1,8 +1,8 @@
 
 Scratch directory: /tmp/
 
-*** tstart() called on asax020.asc.edu
-*** at Tue Nov  5 09:39:47 2024
+*** tstart() called on asax002.asc.edu
+*** at Fri Nov  8 14:24:27 2024
 
    => Loading Basis Set <=
 
@@ -19,7 +19,7 @@ Scratch directory: /tmp/
                by Justin Turney, Rob Parrish, Andy Simmonett
                           and Daniel G. A. Smith
                               RHF Reference
-                        1 Threads,  61035 MiB Core
+                        1 Threads, 457763 MiB Core
          ---------------------------------------------------------
 
   ==> Geometry <==
@@ -98,7 +98,7 @@ Scratch directory: /tmp/
     J tasked:                  Yes
     K tasked:                  Yes
     wK tasked:                  No
-    Memory [MiB]:            45776
+    Memory [MiB]:           343322
     Schwarz Cutoff:          1E-12
 
     OpenMP threads:              1
@@ -259,20 +259,20 @@ Properties computed using the SCF density matrix
 
  ------------------------------------------------------------------------------------
 
-*** tstop() called on asax020.asc.edu at Tue Nov  5 09:40:16 2024
+*** tstop() called on asax002.asc.edu at Fri Nov  8 14:25:11 2024
 Module time:
-	user time   =      29.10 seconds =       0.48 minutes
-	system time =       0.38 seconds =       0.01 minutes
-	total time  =         29 seconds =       0.48 minutes
+	user time   =      43.10 seconds =       0.72 minutes
+	system time =       0.70 seconds =       0.01 minutes
+	total time  =         44 seconds =       0.73 minutes
 Total time:
-	user time   =      29.10 seconds =       0.48 minutes
-	system time =       0.38 seconds =       0.01 minutes
-	total time  =         29 seconds =       0.48 minutes
+	user time   =      43.10 seconds =       0.72 minutes
+	system time =       0.70 seconds =       0.01 minutes
+	total time  =         44 seconds =       0.73 minutes
 
 Scratch directory: /tmp/
 
-*** tstart() called on asax020.asc.edu
-*** at Tue Nov  5 09:48:45 2024
+*** tstart() called on asax002.asc.edu
+*** at Fri Nov  8 14:33:04 2024
 
    => Loading Basis Set <=
 
@@ -289,7 +289,7 @@ Scratch directory: /tmp/
                by Justin Turney, Rob Parrish, Andy Simmonett
                           and Daniel G. A. Smith
                               RHF Reference
-                        1 Threads,  61035 MiB Core
+                        1 Threads, 457763 MiB Core
          ---------------------------------------------------------
 
   ==> Geometry <==
@@ -368,7 +368,7 @@ Scratch directory: /tmp/
     J tasked:                  Yes
     K tasked:                  Yes
     wK tasked:                  No
-    Memory [MiB]:            45776
+    Memory [MiB]:           343322
     Schwarz Cutoff:          1E-12
 
     OpenMP threads:              1
@@ -529,15 +529,15 @@ Properties computed using the SCF density matrix
 
  ------------------------------------------------------------------------------------
 
-*** tstop() called on asax020.asc.edu at Tue Nov  5 09:49:15 2024
+*** tstop() called on asax002.asc.edu at Fri Nov  8 14:33:46 2024
 Module time:
-	user time   =      28.98 seconds =       0.48 minutes
-	system time =       0.35 seconds =       0.01 minutes
-	total time  =         30 seconds =       0.50 minutes
+	user time   =      41.90 seconds =       0.70 minutes
+	system time =       0.55 seconds =       0.01 minutes
+	total time  =         42 seconds =       0.70 minutes
 Total time:
-	user time   =     562.87 seconds =       9.38 minutes
-	system time =       3.79 seconds =       0.06 minutes
-	total time  =        568 seconds =       9.47 minutes
+	user time   =     550.59 seconds =       9.18 minutes
+	system time =       5.60 seconds =       0.09 minutes
+	total time  =        559 seconds =       9.32 minutes
  MINTS: Wrapper to libmints.
    by Justin Turney
 
@@ -562,8 +562,8 @@ Total time:
         Stored in file 33.
 
 
-*** tstart() called on asax020.asc.edu
-*** at Tue Nov  5 09:49:38 2024
+*** tstart() called on asax002.asc.edu
+*** at Fri Nov  8 14:34:15 2024
 
 
 
@@ -706,7 +706,7 @@ Total time:
 	   A     0    18   202    0
 	==============================
 
-	Memory is  64000 MB 
+	Memory is 480000 MB 
 	Cost of iabc is   1128 MB 
 	Cost of abcd is  12696 MB 
 	Switching to the incore algorithm for iabc..
@@ -732,13 +732,13 @@ Total time:
 	============================================================================== 
 
 
-*** tstop() called on asax020.asc.edu at Tue Nov  5 09:50:20 2024
+*** tstop() called on asax002.asc.edu at Fri Nov  8 14:35:12 2024
 Module time:
-	user time   =      37.64 seconds =       0.63 minutes
-	system time =       4.59 seconds =       0.08 minutes
-	total time  =         42 seconds =       0.70 minutes
+	user time   =      50.04 seconds =       0.83 minutes
+	system time =       6.60 seconds =       0.11 minutes
+	total time  =         57 seconds =       0.95 minutes
 Total time:
-	user time   =     621.87 seconds =      10.36 minutes
-	system time =       9.98 seconds =       0.17 minutes
-	total time  =        633 seconds =      10.55 minutes
+	user time   =     626.55 seconds =      10.44 minutes
+	system time =      14.42 seconds =       0.24 minutes
+	total time  =        645 seconds =      10.75 minutes
     MP2 Energy............................................................................PASSED

@@ -6,13 +6,13 @@
   The time limit is 360:00:00 HH:MM:SS.
   The target directory is: /home/aubclsd0286/MP2
   The memory limit is: 500gb
-  The job will start running after: 202411060827.42
-  Job Name: cc-PVQZNaive
+  The job will start running after: 202411081356.42
+  Job Name: main
   Queue: -q bigmem
   Constraints: 
   Command typed:
 /scripts/run_script src/batch.sh     
   Queue submit command:
-qsub -q bigmem -j oe -N cc-PVQZNaive -a 202411060827.42 -r n -M wmh0011@auburn.edu -l walltime=360:00:00 -l select=ncpus=1:mem=500000mb 
-  Job number: 206279
+qsub -q bigmem -j oe -N main -a 202411081356.42 -r n -M wmh0011@auburn.edu -l walltime=360:00:00 -l select=ncpus=1:mem=500000mb 
+  Job number: 207291
  

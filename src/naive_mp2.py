@@ -84,43 +84,32 @@ Cocc = C[:, :ndocc]
 Cvirt = C[:, ndocc:]
 
 #===> Naive ERI tranformation <===#
-Imo = np.einsum('pi,qa,pqrs,rj,sb->iajb', Cocc, Cvirt, I, Cocc, Cvirt, optimize=True)
+I_mo = np.einsum('pi,qa,pqrs,rj,sb->iajb', Cocc, Cvirt, I, Cocc, Cvirt, optimize=True)
 
-#===> Compare Imo with Mintshelper <===#
+#===> Compare I_mo with Mintshelper <===#
 Co = scf_wfn.Ca_subset('AO','OCC')
 Cv = scf_wfn.Ca_subset('AO', 'VIR')
 MO = np.asarray(mints.mo_eri(Co, Cv, Co, Cv))
-print("Do our transformed ERIs match Psi4's? %s" % np.allclose(Imo, np.asarray(MO)))
+print("Do our transformed ERIs match Psi4's? %s" % np.allclose(I_mo, np.asarray(MO)))
 
 #===> Compute MP2 Correlation & MP2 Energy <===#
 #Compute energy denominator array (super naive)
-mp2_ss_corr = 0.0
-for i in range(ndocc):
-    for a in range(nmo - ndocc):
-        for j in range(ndocc):
-            for b in range(nmo - ndocc):
-                numerator = Imo[i, a, j, b] * (Imo[i, a, j, b] - Imo[i, b, j, a])
-                mp2_ss_corr += numerator / (e_ij[i] + e_ij[j] - e_ab[a] - e_ab[b])
-
-mp2_os_corr = 0.0
-for i in range(ndocc):
-    for a in range(nmo - ndocc):
-        for j in range(ndocc):
-            for b in range(nmo - ndocc):
-                numerator = Imo[i, a, j, b] * Imo[i, a, j, b]
-                mp2_os_corr += numerator / (e_ij[i] + e_ij[j] - e_ab[a] - e_ab[b])
 
 # Compute energy denominator array
 e_denom = 1 / (e_ij.reshape(-1, 1, 1, 1) - e_ab.reshape(-1, 1, 1) + e_ij.reshape(-1,1) - e_ab)
 
+# Compute SS & OS MP2 Correlation with Einsum
+mp2_os_corr = np.einsum('iajb,iajb,iajb->', I_mo, I_mo, e_denom, optimize=False)
+mp2_ss_corr = np.einsum('iajb,iajb,iajb->', I_mo, I_mo - I_mo.swapaxes(1,3), e_denom, optimize=False)
+
 # Total MP2 Energy
 MP2_E = scf_e + mp2_os_corr + mp2_ss_corr
-print("MP2 energy calculated as:" + str(MP2_E) + " Hartree")
+print("MP2 energy calculated as:" + str(MP2_E) + " AU")
 
 #ending timer, memory tracking and reporting
 end_time = time.process_time_ns()
 delta_time = end_time - start_time
-print("Time to complete calculation:" + str(delta_time) + "ns")
+print("Time to complete calculation:" + str(delta_time) + " ns")
 
 current, peak = tracemalloc.get_traced_memory()
 print(f"Peak memory usage was {peak} bytes")

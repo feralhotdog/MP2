@@ -1,8 +1,8 @@
 
 Scratch directory: /tmp/
 
-*** tstart() called on asax002.asc.edu
-*** at Fri Nov  8 14:54:33 2024
+*** tstart() called on asax019.asc.edu
+*** at Sun Nov 10 17:59:03 2024
 
    => Loading Basis Set <=
 
@@ -124,9 +124,9 @@ Scratch directory: /tmp/
                         Total Energy        Delta E     RMS |[F,P]|
 
    @RHF iter SAD:  -208.60109214023245   -2.08601e+02   0.00000e+00 
-   @RHF iter   1:  -208.74358163739333   -1.42489e-01   1.22378e-03 DIIS/ADIIS
-   @RHF iter   2:  -208.85896224365644   -1.15381e-01   6.56855e-04 DIIS/ADIIS
-   @RHF iter   3:  -208.89580701760374   -3.68448e-02   1.01508e-04 DIIS/ADIIS
+   @RHF iter   1:  -208.74358163739333   -1.42489e-01   1.22378e-03 ADIIS/DIIS
+   @RHF iter   2:  -208.85896224365644   -1.15381e-01   6.56855e-04 ADIIS/DIIS
+   @RHF iter   3:  -208.89580701760374   -3.68448e-02   1.01508e-04 ADIIS/DIIS
    @RHF iter   4:  -208.89726545497885   -1.45844e-03   3.07352e-05 DIIS
    @RHF iter   5:  -208.89736266440667   -9.72094e-05   9.96177e-06 DIIS
    @RHF iter   6:  -208.89737898232855   -1.63179e-05   3.42917e-06 DIIS
@@ -326,12 +326,12 @@ Properties computed using the SCF density matrix
 
  ------------------------------------------------------------------------------------
 
-*** tstop() called on asax002.asc.edu at Fri Nov  8 15:01:37 2024
+*** tstop() called on asax019.asc.edu at Sun Nov 10 18:04:01 2024
 Module time:
-	user time   =     416.59 seconds =       6.94 minutes
-	system time =       5.84 seconds =       0.10 minutes
-	total time  =        424 seconds =       7.07 minutes
+	user time   =     291.10 seconds =       4.85 minutes
+	system time =       5.92 seconds =       0.10 minutes
+	total time  =        298 seconds =       4.97 minutes
 Total time:
-	user time   =     416.59 seconds =       6.94 minutes
-	system time =       5.84 seconds =       0.10 minutes
-	total time  =        424 seconds =       7.07 minutes
+	user time   =     291.10 seconds =       4.85 minutes
+	system time =       5.92 seconds =       0.10 minutes
+	total time  =        298 seconds =       4.97 minutes

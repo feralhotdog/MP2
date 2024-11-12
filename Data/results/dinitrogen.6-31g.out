@@ -1,8 +1,8 @@
 
 Scratch directory: /tmp/
 
-*** tstart() called on asax002.asc.edu
-*** at Fri Nov  8 13:57:40 2024
+*** tstart() called on asax019.asc.edu
+*** at Sun Nov 10 17:13:25 2024
 
    => Loading Basis Set <=
 
@@ -114,9 +114,9 @@ Scratch directory: /tmp/
                         Total Energy        Delta E     RMS |[F,P]|
 
    @RHF iter SAD:  -107.35013099719919   -1.07350e+02   0.00000e+00 
-   @RHF iter   1:  -108.67390499591481   -1.32377e+00   6.94670e-03 DIIS/ADIIS
-   @RHF iter   2:  -108.68375679654891   -9.85180e-03   1.52657e-03 DIIS/ADIIS
-   @RHF iter   3:  -108.68440230120346   -6.45505e-04   4.17515e-04 DIIS/ADIIS
+   @RHF iter   1:  -108.67390499591481   -1.32377e+00   6.94670e-03 ADIIS/DIIS
+   @RHF iter   2:  -108.68375679654891   -9.85180e-03   1.52657e-03 ADIIS/DIIS
+   @RHF iter   3:  -108.68440230120346   -6.45505e-04   4.17515e-04 ADIIS/DIIS
    @RHF iter   4:  -108.68444436785470   -4.20667e-05   2.55913e-05 DIIS
    @RHF iter   5:  -108.68444452795973   -1.60105e-07   3.92747e-06 DIIS
    @RHF iter   6:  -108.68444453192365   -3.96392e-09   1.67724e-07 DIIS
@@ -178,20 +178,20 @@ Properties computed using the SCF density matrix
 
  ------------------------------------------------------------------------------------
 
-*** tstop() called on asax002.asc.edu at Fri Nov  8 13:57:41 2024
+*** tstop() called on asax019.asc.edu at Sun Nov 10 17:13:26 2024
 Module time:
-	user time   =       0.55 seconds =       0.01 minutes
-	system time =       0.06 seconds =       0.00 minutes
+	user time   =       0.44 seconds =       0.01 minutes
+	system time =       0.03 seconds =       0.00 minutes
 	total time  =          1 seconds =       0.02 minutes
 Total time:
-	user time   =       0.55 seconds =       0.01 minutes
-	system time =       0.06 seconds =       0.00 minutes
+	user time   =       0.44 seconds =       0.01 minutes
+	system time =       0.03 seconds =       0.00 minutes
 	total time  =          1 seconds =       0.02 minutes
 
 Scratch directory: /tmp/
 
-*** tstart() called on asax002.asc.edu
-*** at Fri Nov  8 13:57:41 2024
+*** tstart() called on asax019.asc.edu
+*** at Sun Nov 10 17:13:26 2024
 
    => Loading Basis Set <=
 
@@ -303,9 +303,9 @@ Scratch directory: /tmp/
                         Total Energy        Delta E     RMS |[F,P]|
 
    @RHF iter SAD:  -107.35013099719919   -1.07350e+02   0.00000e+00 
-   @RHF iter   1:  -108.67390499591481   -1.32377e+00   6.94670e-03 DIIS/ADIIS
-   @RHF iter   2:  -108.68375679654891   -9.85180e-03   1.52657e-03 DIIS/ADIIS
-   @RHF iter   3:  -108.68440230120346   -6.45505e-04   4.17515e-04 DIIS/ADIIS
+   @RHF iter   1:  -108.67390499591481   -1.32377e+00   6.94670e-03 ADIIS/DIIS
+   @RHF iter   2:  -108.68375679654891   -9.85180e-03   1.52657e-03 ADIIS/DIIS
+   @RHF iter   3:  -108.68440230120346   -6.45505e-04   4.17515e-04 ADIIS/DIIS
    @RHF iter   4:  -108.68444436785470   -4.20667e-05   2.55913e-05 DIIS
    @RHF iter   5:  -108.68444452795973   -1.60105e-07   3.92747e-06 DIIS
    @RHF iter   6:  -108.68444453192365   -3.96392e-09   1.67724e-07 DIIS
@@ -367,15 +367,15 @@ Properties computed using the SCF density matrix
 
  ------------------------------------------------------------------------------------
 
-*** tstop() called on asax002.asc.edu at Fri Nov  8 13:57:42 2024
+*** tstop() called on asax019.asc.edu at Sun Nov 10 17:13:26 2024
 Module time:
-	user time   =       0.28 seconds =       0.00 minutes
+	user time   =       0.23 seconds =       0.00 minutes
 	system time =       0.01 seconds =       0.00 minutes
-	total time  =          1 seconds =       0.02 minutes
+	total time  =          0 seconds =       0.00 minutes
 Total time:
-	user time   =       1.00 seconds =       0.02 minutes
-	system time =       0.07 seconds =       0.00 minutes
-	total time  =          2 seconds =       0.03 minutes
+	user time   =       0.80 seconds =       0.01 minutes
+	system time =       0.04 seconds =       0.00 minutes
+	total time  =          1 seconds =       0.02 minutes
  MINTS: Wrapper to libmints.
    by Justin Turney
 
@@ -400,8 +400,8 @@ Total time:
         Stored in file 33.
 
 
-*** tstart() called on asax002.asc.edu
-*** at Fri Nov  8 13:57:42 2024
+*** tstart() called on asax019.asc.edu
+*** at Sun Nov 10 17:13:26 2024
 
 
 
@@ -561,7 +561,7 @@ Total time:
 	Scaled_SS Correlation Energy (a.u.):    -0.03622450978668
 	Scaled_OS Correlation Energy (a.u.):    -0.31648324650264
 	SCS-MP2 Total Energy (a.u.)        :  -109.03715228822163
-	SOS-MP2 Total Energy (a.u.)        :  -109.00092777843496
+	SOS-MP2 Total Energy (a.u.)        :  -109.02730138231017
 	SCSN-MP2 Total Energy (a.u.)       :  -108.87570994360601
 	SCS-MP2-VDW Total Energy (a.u.)    :  -109.07636342621515
 	SOS-PI-MP2 Total Energy (a.u.)     :  -109.05367498618540
@@ -570,13 +570,13 @@ Total time:
 	============================================================================== 
 
 
-*** tstop() called on asax002.asc.edu at Fri Nov  8 13:57:42 2024
+*** tstop() called on asax019.asc.edu at Sun Nov 10 17:13:26 2024
 Module time:
-	user time   =       0.01 seconds =       0.00 minutes
+	user time   =       0.00 seconds =       0.00 minutes
 	system time =       0.00 seconds =       0.00 minutes
 	total time  =          0 seconds =       0.00 minutes
 Total time:
-	user time   =       1.02 seconds =       0.02 minutes
-	system time =       0.07 seconds =       0.00 minutes
-	total time  =          2 seconds =       0.03 minutes
+	user time   =       0.81 seconds =       0.01 minutes
+	system time =       0.04 seconds =       0.00 minutes
+	total time  =          1 seconds =       0.02 minutes
     MP2 Energy............................................................................PASSED

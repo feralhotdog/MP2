@@ -1,0 +1,244 @@
+setting asax scratch directory
+ 
+============================================================
+=====         Summary of your script job               =====
+============================================================
+  The script file is: src/batch.sh
+  The time limit is 360:00:00 HH:MM:SS.
+  The target directory is: /home/aubclsd0286/MP2
+  The working directory is:  /scratch-local/aubclsd0286.OptEinSum.207859.asax-pbs1
+  The memory limit is: 500gb
+  The job will start running after: 202411101712.37
+  Job Name: OptEinSum
+  Queue: -q bigmem
+  Constraints: 
+  Using  1  cores on master node  asax019.asc.edu
+  Node list:  asax019.asc.edu
+  Cores:  1
+  Command typed:
+/scripts/run_script src/batch.sh     
+  Queue submit command:
+qsub -q bigmem -j oe -N OptEinSum -a 202411101712.37 -r n -M wmh0011@auburn.edu -l walltime=360:00:00 -l select=ncpus=1:mem=500000mb 
+
+  Memory set to 447.035 GiB by Python driver.
+6-31g benzene
+
+Size of ERI tensor is 18974736.00 bytes.
+Do our transformed ERIs match Psi4's? True
+MP2 energy calculated as:-231.14708758938414 AU
+Time to complete calculation:22990933169 ns
+Peak memory usage was 122107357 bytes
+    MP2 Energy............................................................................PASSED
+
+
+
+  Memory set to 447.035 GiB by Python driver.
+6-31g dinitrogen
+
+Size of ERI tensor is 104976.00 bytes.
+Do our transformed ERIs match Psi4's? True
+MP2 energy calculated as:-109.05685410004456 AU
+Time to complete calculation:616044108 ns
+Peak memory usage was 10877624 bytes
+    MP2 Energy............................................................................PASSED
+
+
+
+  Memory set to 447.035 GiB by Python driver.
+6-31g h_peroxide
+
+Size of ERI tensor is 234256.00 bytes.
+Do our transformed ERIs match Psi4's? True
+MP2 energy calculated as:-150.88541636267746 AU
+Time to complete calculation:909937346 ns
+Peak memory usage was 11951340 bytes
+    MP2 Energy............................................................................PASSED
+
+
+
+  Memory set to 447.035 GiB by Python driver.
+6-31g pyrrole
+
+Size of ERI tensor is 9150625.00 bytes.
+Do our transformed ERIs match Psi4's? True
+MP2 energy calculated as:-209.19109700621814 AU
+Time to complete calculation:11531886630 ns
+Peak memory usage was 65868078 bytes
+    MP2 Energy............................................................................PASSED
+
+
+
+  Memory set to 447.035 GiB by Python driver.
+6-31g water
+
+Size of ERI tensor is 28561.00 bytes.
+Do our transformed ERIs match Psi4's? True
+MP2 energy calculated as:-76.11330135791552 AU
+Time to complete calculation:604201353 ns
+Peak memory usage was 10313892 bytes
+    MP2 Energy............................................................................PASSED
+
+
+
+  Memory set to 447.035 GiB by Python driver.
+cc-PVDZ benzene
+
+Size of ERI tensor is 168896016.00 bytes.
+Do our transformed ERIs match Psi4's? True
+MP2 energy calculated as:-231.52072005601997 AU
+Time to complete calculation:117808991035 ns
+Peak memory usage was 553797157 bytes
+    MP2 Energy............................................................................PASSED
+
+
+
+  Memory set to 447.035 GiB by Python driver.
+cc-PVDZ dinitrogen
+
+Size of ERI tensor is 614656.00 bytes.
+Do our transformed ERIs match Psi4's? True
+MP2 energy calculated as:-109.182557846243 AU
+Time to complete calculation:1177596521 ns
+Peak memory usage was 12864009 bytes
+    MP2 Energy............................................................................PASSED
+
+
+
+  Memory set to 447.035 GiB by Python driver.
+cc-PVDZ h_peroxide
+
+Size of ERI tensor is 2085136.00 bytes.
+Do our transformed ERIs match Psi4's? True
+MP2 energy calculated as:-151.0691002943965 AU
+Time to complete calculation:2195241763 ns
+Peak memory usage was 18943102 bytes
+    MP2 Energy............................................................................PASSED
+
+
+
+  Memory set to 447.035 GiB by Python driver.
+cc-PVDZ pyrrole
+
+Size of ERI tensor is 81450625.00 bytes.
+Do our transformed ERIs match Psi4's? True
+MP2 energy calculated as:-209.53764682031226 AU
+Time to complete calculation:57742994917 ns
+Peak memory usage was 280433819 bytes
+    MP2 Energy............................................................................PASSED
+
+
+
+  Memory set to 447.035 GiB by Python driver.
+cc-PVDZ water
+
+Size of ERI tensor is 331776.00 bytes.
+Do our transformed ERIs match Psi4's? True
+MP2 energy calculated as:-76.2308194140115 AU
+Time to complete calculation:836662562 ns
+Peak memory usage was 11325911 bytes
+    MP2 Energy............................................................................PASSED
+
+
+
+  Memory set to 447.035 GiB by Python driver.
+cc-PVTZ benzene
+
+Size of ERI tensor is 4857532416.00 bytes.
+Do our transformed ERIs match Psi4's? True
+MP2 energy calculated as:-231.8219704894463 AU
+Time to complete calculation:866851800728 ns
+Peak memory usage was 6438374968 bytes
+    MP2 Energy............................................................................PASSED
+
+
+
+  Memory set to 447.035 GiB by Python driver.
+cc-PVTZ dinitrogen
+
+Size of ERI tensor is 12960000.00 bytes.
+Do our transformed ERIs match Psi4's? True
+MP2 energy calculated as:-109.28604324279767 AU
+Time to complete calculation:3418213006 ns
+Peak memory usage was 35702720 bytes
+    MP2 Energy............................................................................PASSED
+
+
+
+  Memory set to 447.035 GiB by Python driver.
+cc-PVTZ h_peroxide
+
+Size of ERI tensor is 59969536.00 bytes.
+Do our transformed ERIs match Psi4's? True
+MP2 energy calculated as:-151.24658542011323 AU
+Time to complete calculation:11086084459 ns
+Peak memory usage was 113259371 bytes
+    MP2 Energy............................................................................PASSED
+
+
+
+  Memory set to 447.035 GiB by Python driver.
+cc-PVTZ pyrrole
+
+Size of ERI tensor is 2342560000.00 bytes.
+Do our transformed ERIs match Psi4's? True
+MP2 energy calculated as:-209.8090910216285 AU
+Time to complete calculation:402998455478 ns
+Peak memory usage was 3202235349 bytes
+    MP2 Energy............................................................................PASSED
+
+
+
+  Memory set to 447.035 GiB by Python driver.
+cc-PVTZ water
+
+Size of ERI tensor is 11316496.00 bytes.
+Do our transformed ERIs match Psi4's? True
+MP2 energy calculated as:-76.33200062409905 AU
+Time to complete calculation:2424752502 ns
+Peak memory usage was 26387433 bytes
+    MP2 Energy............................................................................PASSED
+
+
+
+  Memory set to 447.035 GiB by Python driver.
+./src/batch.sh: line 10: 771704 Killed                  python3 /home/aubclsd0286/MP2/src/naive_mp2.py $i $basis
+
+  Memory set to 447.035 GiB by Python driver.
+cc-PVQZ dinitrogen
+
+Size of ERI tensor is 146410000.00 bytes.
+Do our transformed ERIs match Psi4's? True
+MP2 energy calculated as:-109.34843761488463 AU
+Time to complete calculation:24023893658 ns
+Peak memory usage was 163921104 bytes
+    MP2 Energy............................................................................PASSED
+
+
+
+  Memory set to 447.035 GiB by Python driver.
+cc-PVQZ h_peroxide
+
+Size of ERI tensor is 835210000.00 bytes.
+Do our transformed ERIs match Psi4's? True
+MP2 energy calculated as:-151.3325018907811 AU
+Time to complete calculation:109200343877 ns
+Peak memory usage was 736314576 bytes
+    MP2 Energy............................................................................PASSED
+
+
+
+  Memory set to 447.035 GiB by Python driver.
+./src/batch.sh: line 10: 772056 Killed                  python3 /home/aubclsd0286/MP2/src/naive_mp2.py $i $basis
+
+  Memory set to 447.035 GiB by Python driver.
+cc-PVQZ water
+
+Size of ERI tensor is 174900625.00 bytes.
+Do our transformed ERIs match Psi4's? True
+MP2 energy calculated as:-76.37781696759973 AU
+Time to complete calculation:21596886376 ns
+Peak memory usage was 134422932 bytes
+    MP2 Energy............................................................................PASSED
+
+
+Cgroup memsw limit exceeded: oom-kill:constraint=CONSTRAINT_MEMCG,nodemask=(null),cpuset=207859.asax-pbs1,mems_allowed=0-7,oom_memcg=/pbs_jobs.service/jobid/207859.asax-pbs1,task_memcg=/pbs_jobs.service/jobid/207859.asax-pbs1,task=python3,pid=772056,uid=7482

@@ -8,6 +8,10 @@ import time
 from pathlib import Path
 import tracemalloc
 
+#set num threads
+torch.set_num_threads(4)
+torch.set_num_interop_threads(1)
+
 #checking for gpu
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 print(f"Using device: {device}")
@@ -89,9 +93,9 @@ np_Cocc = C[:, :ndocc]
 np_Cvirt = C[:, ndocc:]
 
 #converting to pytorch tensors
-Cocc = torch.from_numpy(np_Cocc).to(torch.float32).to(device)
-Cvirt = torch.from_numpy(np_Cvirt).to(torch.float32).to(device)
-I = torch.from_numpy(I).to(torch.float32).to(device)
+Cocc = torch.from_numpy(np_Cocc).to(torch.float64).to(device)
+Cvirt = torch.from_numpy(np_Cvirt).to(torch.float64).to(device)
+I = torch.from_numpy(I).to(torch.float64).to(device)
 
 #Tensor contraction
 I_mo = torch.einsum('pi,qa,pqrs,rj,sb->iajb', Cocc, Cvirt, I, Cocc, Cvirt)
@@ -99,8 +103,8 @@ I_mo = torch.einsum('pi,qa,pqrs,rj,sb->iajb', Cocc, Cvirt, I, Cocc, Cvirt)
 #===> Compute MP2 Correlation & MP2 Energy <===#
 
 #conveting to pytorch tensors
-e_ij = torch.from_numpy(e_ij).to(torch.float32).to(device)
-e_ab = torch.from_numpy(e_ab).to(torch.float32).to(device)
+e_ij = torch.from_numpy(e_ij).to(torch.float64).to(device)
+e_ab = torch.from_numpy(e_ab).to(torch.float64).to(device)
 
 #Computing energy denominator
 e_denom = 1 / (e_ij.view(-1, 1, 1, 1) - e_ab.view(-1, 1, 1) + e_ij.view(-1,1) - e_ab)

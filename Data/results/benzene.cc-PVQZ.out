@@ -1,8 +1,8 @@
 
 Scratch directory: /tmp/
 
-*** tstart() called on asax027.asc.edu
-*** at Tue Nov 12 09:05:01 2024
+*** tstart() called on asax026.asc.edu
+*** at Thu Nov 21 09:17:36 2024
 
    => Loading Basis Set <=
 
@@ -125,8 +125,8 @@ Scratch directory: /tmp/
                         Total Energy        Delta E     RMS |[F,P]|
 
    @RHF iter SAD:  -230.22292762935805   -2.30223e+02   0.00000e+00 
-   @RHF iter   1:  -230.63424721862111   -4.11320e-01   1.00293e-03 ADIIS/DIIS
-   @RHF iter   2:  -230.76089171140788   -1.26644e-01   4.86813e-04 ADIIS/DIIS
+   @RHF iter   1:  -230.63424721862111   -4.11320e-01   1.00293e-03 DIIS/ADIIS
+   @RHF iter   2:  -230.76089171140788   -1.26644e-01   4.86813e-04 DIIS/ADIIS
    @RHF iter   3:  -230.79156071923222   -3.06690e-02   8.54276e-05 DIIS
    @RHF iter   4:  -230.79307640603412   -1.51569e-03   1.03338e-05 DIIS
    @RHF iter   5:  -230.79310435439032   -2.79484e-05   1.88515e-06 DIIS
@@ -352,12 +352,12 @@ Properties computed using the SCF density matrix
 
  ------------------------------------------------------------------------------------
 
-*** tstop() called on asax027.asc.edu at Tue Nov 12 09:13:58 2024
+*** tstop() called on asax026.asc.edu at Thu Nov 21 09:27:55 2024
 Module time:
-	user time   =     522.87 seconds =       8.71 minutes
-	system time =       9.44 seconds =       0.16 minutes
-	total time  =        537 seconds =       8.95 minutes
+	user time   =     604.37 seconds =      10.07 minutes
+	system time =       9.95 seconds =       0.17 minutes
+	total time  =        619 seconds =      10.32 minutes
 Total time:
-	user time   =     522.87 seconds =       8.71 minutes
-	system time =       9.44 seconds =       0.16 minutes
-	total time  =        537 seconds =       8.95 minutes
+	user time   =     604.37 seconds =      10.07 minutes
+	system time =       9.95 seconds =       0.17 minutes
+	total time  =        619 seconds =      10.32 minutes

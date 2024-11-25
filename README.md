@@ -11,6 +11,6 @@
  - Make utility for tracking CPU Time?
  - Make utility for tracking memory usage.
  - Run base level calculations
- - Libraries for ML utilized to parallelize tensor math. (To Do)
+ - Libraries for ML utilized to parallelize tensor math.
  - Reimplementation of code in Bend language (To do)
  - Format memory to read only pertinent integrals as needed (To Do)

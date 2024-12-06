@@ -3,9 +3,19 @@ import os
 import sys
 import psi4
 import numpy as np
+import torch
 import time
 from pathlib import Path
 import tracemalloc
+from opt_einsum import contract 
+
+#set num threads
+torch.set_num_threads(4)
+torch.set_num_interop_threads(1)
+
+#checking for gpu
+device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
+print(f"Using device: {device}")
 
 #setting memory
 psi4.set_memory(int(480e9))
@@ -80,30 +90,32 @@ I = np.asarray(mints.ao_eri())
 
 #get MO coefficient form SCF wavefunction
 C = np.asarray(scf_wfn.Ca())
-Cocc = C[:, :ndocc]
-Cvirt = C[:, ndocc:]
+np_Cocc = C[:, :ndocc]
+np_Cvirt = C[:, ndocc:]
 
-#===> Naive ERI tranformation <===#
-I_mo = np.einsum('pi,qa,pqrs,rj,sb->iajb', Cocc, Cvirt, I, Cocc, Cvirt, optimize=False)
+#converting to pytorch tensors
+Cocc = torch.from_numpy(np_Cocc).to(torch.float64).to(device)
+Cvirt = torch.from_numpy(np_Cvirt).to(torch.float64).to(device)
+I = torch.from_numpy(I).to(torch.float64).to(device)
 
-#===> Compare I_mo with Mintshelper <===#
-Co = scf_wfn.Ca_subset('AO','OCC')
-Cv = scf_wfn.Ca_subset('AO', 'VIR')
-MO = np.asarray(mints.mo_eri(Co, Cv, Co, Cv))
-print("Do our transformed ERIs match Psi4's? %s" % np.allclose(I_mo, np.asarray(MO)))
+#Tensor contraction
+I_mo = contract('pi,qa,pqrs,rj,sb->iajb', Cocc, Cvirt, I, Cocc, Cvirt)
 
 #===> Compute MP2 Correlation & MP2 Energy <===#
-#Compute energy denominator array (super naive)
 
-# Compute energy denominator array
-e_denom = 1 / (e_ij.reshape(-1, 1, 1, 1) - e_ab.reshape(-1, 1, 1) + e_ij.reshape(-1,1) - e_ab)
+#conveting to pytorch tensors
+e_ij = torch.from_numpy(e_ij).to(torch.float64).to(device)
+e_ab = torch.from_numpy(e_ab).to(torch.float64).to(device)
+
+#Computing energy denominator
+e_denom = 1 / (e_ij.view(-1, 1, 1, 1) - e_ab.view(-1, 1, 1) + e_ij.view(-1,1) - e_ab)
 
 # Compute SS & OS MP2 Correlation with Einsum
-mp2_os_corr = np.einsum('iajb,iajb,iajb->', I_mo, I_mo, e_denom, optimize=False)
-mp2_ss_corr = np.einsum('iajb,iajb,iajb->', I_mo, I_mo - I_mo.swapaxes(1,3), e_denom, optimize=False)
+mp2_os_corr = contract('iajb,iajb,iajb->', I_mo, I_mo, e_denom)
+mp2_ss_corr = contract('iajb,iajb,iajb->', I_mo, I_mo - I_mo.permute(0, 3, 2, 1), e_denom)
 
 # Total MP2 Energy
-MP2_E = scf_e + mp2_os_corr + mp2_ss_corr
+MP2_E = scf_e + mp2_os_corr.item() + mp2_ss_corr.item()
 print("MP2 energy calculated as:" + str(MP2_E) + " AU")
 
 #ending timer, memory tracking and reporting

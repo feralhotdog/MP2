@@ -1,0 +1,315 @@
+
+Host: asax027.asc.edu
+
+Timers On : Tue Dec  3 15:07:51 2024
+Timers Off: Wed Dec  4 16:52:43 2024
+
+Wall Time:    92691.73 seconds
+
+                                                       Time (seconds)
+Module                                       User      System        Wall        Calls
+Total PK formation time             :      4.150u      0.033s      2.570w      2 calls
+Libint2ERI::Libint2ERI              :      0.117u      0.017s      0.373w      7 calls
+HF: Form core H                     :      0.017u      0.017s      0.247w      2 calls
+HF: Form S/X                        :      0.000u      0.000s      0.146w      2 calls
+HF: Guess                           :      0.083u      0.017s      0.586w      2 calls
+SAD Guess                           :      0.083u      0.017s      0.584w      2 calls
+HF: Form G                          :      0.083u      0.000s      0.050w     20 calls
+JK: D                               :      0.000u      0.000s      0.000w     20 calls
+JK: USO2AO                          :      0.000u      0.000s      0.000w     20 calls
+JK: JK                              :      0.083u      0.000s      0.049w     20 calls
+PK computes JK                      :      0.083u      0.000s      0.049w     20 calls
+JK: AO2USO                          :      0.000u      0.000s      0.000w     20 calls
+HF: Form F                          :      0.000u      0.000s      0.000w     20 calls
+HF: Form D                          :      0.000u      0.000s      0.000w     20 calls
+HF: DIIS                            :      0.517u      0.117s      1.500w     18 calls
+HF: Form C                          :      0.017u      0.000s      0.015w     18 calls
+trans_ints                          :      0.417u      0.250s      0.544w      1 calls
+Trans (OV|OV)                       :      0.417u      0.233s      0.512w      1 calls
+Sort chem -> phys                   :      0.000u      0.017s      0.008w      1 calls
+Sort (OV|OV) -> <OO|VV>             :      0.000u      0.017s      0.008w      1 calls
+Trans OEI                           :      0.000u      0.000s      0.000w      1 calls
+Build Denominators                  :      0.000u      0.000s      0.006w      1 calls
+T2(1)                               :      0.017u      0.033s      0.074w      1 calls
+MP2 Energy                          :      0.000u      0.033s      0.038w      1 calls
+
+--------------------------------------------------------------------------------------
+Total PK formation time             :      4.150u      0.033s      2.570w      2 calls
+| Libint2ERI::Libint2ERI            :      0.067u      0.017s      0.072w      4 calls
+HF: Form core H                     :      0.017u      0.017s      0.247w      2 calls
+HF: Form S/X                        :      0.000u      0.000s      0.146w      2 calls
+HF: Guess                           :      0.083u      0.017s      0.586w      2 calls
+| SAD Guess                         :      0.083u      0.017s      0.584w      2 calls
+HF: Form G                          :      0.083u      0.000s      0.050w     20 calls
+| JK: D                             :      0.000u      0.000s      0.000w     20 calls
+| JK: USO2AO                        :      0.000u      0.000s      0.000w     20 calls
+| JK: JK                            :      0.083u      0.000s      0.049w     20 calls
+| | PK computes JK                  :      0.083u      0.000s      0.049w     20 calls
+| JK: AO2USO                        :      0.000u      0.000s      0.000w     20 calls
+HF: Form F                          :      0.000u      0.000s      0.000w     20 calls
+HF: Form D                          :      0.000u      0.000s      0.000w     20 calls
+HF: DIIS                            :      0.517u      0.117s      1.500w     18 calls
+HF: Form C                          :      0.017u      0.000s      0.015w     18 calls
+Libint2ERI::Libint2ERI              :      0.050u      0.000s      0.301w      3 calls
+trans_ints                          :      0.417u      0.250s      0.544w      1 calls
+| Trans (OV|OV)                     :      0.417u      0.233s      0.512w      1 calls
+| Sort chem -> phys                 :      0.000u      0.017s      0.008w      1 calls
+| | Sort (OV|OV) -> <OO|VV>         :      0.000u      0.017s      0.008w      1 calls
+| Trans OEI                         :      0.000u      0.000s      0.000w      1 calls
+| Build Denominators                :      0.000u      0.000s      0.006w      1 calls
+T2(1)                               :      0.017u      0.033s      0.074w      1 calls
+MP2 Energy                          :      0.000u      0.033s      0.038w      1 calls
+
+**************************************************************************************
+
+Host: asax027.asc.edu
+
+Timers On : Wed Dec  4 16:52:52 2024
+Timers Off: Wed Dec  4 16:53:01 2024
+
+Wall Time:        8.94 seconds
+
+                                                       Time (seconds)
+Module                                       User      System        Wall        Calls
+Total PK formation time             :      0.033u      0.017s      0.093w      2 calls
+Libint2ERI::Libint2ERI              :      0.000u      0.017s      0.052w      7 calls
+HF: Form core H                     :      0.000u      0.000s      0.052w      2 calls
+HF: Form S/X                        :      0.000u      0.000s      0.059w      2 calls
+HF: Guess                           :      0.050u      0.050s      0.158w      2 calls
+SAD Guess                           :      0.050u      0.050s      0.157w      2 calls
+HF: Form G                          :      0.000u      0.000s      0.006w     18 calls
+JK: D                               :      0.000u      0.000s      0.000w     18 calls
+JK: USO2AO                          :      0.000u      0.000s      0.000w     18 calls
+JK: JK                              :      0.000u      0.000s      0.001w     18 calls
+PK computes JK                      :      0.000u      0.000s      0.001w     18 calls
+JK: AO2USO                          :      0.000u      0.000s      0.000w     18 calls
+HF: Form F                          :      0.000u      0.000s      0.000w     18 calls
+HF: Form D                          :      0.000u      0.000s      0.000w     18 calls
+HF: DIIS                            :      0.450u      0.067s      0.933w     16 calls
+HF: Form C                          :      0.033u      0.000s      0.004w     16 calls
+trans_ints                          :      0.017u      0.000s      0.119w      1 calls
+Trans (OV|OV)                       :      0.017u      0.000s      0.101w      1 calls
+Sort chem -> phys                   :      0.000u      0.000s      0.000w      1 calls
+Sort (OV|OV) -> <OO|VV>             :      0.000u      0.000s      0.000w      1 calls
+Trans OEI                           :      0.000u      0.000s      0.000w      1 calls
+Build Denominators                  :      0.000u      0.000s      0.011w      1 calls
+T2(1)                               :      0.000u      0.000s      0.022w      1 calls
+MP2 Energy                          :      0.000u      0.000s      0.014w      1 calls
+
+--------------------------------------------------------------------------------------
+Total PK formation time             :      0.033u      0.017s      0.093w      2 calls
+| Libint2ERI::Libint2ERI            :      0.000u      0.017s      0.047w      4 calls
+HF: Form core H                     :      0.000u      0.000s      0.052w      2 calls
+HF: Form S/X                        :      0.000u      0.000s      0.059w      2 calls
+HF: Guess                           :      0.050u      0.050s      0.158w      2 calls
+| SAD Guess                         :      0.050u      0.050s      0.157w      2 calls
+HF: Form G                          :      0.000u      0.000s      0.006w     18 calls
+| JK: D                             :      0.000u      0.000s      0.000w     18 calls
+| JK: USO2AO                        :      0.000u      0.000s      0.000w     18 calls
+| JK: JK                            :      0.000u      0.000s      0.001w     18 calls
+| | PK computes JK                  :      0.000u      0.000s      0.001w     18 calls
+| JK: AO2USO                        :      0.000u      0.000s      0.000w     18 calls
+HF: Form F                          :      0.000u      0.000s      0.000w     18 calls
+HF: Form D                          :      0.000u      0.000s      0.000w     18 calls
+HF: DIIS                            :      0.450u      0.067s      0.933w     16 calls
+HF: Form C                          :      0.033u      0.000s      0.004w     16 calls
+Libint2ERI::Libint2ERI              :      0.000u      0.000s      0.005w      3 calls
+trans_ints                          :      0.017u      0.000s      0.119w      1 calls
+| Trans (OV|OV)                     :      0.017u      0.000s      0.101w      1 calls
+| Sort chem -> phys                 :      0.000u      0.000s      0.000w      1 calls
+| | Sort (OV|OV) -> <OO|VV>         :      0.000u      0.000s      0.000w      1 calls
+| Trans OEI                         :      0.000u      0.000s      0.000w      1 calls
+| Build Denominators                :      0.000u      0.000s      0.011w      1 calls
+T2(1)                               :      0.000u      0.000s      0.022w      1 calls
+MP2 Energy                          :      0.000u      0.000s      0.014w      1 calls
+
+**************************************************************************************
+
+Host: asax027.asc.edu
+
+Timers On : Wed Dec  4 16:53:01 2024
+Timers Off: Wed Dec  4 16:53:25 2024
+
+Wall Time:       23.99 seconds
+
+                                                       Time (seconds)
+Module                                       User      System        Wall        Calls
+Total PK formation time             :      0.100u      0.017s      0.099w      2 calls
+Libint2ERI::Libint2ERI              :      0.017u      0.000s      0.042w      7 calls
+HF: Form core H                     :      0.000u      0.000s      0.058w      2 calls
+HF: Form S/X                        :      0.000u      0.000s      0.047w      2 calls
+HF: Guess                           :      0.067u      0.017s      0.162w      2 calls
+SAD Guess                           :      0.067u      0.017s      0.161w      2 calls
+HF: Form G                          :      0.000u      0.000s      0.008w     24 calls
+JK: D                               :      0.000u      0.000s      0.000w     24 calls
+JK: USO2AO                          :      0.000u      0.000s      0.000w     24 calls
+JK: JK                              :      0.000u      0.000s      0.001w     24 calls
+PK computes JK                      :      0.000u      0.000s      0.001w     24 calls
+JK: AO2USO                          :      0.000u      0.000s      0.000w     24 calls
+HF: Form F                          :      0.000u      0.000s      0.000w     24 calls
+HF: Form D                          :      0.000u      0.000s      0.000w     24 calls
+HF: DIIS                            :      0.483u      0.067s      0.584w     22 calls
+HF: Form C                          :      0.000u      0.000s      0.006w     22 calls
+trans_ints                          :      0.000u      0.017s      0.156w      1 calls
+Trans (OV|OV)                       :      0.000u      0.017s      0.121w      1 calls
+Sort chem -> phys                   :      0.000u      0.000s      0.000w      1 calls
+Sort (OV|OV) -> <OO|VV>             :      0.000u      0.000s      0.000w      1 calls
+Trans OEI                           :      0.000u      0.000s      0.000w      1 calls
+Build Denominators                  :      0.000u      0.000s      0.011w      1 calls
+T2(1)                               :      0.000u      0.000s      0.025w      1 calls
+MP2 Energy                          :      0.000u      0.000s      0.030w      1 calls
+
+--------------------------------------------------------------------------------------
+Total PK formation time             :      0.100u      0.017s      0.099w      2 calls
+| Libint2ERI::Libint2ERI            :      0.017u      0.000s      0.037w      4 calls
+HF: Form core H                     :      0.000u      0.000s      0.058w      2 calls
+HF: Form S/X                        :      0.000u      0.000s      0.047w      2 calls
+HF: Guess                           :      0.067u      0.017s      0.162w      2 calls
+| SAD Guess                         :      0.067u      0.017s      0.161w      2 calls
+HF: Form G                          :      0.000u      0.000s      0.008w     24 calls
+| JK: D                             :      0.000u      0.000s      0.000w     24 calls
+| JK: USO2AO                        :      0.000u      0.000s      0.000w     24 calls
+| JK: JK                            :      0.000u      0.000s      0.001w     24 calls
+| | PK computes JK                  :      0.000u      0.000s      0.001w     24 calls
+| JK: AO2USO                        :      0.000u      0.000s      0.000w     24 calls
+HF: Form F                          :      0.000u      0.000s      0.000w     24 calls
+HF: Form D                          :      0.000u      0.000s      0.000w     24 calls
+HF: DIIS                            :      0.483u      0.067s      0.584w     22 calls
+HF: Form C                          :      0.000u      0.000s      0.006w     22 calls
+Libint2ERI::Libint2ERI              :      0.000u      0.000s      0.006w      3 calls
+trans_ints                          :      0.000u      0.017s      0.156w      1 calls
+| Trans (OV|OV)                     :      0.000u      0.017s      0.121w      1 calls
+| Sort chem -> phys                 :      0.000u      0.000s      0.000w      1 calls
+| | Sort (OV|OV) -> <OO|VV>         :      0.000u      0.000s      0.000w      1 calls
+| Trans OEI                         :      0.000u      0.000s      0.000w      1 calls
+| Build Denominators                :      0.000u      0.000s      0.011w      1 calls
+T2(1)                               :      0.000u      0.000s      0.025w      1 calls
+MP2 Energy                          :      0.000u      0.000s      0.030w      1 calls
+
+**************************************************************************************
+
+Host: asax027.asc.edu
+
+Timers On : Wed Dec  4 16:53:25 2024
+Timers Off: Wed Dec  4 23:03:33 2024
+
+Wall Time:    22207.58 seconds
+
+                                                       Time (seconds)
+Module                                       User      System        Wall        Calls
+Total PK formation time             :      2.200u      0.017s      1.443w      2 calls
+Libint2ERI::Libint2ERI              :      0.067u      0.000s      0.299w      7 calls
+HF: Form core H                     :      0.017u      0.000s      0.118w      2 calls
+HF: Form S/X                        :      0.000u      0.017s      0.043w      2 calls
+HF: Guess                           :      0.100u      0.017s      0.311w      2 calls
+SAD Guess                           :      0.100u      0.017s      0.309w      2 calls
+HF: Form G                          :      0.017u      0.000s      0.024w     24 calls
+JK: D                               :      0.000u      0.000s      0.000w     24 calls
+JK: USO2AO                          :      0.000u      0.000s      0.000w     24 calls
+JK: JK                              :      0.017u      0.000s      0.023w     24 calls
+PK computes JK                      :      0.017u      0.000s      0.023w     24 calls
+JK: AO2USO                          :      0.000u      0.000s      0.000w     24 calls
+HF: Form F                          :      0.000u      0.000s      0.000w     24 calls
+HF: Form D                          :      0.000u      0.000s      0.000w     24 calls
+HF: DIIS                            :      0.533u      0.083s      0.622w     22 calls
+HF: Form C                          :      0.000u      0.000s      0.014w     22 calls
+trans_ints                          :      0.217u      0.050s      0.296w      1 calls
+Trans (OV|OV)                       :      0.217u      0.033s      0.256w      1 calls
+Sort chem -> phys                   :      0.000u      0.017s      0.002w      1 calls
+Sort (OV|OV) -> <OO|VV>             :      0.000u      0.017s      0.002w      1 calls
+Trans OEI                           :      0.000u      0.000s      0.000w      1 calls
+Build Denominators                  :      0.000u      0.000s      0.002w      1 calls
+T2(1)                               :      0.017u      0.017s      0.029w      1 calls
+MP2 Energy                          :      0.000u      0.000s      0.059w      1 calls
+
+--------------------------------------------------------------------------------------
+Total PK formation time             :      2.200u      0.017s      1.443w      2 calls
+| Libint2ERI::Libint2ERI            :      0.033u      0.000s      0.098w      4 calls
+HF: Form core H                     :      0.017u      0.000s      0.118w      2 calls
+HF: Form S/X                        :      0.000u      0.017s      0.043w      2 calls
+HF: Guess                           :      0.100u      0.017s      0.311w      2 calls
+| SAD Guess                         :      0.100u      0.017s      0.309w      2 calls
+HF: Form G                          :      0.017u      0.000s      0.024w     24 calls
+| JK: D                             :      0.000u      0.000s      0.000w     24 calls
+| JK: USO2AO                        :      0.000u      0.000s      0.000w     24 calls
+| JK: JK                            :      0.017u      0.000s      0.023w     24 calls
+| | PK computes JK                  :      0.017u      0.000s      0.023w     24 calls
+| JK: AO2USO                        :      0.000u      0.000s      0.000w     24 calls
+HF: Form F                          :      0.000u      0.000s      0.000w     24 calls
+HF: Form D                          :      0.000u      0.000s      0.000w     24 calls
+HF: DIIS                            :      0.533u      0.083s      0.622w     22 calls
+HF: Form C                          :      0.000u      0.000s      0.014w     22 calls
+Libint2ERI::Libint2ERI              :      0.033u      0.000s      0.201w      3 calls
+trans_ints                          :      0.217u      0.050s      0.296w      1 calls
+| Trans (OV|OV)                     :      0.217u      0.033s      0.256w      1 calls
+| Sort chem -> phys                 :      0.000u      0.017s      0.002w      1 calls
+| | Sort (OV|OV) -> <OO|VV>         :      0.000u      0.017s      0.002w      1 calls
+| Trans OEI                         :      0.000u      0.000s      0.000w      1 calls
+| Build Denominators                :      0.000u      0.000s      0.002w      1 calls
+T2(1)                               :      0.017u      0.017s      0.029w      1 calls
+MP2 Energy                          :      0.000u      0.000s      0.059w      1 calls
+
+**************************************************************************************
+
+Host: asax027.asc.edu
+
+Timers On : Wed Dec  4 23:03:41 2024
+Timers Off: Wed Dec  4 23:03:45 2024
+
+Wall Time:        4.67 seconds
+
+                                                       Time (seconds)
+Module                                       User      System        Wall        Calls
+Total PK formation time             :      0.000u      0.017s      0.037w      2 calls
+Libint2ERI::Libint2ERI              :      0.000u      0.017s      0.028w      7 calls
+HF: Form core H                     :      0.017u      0.000s      0.018w      2 calls
+HF: Form S/X                        :      0.000u      0.000s      0.001w      2 calls
+HF: Guess                           :      0.050u      0.000s      0.050w      2 calls
+SAD Guess                           :      0.050u      0.000s      0.049w      2 calls
+HF: Form G                          :      0.000u      0.000s      0.001w     22 calls
+JK: D                               :      0.000u      0.000s      0.000w     22 calls
+JK: USO2AO                          :      0.000u      0.000s      0.000w     22 calls
+JK: JK                              :      0.000u      0.000s      0.000w     22 calls
+PK computes JK                      :      0.000u      0.000s      0.000w     22 calls
+JK: AO2USO                          :      0.000u      0.000s      0.000w     22 calls
+HF: Form F                          :      0.000u      0.000s      0.000w     22 calls
+HF: Form D                          :      0.000u      0.000s      0.000w     22 calls
+HF: DIIS                            :      0.483u      0.117s      1.103w     20 calls
+HF: Form C                          :      0.000u      0.000s      0.005w     20 calls
+trans_ints                          :      0.000u      0.000s      0.076w      1 calls
+Trans (OV|OV)                       :      0.000u      0.000s      0.068w      1 calls
+Sort chem -> phys                   :      0.000u      0.000s      0.000w      1 calls
+Sort (OV|OV) -> <OO|VV>             :      0.000u      0.000s      0.000w      1 calls
+Trans OEI                           :      0.000u      0.000s      0.000w      1 calls
+Build Denominators                  :      0.000u      0.000s      0.000w      1 calls
+T2(1)                               :      0.000u      0.000s      0.017w      1 calls
+MP2 Energy                          :      0.000u      0.000s      0.016w      1 calls
+
+--------------------------------------------------------------------------------------
+Total PK formation time             :      0.000u      0.017s      0.037w      2 calls
+| Libint2ERI::Libint2ERI            :      0.000u      0.017s      0.026w      4 calls
+HF: Form core H                     :      0.017u      0.000s      0.018w      2 calls
+HF: Form S/X                        :      0.000u      0.000s      0.001w      2 calls
+HF: Guess                           :      0.050u      0.000s      0.050w      2 calls
+| SAD Guess                         :      0.050u      0.000s      0.049w      2 calls
+HF: Form G                          :      0.000u      0.000s      0.001w     22 calls
+| JK: D                             :      0.000u      0.000s      0.000w     22 calls
+| JK: USO2AO                        :      0.000u      0.000s      0.000w     22 calls
+| JK: JK                            :      0.000u      0.000s      0.000w     22 calls
+| | PK computes JK                  :      0.000u      0.000s      0.000w     22 calls
+| JK: AO2USO                        :      0.000u      0.000s      0.000w     22 calls
+HF: Form F                          :      0.000u      0.000s      0.000w     22 calls
+HF: Form D                          :      0.000u      0.000s      0.000w     22 calls
+HF: DIIS                            :      0.483u      0.117s      1.103w     20 calls
+HF: Form C                          :      0.000u      0.000s      0.005w     20 calls
+Libint2ERI::Libint2ERI              :      0.000u      0.000s      0.003w      3 calls
+trans_ints                          :      0.000u      0.000s      0.076w      1 calls
+| Trans (OV|OV)                     :      0.000u      0.000s      0.068w      1 calls
+| Sort chem -> phys                 :      0.000u      0.000s      0.000w      1 calls
+| | Sort (OV|OV) -> <OO|VV>         :      0.000u      0.000s      0.000w      1 calls
+| Trans OEI                         :      0.000u      0.000s      0.000w      1 calls
+| Build Denominators                :      0.000u      0.000s      0.000w      1 calls
+T2(1)                               :      0.000u      0.000s      0.017w      1 calls
+MP2 Energy                          :      0.000u      0.000s      0.016w      1 calls
+
+**************************************************************************************

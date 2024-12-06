@@ -2,7 +2,11 @@
 Scratch directory: /tmp/
 
 *** tstart() called on asax026.asc.edu
-*** at Thu Nov 21 09:17:36 2024
+
+*** at Wed Dec  4 16:02:33 2024
+
+
+
 
    => Loading Basis Set <=
 
@@ -104,8 +108,8 @@ Scratch directory: /tmp/
 
     OpenMP threads:              1
 
-  Minimum eigenvalue in the overlap matrix is 5.5309006720E-06.
-  Reciprocal condition number of the overlap matrix is 5.5323789780E-07.
+  Minimum eigenvalue in the overlap matrix is 5.5309006722E-06.
+  Reciprocal condition number of the overlap matrix is 5.5323789782E-07.
     Using symmetric orthogonalization.
 
   ==> Pre-Iterations <==
@@ -124,15 +128,17 @@ Scratch directory: /tmp/
 
                         Total Energy        Delta E     RMS |[F,P]|
 
-   @RHF iter SAD:  -230.22292762935805   -2.30223e+02   0.00000e+00 
-   @RHF iter   1:  -230.63424721862111   -4.11320e-01   1.00293e-03 DIIS/ADIIS
-   @RHF iter   2:  -230.76089171140788   -1.26644e-01   4.86813e-04 DIIS/ADIIS
-   @RHF iter   3:  -230.79156071923222   -3.06690e-02   8.54276e-05 DIIS
-   @RHF iter   4:  -230.79307640603412   -1.51569e-03   1.03338e-05 DIIS
-   @RHF iter   5:  -230.79310435439032   -2.79484e-05   1.88515e-06 DIIS
-   @RHF iter   6:  -230.79310531135090   -9.56961e-07   2.07680e-07 DIIS
-   @RHF iter   7:  -230.79310532454178   -1.31909e-08   2.43109e-08 DIIS
-   @RHF iter   8:  -230.79310532473690   -1.95115e-10   6.45107e-09 DIIS
+
+   @RHF iter SAD:  -230.22292762935814   -2.30223e+02   0.00000e+00 
+   @RHF iter   1:  -230.63424721861830   -4.11320e-01   1.00293e-03 DIIS/ADIIS
+   @RHF iter   2:  -230.76089171140873   -1.26644e-01   4.86813e-04 DIIS/ADIIS
+   @RHF iter   3:  -230.79156071923154   -3.06690e-02   8.54276e-05 DIIS
+   @RHF iter   4:  -230.79307640603270   -1.51569e-03   1.03338e-05 DIIS
+   @RHF iter   5:  -230.79310435438958   -2.79484e-05   1.88515e-06 DIIS
+   @RHF iter   6:  -230.79310531134851   -9.56959e-07   2.07680e-07 DIIS
+   @RHF iter   7:  -230.79310532454014   -1.31916e-08   2.43109e-08 DIIS
+   @RHF iter   8:  -230.79310532473914   -1.99009e-10   6.45107e-09 DIIS
+
   Energy and wave function converged.
 
 
@@ -321,14 +327,14 @@ Scratch directory: /tmp/
               A 
     DOCC [    21 ]
 
-  @RHF Final Energy:  -230.79310532473690
+  @RHF Final Energy:  -230.79310532473914
 
    => Energetics <=
 
     Nuclear Repulsion Energy =            203.4168160710037796
-    One-Electron Energy =                -713.3697586016802461
-    Two-Electron Energy =                 279.1598372059395388
-    Total Energy =                       -230.7931053247369277
+    One-Electron Energy =                -713.3697586016895684
+    Two-Electron Energy =                 279.1598372059466442
+    Total Energy =                       -230.7931053247391446
 
 Computation Completed
 
@@ -347,17 +353,19 @@ Properties computed using the SCF density matrix
  L = 1.  Multiply by 2.5417464519 to convert [e a0] to [Debye]
  Dipole X            :          0.0000973           -0.0000749            0.0000224
  Dipole Y            :          0.0000480           -0.0000432            0.0000047
- Dipole Z            :          0.0000000            0.0000000            0.0000000
+ Dipole Z            :         -0.0000000            0.0000000           -0.0000000
  Magnitude           :                                                    0.0000229
 
  ------------------------------------------------------------------------------------
 
-*** tstop() called on asax026.asc.edu at Thu Nov 21 09:27:55 2024
+
+*** tstop() called on asax026.asc.edu at Wed Dec  4 16:11:28 2024
 Module time:
-	user time   =     604.37 seconds =      10.07 minutes
-	system time =       9.95 seconds =       0.17 minutes
-	total time  =        619 seconds =      10.32 minutes
+	user time   =     517.80 seconds =       8.63 minutes
+	system time =      11.63 seconds =       0.19 minutes
+	total time  =        535 seconds =       8.92 minutes
 Total time:
-	user time   =     604.37 seconds =      10.07 minutes
-	system time =       9.95 seconds =       0.17 minutes
-	total time  =        619 seconds =      10.32 minutes
+	user time   =     517.80 seconds =       8.63 minutes
+	system time =      11.63 seconds =       0.19 minutes
+	total time  =        535 seconds =       8.92 minutes
+

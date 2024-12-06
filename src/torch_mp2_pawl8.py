@@ -4,12 +4,23 @@ import sys
 import psi4
 import numpy as np
 import time
+import torch
 from pathlib import Path
 import tracemalloc
+from opt_einsum import contract
 
 #setting memory
 psi4.set_memory(int(480e9))
 numpy_memory = 480
+
+# Use torch?
+use_torch = True
+
+if (use_torch):
+  torch.set_num_threads(4)
+  torch.set_num_interop_threads(1)
+  print(torch.__config__.parallel_info())
+  #quit()
 
 ## Input and Output File Handling
 #detecting file path outside of MP2 directory
@@ -83,14 +94,24 @@ C = np.asarray(scf_wfn.Ca())
 Cocc = C[:, :ndocc]
 Cvirt = C[:, ndocc:]
 
-#===> Naive ERI tranformation <===#
-I_mo = np.einsum('pi,qa,pqrs,rj,sb->iajb', Cocc, Cvirt, I, Cocc, Cvirt, optimize=False)
+
+
 
 #===> Compare I_mo with Mintshelper <===#
 Co = scf_wfn.Ca_subset('AO','OCC')
 Cv = scf_wfn.Ca_subset('AO', 'VIR')
-MO = np.asarray(mints.mo_eri(Co, Cv, Co, Cv))
-print("Do our transformed ERIs match Psi4's? %s" % np.allclose(I_mo, np.asarray(MO)))
+I = np.array(mints.ao_eri())
+nbf = mints.nbf()
+I = I.reshape(nbf, nbf, nbf, nbf)
+if (use_torch):
+  device0 = torch.device('cpu')
+  I_torch = torch.tensor(I, dtype=torch.float64, device=device0)
+  Co_torch = torch.tensor(np.array(Co), dtype=torch.float64, device=device0)
+  Cv_torch = torch.tensor(np.array(Cv), dtype=torch.float64, device=device0)
+  MO_torch = torch.einsum('pI,qA,pqrs,rJ,sB->IAJB', Co_torch, Cv_torch, I_torch, Co_torch, Cv_torch)
+  MO = MO_torch.numpy()
+else:
+  MO = contract('pI,qA,pqrs,rJ,sB->IAJB', Co, Cv, I, Co, Cv)
 
 #===> Compute MP2 Correlation & MP2 Energy <===#
 #Compute energy denominator array (super naive)
@@ -99,11 +120,11 @@ print("Do our transformed ERIs match Psi4's? %s" % np.allclose(I_mo, np.asarray(
 e_denom = 1 / (e_ij.reshape(-1, 1, 1, 1) - e_ab.reshape(-1, 1, 1) + e_ij.reshape(-1,1) - e_ab)
 
 # Compute SS & OS MP2 Correlation with Einsum
-mp2_os_corr = np.einsum('iajb,iajb,iajb->', I_mo, I_mo, e_denom, optimize=False)
-mp2_ss_corr = np.einsum('iajb,iajb,iajb->', I_mo, I_mo - I_mo.swapaxes(1,3), e_denom, optimize=False)
+MP2corr_OS = np.einsum('iajb,iajb,iajb->', MO, MO, e_denom)
+MP2corr_SS = np.einsum('iajb,iajb,iajb->', MO - MO.swapaxes(1, 3), MO, e_denom)
 
 # Total MP2 Energy
-MP2_E = scf_e + mp2_os_corr + mp2_ss_corr
+MP2_E = scf_e + MP2corr_OS + MP2corr_SS
 print("MP2 energy calculated as:" + str(MP2_E) + " AU")
 
 #ending timer, memory tracking and reporting

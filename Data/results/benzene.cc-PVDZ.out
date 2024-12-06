@@ -1,8 +1,8 @@
-
 Scratch directory: /tmp/
 
-*** tstart() called on asax026.asc.edu
-*** at Thu Nov 21 08:43:13 2024
+
+*** tstart() called on asax027.asc.edu
+*** at Wed Dec  4 23:03:46 2024
 
    => Loading Basis Set <=
 
@@ -221,6 +221,8 @@ Properties computed using the SCF density matrix
 
  ------------------------------------------------------------------------------------
 
+
+=======
 *** tstop() called on asax026.asc.edu at Thu Nov 21 08:43:24 2024
 Module time:
 	user time   =      10.38 seconds =       0.17 minutes
@@ -666,3 +668,4 @@ Total time:
 	system time =       1.06 seconds =       0.02 minutes
 	total time  =        155 seconds =       2.58 minutes
     MP2 Energy............................................................................PASSED
+

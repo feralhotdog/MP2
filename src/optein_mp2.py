@@ -6,6 +6,7 @@ import numpy as np
 import time
 from pathlib import Path
 import tracemalloc
+from opt_einsum import contract
 
 #setting memory
 psi4.set_memory(int(480e9))
@@ -84,7 +85,7 @@ Cocc = C[:, :ndocc]
 Cvirt = C[:, ndocc:]
 
 #===> Naive ERI tranformation <===#
-I_mo = np.einsum('pi,qa,pqrs,rj,sb->iajb', Cocc, Cvirt, I, Cocc, Cvirt, optimize=False)
+I_mo = contract('pi,qa,pqrs,rj,sb->iajb', Cocc, Cvirt, I, Cocc, Cvirt, optimize=True)
 
 #===> Compare I_mo with Mintshelper <===#
 Co = scf_wfn.Ca_subset('AO','OCC')
@@ -99,8 +100,8 @@ print("Do our transformed ERIs match Psi4's? %s" % np.allclose(I_mo, np.asarray(
 e_denom = 1 / (e_ij.reshape(-1, 1, 1, 1) - e_ab.reshape(-1, 1, 1) + e_ij.reshape(-1,1) - e_ab)
 
 # Compute SS & OS MP2 Correlation with Einsum
-mp2_os_corr = np.einsum('iajb,iajb,iajb->', I_mo, I_mo, e_denom, optimize=False)
-mp2_ss_corr = np.einsum('iajb,iajb,iajb->', I_mo, I_mo - I_mo.swapaxes(1,3), e_denom, optimize=False)
+mp2_os_corr = contract('iajb,iajb,iajb->', I_mo, I_mo, e_denom, optimize=False)
+mp2_ss_corr = contract('iajb,iajb,iajb->', I_mo, I_mo - I_mo.swapaxes(1,3), e_denom)
 
 # Total MP2 Energy
 MP2_E = scf_e + mp2_os_corr + mp2_ss_corr

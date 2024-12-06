@@ -2,7 +2,9 @@
 Scratch directory: /tmp/
 
 *** tstart() called on asax026.asc.edu
+
 *** at Wed Dec  4 15:47:42 2024
+
 
    => Loading Basis Set <=
 
@@ -267,12 +269,15 @@ Module time:
 Total time:
 	user time   =      31.20 seconds =       0.52 minutes
 	system time =       2.65 seconds =       0.04 minutes
+
 	total time  =         34 seconds =       0.57 minutes
 
 Scratch directory: /tmp/
 
 *** tstart() called on asax026.asc.edu
+
 *** at Wed Dec  4 16:00:34 2024
+
 
    => Loading Basis Set <=
 
@@ -538,6 +543,7 @@ Total time:
 	user time   =     789.79 seconds =      13.16 minutes
 	system time =      10.88 seconds =       0.18 minutes
 	total time  =        806 seconds =      13.43 minutes
+
  MINTS: Wrapper to libmints.
    by Justin Turney
 
@@ -563,7 +569,9 @@ Total time:
 
 
 *** tstart() called on asax026.asc.edu
+
 *** at Wed Dec  4 16:01:31 2024
+
 
 
 
@@ -741,4 +749,5 @@ Total time:
 	user time   =     852.78 seconds =      14.21 minutes
 	system time =      21.03 seconds =       0.35 minutes
 	total time  =        879 seconds =      14.65 minutes
+
     MP2 Energy............................................................................PASSED

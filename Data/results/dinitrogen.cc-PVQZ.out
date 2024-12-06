@@ -4,6 +4,7 @@ Scratch directory: /tmp/
 *** tstart() called on asax027.asc.edu
 *** at Wed Dec  4 18:38:00 2024
 
+
    => Loading Basis Set <=
 
     Name: CC-PVQZ
@@ -224,6 +225,7 @@ Scratch directory: /tmp/
 *** tstart() called on asax027.asc.edu
 *** at Wed Dec  4 18:38:27 2024
 
+
    => Loading Basis Set <=
 
     Name: CC-PVQZ
@@ -438,6 +440,7 @@ Total time:
 	user time   =      33.82 seconds =       0.56 minutes
 	system time =       0.65 seconds =       0.01 minutes
 	total time  =         29 seconds =       0.48 minutes
+
  MINTS: Wrapper to libmints.
    by Justin Turney
 
@@ -464,6 +467,7 @@ Total time:
 
 *** tstart() called on asax027.asc.edu
 *** at Wed Dec  4 18:38:32 2024
+
 
 
 
@@ -641,4 +645,5 @@ Total time:
 	user time   =      39.51 seconds =       0.66 minutes
 	system time =       1.06 seconds =       0.02 minutes
 	total time  =         34 seconds =       0.57 minutes
+
     MP2 Energy............................................................................PASSED

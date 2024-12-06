@@ -2,7 +2,11 @@
 Scratch directory: /tmp/
 
 *** tstart() called on asax026.asc.edu
+
 *** at Wed Dec  4 16:02:33 2024
+
+
+
 
    => Loading Basis Set <=
 
@@ -124,6 +128,7 @@ Scratch directory: /tmp/
 
                         Total Energy        Delta E     RMS |[F,P]|
 
+
    @RHF iter SAD:  -230.22292762935814   -2.30223e+02   0.00000e+00 
    @RHF iter   1:  -230.63424721861830   -4.11320e-01   1.00293e-03 DIIS/ADIIS
    @RHF iter   2:  -230.76089171140873   -1.26644e-01   4.86813e-04 DIIS/ADIIS
@@ -133,6 +138,7 @@ Scratch directory: /tmp/
    @RHF iter   6:  -230.79310531134851   -9.56959e-07   2.07680e-07 DIIS
    @RHF iter   7:  -230.79310532454014   -1.31916e-08   2.43109e-08 DIIS
    @RHF iter   8:  -230.79310532473914   -1.99009e-10   6.45107e-09 DIIS
+
   Energy and wave function converged.
 
 
@@ -352,6 +358,7 @@ Properties computed using the SCF density matrix
 
  ------------------------------------------------------------------------------------
 
+
 *** tstop() called on asax026.asc.edu at Wed Dec  4 16:11:28 2024
 Module time:
 	user time   =     517.80 seconds =       8.63 minutes
@@ -361,3 +368,4 @@ Total time:
 	user time   =     517.80 seconds =       8.63 minutes
 	system time =      11.63 seconds =       0.19 minutes
 	total time  =        535 seconds =       8.92 minutes
+

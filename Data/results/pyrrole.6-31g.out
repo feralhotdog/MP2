@@ -4,6 +4,7 @@ Scratch directory: /tmp/
 *** tstart() called on asax027.asc.edu
 *** at Wed Dec  4 16:53:26 2024
 
+
    => Loading Basis Set <=
 
     Name: 6-31G
@@ -203,6 +204,7 @@ Properties computed using the SCF density matrix
 
  ------------------------------------------------------------------------------------
 
+
 *** tstop() called on asax027.asc.edu at Wed Dec  4 16:53:29 2024
 Module time:
 	user time   =       1.49 seconds =       0.02 minutes
@@ -217,6 +219,7 @@ Scratch directory: /tmp/
 
 *** tstart() called on asax027.asc.edu
 *** at Wed Dec  4 23:03:30 2024
+
 
    => Loading Basis Set <=
 
@@ -417,6 +420,7 @@ Properties computed using the SCF density matrix
 
  ------------------------------------------------------------------------------------
 
+
 *** tstop() called on asax027.asc.edu at Wed Dec  4 23:03:32 2024
 Module time:
 	user time   =       1.27 seconds =       0.02 minutes
@@ -426,6 +430,7 @@ Total time:
 	user time   =   22108.55 seconds =     368.48 minutes
 	system time =       0.32 seconds =       0.01 minutes
 	total time  =      22206 seconds =     370.10 minutes
+
  MINTS: Wrapper to libmints.
    by Justin Turney
 
@@ -450,8 +455,10 @@ Total time:
         Stored in file 33.
 
 
+
 *** tstart() called on asax027.asc.edu
 *** at Wed Dec  4 23:03:33 2024
+
 
 
 
@@ -629,4 +636,5 @@ Total time:
 	user time   =   22109.42 seconds =     368.49 minutes
 	system time =       0.37 seconds =       0.01 minutes
 	total time  =      22207 seconds =     370.12 minutes
+
     MP2 Energy............................................................................PASSED

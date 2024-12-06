@@ -2,7 +2,10 @@
 Scratch directory: /tmp/
 
 *** tstart() called on asax026.asc.edu
+
 *** at Wed Dec  4 15:47:21 2024
+
+
 
    => Loading Basis Set <=
 
@@ -121,6 +124,7 @@ Scratch directory: /tmp/
    @RHF iter   2:  -150.63289098149022   -4.21262e-02   1.64975e-03 ADIIS/DIIS
    @RHF iter   3:  -150.63947316165206   -6.58218e-03   2.95568e-04 ADIIS/DIIS
    @RHF iter   4:  -150.64003792137711   -5.64760e-04   6.26746e-05 DIIS
+
    @RHF iter   5:  -150.64006847677712   -3.05554e-05   1.53748e-05 DIIS
    @RHF iter   6:  -150.64007195723352   -3.48046e-06   6.41948e-06 DIIS
    @RHF iter   7:  -150.64007294088296   -9.83649e-07   2.57653e-06 DIIS
@@ -217,10 +221,13 @@ Total time:
 	system time =       0.61 seconds =       0.01 minutes
 	total time  =          2 seconds =       0.03 minutes
 
+
 Scratch directory: /tmp/
 
 *** tstart() called on asax026.asc.edu
+
 *** at Wed Dec  4 15:47:35 2024
+
 
    => Loading Basis Set <=
 
@@ -339,6 +346,7 @@ Scratch directory: /tmp/
    @RHF iter   2:  -150.63289098149022   -4.21262e-02   1.64975e-03 ADIIS/DIIS
    @RHF iter   3:  -150.63947316165206   -6.58218e-03   2.95568e-04 ADIIS/DIIS
    @RHF iter   4:  -150.64003792137711   -5.64760e-04   6.26746e-05 DIIS
+
    @RHF iter   5:  -150.64006847677712   -3.05554e-05   1.53748e-05 DIIS
    @RHF iter   6:  -150.64007195723352   -3.48046e-06   6.41948e-06 DIIS
    @RHF iter   7:  -150.64007294088296   -9.83649e-07   2.57653e-06 DIIS
@@ -425,6 +433,7 @@ Properties computed using the SCF density matrix
 
  ------------------------------------------------------------------------------------
 
+
 *** tstop() called on asax026.asc.edu at Wed Dec  4 15:47:37 2024
 Module time:
 	user time   =       1.43 seconds =       0.02 minutes
@@ -434,6 +443,7 @@ Total time:
 	user time   =      14.43 seconds =       0.24 minutes
 	system time =       1.48 seconds =       0.02 minutes
 	total time  =         16 seconds =       0.27 minutes
+  
  MINTS: Wrapper to libmints.
    by Justin Turney
 
@@ -459,7 +469,9 @@ Total time:
 
 
 *** tstart() called on asax026.asc.edu
+
 *** at Wed Dec  4 15:47:37 2024
+
 
 
 
@@ -628,6 +640,7 @@ Total time:
 	============================================================================== 
 
 
+
 *** tstop() called on asax026.asc.edu at Wed Dec  4 15:47:39 2024
 Module time:
 	user time   =       0.90 seconds =       0.02 minutes
@@ -637,4 +650,5 @@ Total time:
 	user time   =      15.95 seconds =       0.27 minutes
 	system time =       2.33 seconds =       0.04 minutes
 	total time  =         18 seconds =       0.30 minutes
+
     MP2 Energy............................................................................PASSED

@@ -2,7 +2,9 @@
 Scratch directory: /tmp/
 
 *** tstart() called on asax026.asc.edu
+
 *** at Wed Dec  4 15:47:11 2024
+
 
    => Loading Basis Set <=
 
@@ -202,10 +204,13 @@ Total time:
 	system time =       0.38 seconds =       0.01 minutes
 	total time  =          2 seconds =       0.03 minutes
 
+
 Scratch directory: /tmp/
 
 *** tstart() called on asax026.asc.edu
+
 *** at Wed Dec  4 15:47:16 2024
+
 
    => Loading Basis Set <=
 
@@ -404,6 +409,7 @@ Total time:
 	user time   =       4.38 seconds =       0.07 minutes
 	system time =       0.84 seconds =       0.01 minutes
 	total time  =          6 seconds =       0.10 minutes
+
  MINTS: Wrapper to libmints.
    by Justin Turney
 
@@ -429,7 +435,9 @@ Total time:
 
 
 *** tstart() called on asax026.asc.edu
+
 *** at Wed Dec  4 15:47:17 2024
+
 
 
 
@@ -587,15 +595,18 @@ Total time:
 	Alpha-Beta Contribution (a.u.)     :    -0.37823955949721
 	Beta-Beta Contribution (a.u.)      :    -0.06909580993218
 	Scaled_SS Correlation Energy (a.u.):    -0.04606387328812
+
 	Scaled_OS Correlation Energy (a.u.):    -0.45388747139665
 	SCS-MP2 Total Energy (a.u.)        :  -109.26956340812087
 	SOS-MP2 Total Energy (a.u.)        :  -109.26132349078247
 	SCSN-MP2 Total Energy (a.u.)       :  -109.01282931439737
 	SCS-MP2-VDW Total Energy (a.u.)    :  -109.32285450952470
 	SOS-PI-MP2 Total Energy (a.u.)     :  -109.29914744673219
+
 	MP2 Correlation Energy (a.u.)      :    -0.51643117936157
 	MP2 Total Energy (a.u.)            :  -109.28604324279766
 	============================================================================== 
+
 
 
 *** tstop() called on asax026.asc.edu at Wed Dec  4 15:47:17 2024
@@ -607,4 +618,5 @@ Total time:
 	user time   =       4.82 seconds =       0.08 minutes
 	system time =       1.22 seconds =       0.02 minutes
 	total time  =          6 seconds =       0.10 minutes
+
     MP2 Energy............................................................................PASSED

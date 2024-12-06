@@ -4,6 +4,7 @@ Scratch directory: /tmp/
 *** tstart() called on asax026.asc.edu
 *** at Wed Dec  4 15:10:24 2024
 
+
    => Loading Basis Set <=
 
     Name: CC-PVDZ
@@ -217,6 +218,7 @@ Properties computed using the SCF density matrix
 
  ------------------------------------------------------------------------------------
 
+
 *** tstop() called on asax026.asc.edu at Wed Dec  4 15:10:31 2024
 Module time:
 	user time   =       5.35 seconds =       0.09 minutes
@@ -230,6 +232,7 @@ Total time:
 Scratch directory: /tmp/
 
 *** tstart() called on asax026.asc.edu
+
 *** at Wed Dec  4 15:11:29 2024
 
    => Loading Basis Set <=
@@ -454,6 +457,7 @@ Total time:
 	user time   =      67.85 seconds =       1.13 minutes
 	system time =       1.85 seconds =       0.03 minutes
 	total time  =         71 seconds =       1.18 minutes
+
  MINTS: Wrapper to libmints.
    by Justin Turney
 
@@ -479,7 +483,9 @@ Total time:
 
 
 *** tstart() called on asax026.asc.edu
+
 *** at Wed Dec  4 15:11:38 2024
+
 
 
 
@@ -648,6 +654,7 @@ Total time:
 	============================================================================== 
 
 
+
 *** tstop() called on asax026.asc.edu at Wed Dec  4 15:11:41 2024
 Module time:
 	user time   =       1.67 seconds =       0.03 minutes
@@ -657,4 +664,5 @@ Total time:
 	user time   =      73.10 seconds =       1.22 minutes
 	system time =       3.12 seconds =       0.05 minutes
 	total time  =         77 seconds =       1.28 minutes
+
     MP2 Energy............................................................................PASSED

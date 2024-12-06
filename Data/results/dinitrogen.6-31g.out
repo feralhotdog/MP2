@@ -1,8 +1,8 @@
 
 Scratch directory: /tmp/
 
-*** tstart() called on asax002.asc.edu
-*** at Wed Nov 20 09:39:19 2024
+*** tstart() called on asax027.asc.edu
+*** at Wed Dec  4 16:52:54 2024
 
    => Loading Basis Set <=
 
@@ -113,15 +113,15 @@ Scratch directory: /tmp/
 
                         Total Energy        Delta E     RMS |[F,P]|
 
-   @RHF iter SAD:  -107.35013099719922   -1.07350e+02   0.00000e+00 
-   @RHF iter   1:  -108.67390499591485   -1.32377e+00   6.94670e-03 ADIIS/DIIS
-   @RHF iter   2:  -108.68375679654892   -9.85180e-03   1.52657e-03 ADIIS/DIIS
-   @RHF iter   3:  -108.68440230120341   -6.45505e-04   4.17515e-04 ADIIS/DIIS
-   @RHF iter   4:  -108.68444436785472   -4.20667e-05   2.55913e-05 DIIS
-   @RHF iter   5:  -108.68444452795976   -1.60105e-07   3.92747e-06 DIIS
-   @RHF iter   6:  -108.68444453192362   -3.96386e-09   1.67724e-07 DIIS
-   @RHF iter   7:  -108.68444453193207   -8.45546e-12   2.54040e-08 DIIS
-   @RHF iter   8:  -108.68444453193239   -3.12639e-13   2.01146e-09 DIIS
+   @RHF iter SAD:  -107.35013099719919   -1.07350e+02   0.00000e+00 
+   @RHF iter   1:  -108.67390499591481   -1.32377e+00   6.94670e-03 ADIIS/DIIS
+   @RHF iter   2:  -108.68375679654891   -9.85180e-03   1.52657e-03 ADIIS/DIIS
+   @RHF iter   3:  -108.68440230120346   -6.45505e-04   4.17515e-04 ADIIS/DIIS
+   @RHF iter   4:  -108.68444436785470   -4.20667e-05   2.55913e-05 DIIS
+   @RHF iter   5:  -108.68444452795973   -1.60105e-07   3.92747e-06 DIIS
+   @RHF iter   6:  -108.68444453192365   -3.96392e-09   1.67724e-07 DIIS
+   @RHF iter   7:  -108.68444453193220   -8.55493e-12   2.54040e-08 DIIS
+   @RHF iter   8:  -108.68444453193231   -1.13687e-13   2.01146e-09 DIIS
   Energy and wave function converged.
 
 
@@ -147,14 +147,14 @@ Scratch directory: /tmp/
               A 
     DOCC [     7 ]
 
-  @RHF Final Energy:  -108.68444453193239
+  @RHF Final Energy:  -108.68444453193231
 
    => Energetics <=
 
     Nuclear Repulsion Energy =             18.2603403681901426
-    One-Electron Energy =                -183.1226077498608333
-    Two-Electron Energy =                  56.1778228497382912
-    Total Energy =                       -108.6844445319323853
+    One-Electron Energy =                -183.1226077498606628
+    Two-Electron Energy =                  56.1778228497381917
+    Total Energy =                       -108.6844445319323142
 
 Computation Completed
 
@@ -171,27 +171,27 @@ Properties computed using the SCF density matrix
  ------------------------------------------------------------------------------------
 
  L = 1.  Multiply by 2.5417464519 to convert [e a0] to [Debye]
- Dipole X            :          0.0000000            0.0000000            0.0000000
+ Dipole X            :         -0.0000000            0.0000000           -0.0000000
  Dipole Y            :          0.0000000            0.0000000            0.0000000
- Dipole Z            :         -0.0000000            0.0000000           -0.0000000
+ Dipole Z            :          0.0000000            0.0000000            0.0000000
  Magnitude           :                                                    0.0000000
 
  ------------------------------------------------------------------------------------
 
-*** tstop() called on asax002.asc.edu at Wed Nov 20 09:39:20 2024
+*** tstop() called on asax027.asc.edu at Wed Dec  4 16:52:56 2024
 Module time:
-	user time   =       1.29 seconds =       0.02 minutes
-	system time =       0.08 seconds =       0.00 minutes
-	total time  =          1 seconds =       0.02 minutes
+	user time   =       0.46 seconds =       0.01 minutes
+	system time =       0.09 seconds =       0.00 minutes
+	total time  =          2 seconds =       0.03 minutes
 Total time:
-	user time   =       1.29 seconds =       0.02 minutes
-	system time =       0.08 seconds =       0.00 minutes
-	total time  =          1 seconds =       0.02 minutes
+	user time   =       0.46 seconds =       0.01 minutes
+	system time =       0.09 seconds =       0.00 minutes
+	total time  =          2 seconds =       0.03 minutes
 
 Scratch directory: /tmp/
 
-*** tstart() called on asax002.asc.edu
-*** at Wed Nov 20 09:39:20 2024
+*** tstart() called on asax027.asc.edu
+*** at Wed Dec  4 16:53:00 2024
 
    => Loading Basis Set <=
 
@@ -302,15 +302,15 @@ Scratch directory: /tmp/
 
                         Total Energy        Delta E     RMS |[F,P]|
 
-   @RHF iter SAD:  -107.35013099719922   -1.07350e+02   0.00000e+00 
-   @RHF iter   1:  -108.67390499591485   -1.32377e+00   6.94670e-03 ADIIS/DIIS
-   @RHF iter   2:  -108.68375679654892   -9.85180e-03   1.52657e-03 ADIIS/DIIS
-   @RHF iter   3:  -108.68440230120341   -6.45505e-04   4.17515e-04 ADIIS/DIIS
-   @RHF iter   4:  -108.68444436785472   -4.20667e-05   2.55913e-05 DIIS
-   @RHF iter   5:  -108.68444452795976   -1.60105e-07   3.92747e-06 DIIS
-   @RHF iter   6:  -108.68444453192362   -3.96386e-09   1.67724e-07 DIIS
-   @RHF iter   7:  -108.68444453193207   -8.45546e-12   2.54040e-08 DIIS
-   @RHF iter   8:  -108.68444453193239   -3.12639e-13   2.01146e-09 DIIS
+   @RHF iter SAD:  -107.35013099719919   -1.07350e+02   0.00000e+00 
+   @RHF iter   1:  -108.67390499591481   -1.32377e+00   6.94670e-03 ADIIS/DIIS
+   @RHF iter   2:  -108.68375679654891   -9.85180e-03   1.52657e-03 ADIIS/DIIS
+   @RHF iter   3:  -108.68440230120346   -6.45505e-04   4.17515e-04 ADIIS/DIIS
+   @RHF iter   4:  -108.68444436785470   -4.20667e-05   2.55913e-05 DIIS
+   @RHF iter   5:  -108.68444452795973   -1.60105e-07   3.92747e-06 DIIS
+   @RHF iter   6:  -108.68444453192365   -3.96392e-09   1.67724e-07 DIIS
+   @RHF iter   7:  -108.68444453193220   -8.55493e-12   2.54040e-08 DIIS
+   @RHF iter   8:  -108.68444453193231   -1.13687e-13   2.01146e-09 DIIS
   Energy and wave function converged.
 
 
@@ -336,14 +336,14 @@ Scratch directory: /tmp/
               A 
     DOCC [     7 ]
 
-  @RHF Final Energy:  -108.68444453193239
+  @RHF Final Energy:  -108.68444453193231
 
    => Energetics <=
 
     Nuclear Repulsion Energy =             18.2603403681901426
-    One-Electron Energy =                -183.1226077498608333
-    Two-Electron Energy =                  56.1778228497382912
-    Total Energy =                       -108.6844445319323853
+    One-Electron Energy =                -183.1226077498606628
+    Two-Electron Energy =                  56.1778228497381917
+    Total Energy =                       -108.6844445319323142
 
 Computation Completed
 
@@ -360,22 +360,22 @@ Properties computed using the SCF density matrix
  ------------------------------------------------------------------------------------
 
  L = 1.  Multiply by 2.5417464519 to convert [e a0] to [Debye]
- Dipole X            :          0.0000000            0.0000000            0.0000000
+ Dipole X            :         -0.0000000            0.0000000           -0.0000000
  Dipole Y            :          0.0000000            0.0000000            0.0000000
- Dipole Z            :         -0.0000000            0.0000000           -0.0000000
+ Dipole Z            :          0.0000000            0.0000000            0.0000000
  Magnitude           :                                                    0.0000000
 
  ------------------------------------------------------------------------------------
 
-*** tstop() called on asax002.asc.edu at Wed Nov 20 09:39:20 2024
+*** tstop() called on asax027.asc.edu at Wed Dec  4 16:53:00 2024
 Module time:
-	user time   =       0.94 seconds =       0.02 minutes
-	system time =       0.02 seconds =       0.00 minutes
+	user time   =       0.22 seconds =       0.00 minutes
+	system time =       0.00 seconds =       0.00 minutes
 	total time  =          0 seconds =       0.00 minutes
 Total time:
-	user time   =       2.64 seconds =       0.04 minutes
-	system time =       0.12 seconds =       0.00 minutes
-	total time  =          1 seconds =       0.02 minutes
+	user time   =       4.83 seconds =       0.08 minutes
+	system time =       0.10 seconds =       0.00 minutes
+	total time  =          6 seconds =       0.10 minutes
  MINTS: Wrapper to libmints.
    by Justin Turney
 
@@ -400,8 +400,8 @@ Total time:
         Stored in file 33.
 
 
-*** tstart() called on asax002.asc.edu
-*** at Wed Nov 20 09:39:20 2024
+*** tstart() called on asax027.asc.edu
+*** at Wed Dec  4 16:53:00 2024
 
 
 
@@ -553,30 +553,30 @@ Total time:
 	Computing MP2 energy using SCF MOs (Canonical MP2)... 
 	============================================================================== 
 	Nuclear Repulsion Energy (a.u.)    :    18.26034036819014
-	SCF Energy (a.u.)                  :  -108.68444453193239
-	REF Energy (a.u.)                  :  -108.68444453193239
+	SCF Energy (a.u.)                  :  -108.68444453193231
+	REF Energy (a.u.)                  :  -108.68444453193231
 	Alpha-Alpha Contribution (a.u.)    :    -0.05433676468002
 	Alpha-Beta Contribution (a.u.)     :    -0.26373603875220
 	Beta-Beta Contribution (a.u.)      :    -0.05433676468002
 	Scaled_SS Correlation Energy (a.u.):    -0.03622450978668
 	Scaled_OS Correlation Energy (a.u.):    -0.31648324650264
-	SCS-MP2 Total Energy (a.u.)        :  -109.03715228822171
-	SOS-MP2 Total Energy (a.u.)        :  -109.02730138231024
-	SCSN-MP2 Total Energy (a.u.)       :  -108.87570994360608
-	SCS-MP2-VDW Total Energy (a.u.)    :  -109.07636342621522
-	SOS-PI-MP2 Total Energy (a.u.)     :  -109.05367498618547
+	SCS-MP2 Total Energy (a.u.)        :  -109.03715228822163
+	SOS-MP2 Total Energy (a.u.)        :  -109.00092777843496
+	SCSN-MP2 Total Energy (a.u.)       :  -108.87570994360601
+	SCS-MP2-VDW Total Energy (a.u.)    :  -109.07636342621515
+	SOS-PI-MP2 Total Energy (a.u.)     :  -109.05367498618540
 	MP2 Correlation Energy (a.u.)      :    -0.37240956811225
-	MP2 Total Energy (a.u.)            :  -109.05685410004463
+	MP2 Total Energy (a.u.)            :  -109.05685410004456
 	============================================================================== 
 
 
-*** tstop() called on asax002.asc.edu at Wed Nov 20 09:39:20 2024
+*** tstop() called on asax027.asc.edu at Wed Dec  4 16:53:01 2024
 Module time:
-	user time   =       0.37 seconds =       0.01 minutes
-	system time =       0.01 seconds =       0.00 minutes
-	total time  =          0 seconds =       0.00 minutes
-Total time:
-	user time   =       3.34 seconds =       0.06 minutes
-	system time =       0.15 seconds =       0.00 minutes
+	user time   =       0.01 seconds =       0.00 minutes
+	system time =       0.00 seconds =       0.00 minutes
 	total time  =          1 seconds =       0.02 minutes
+Total time:
+	user time   =       4.85 seconds =       0.08 minutes
+	system time =       0.11 seconds =       0.00 minutes
+	total time  =          7 seconds =       0.12 minutes
     MP2 Energy............................................................................PASSED

@@ -9,8 +9,9 @@ from pathlib import Path
 import tracemalloc
 
 #set num threads
-torch.set_num_threads(4)
-torch.set_num_interop_threads(1)
+torch.set_num_interop_threads(1) # Keep interop threads low
+torch.set_num_threads(1)  # Adjust to your hardware
+psi4.set_num_threads(8)
 
 #checking for gpu
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')

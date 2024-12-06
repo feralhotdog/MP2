@@ -1,8 +1,8 @@
 
 Scratch directory: /tmp/
 
-*** tstart() called on asax002.asc.edu
-*** at Wed Nov 20 10:25:37 2024
+*** tstart() called on asax027.asc.edu
+*** at Wed Dec  4 18:38:35 2024
 
    => Loading Basis Set <=
 
@@ -234,20 +234,20 @@ Properties computed using the SCF density matrix
 
  ------------------------------------------------------------------------------------
 
-*** tstop() called on asax002.asc.edu at Wed Nov 20 10:25:48 2024
+*** tstop() called on asax027.asc.edu at Wed Dec  4 18:38:43 2024
 Module time:
-	user time   =      15.93 seconds =       0.27 minutes
-	system time =       0.39 seconds =       0.01 minutes
-	total time  =         11 seconds =       0.18 minutes
+	user time   =      11.53 seconds =       0.19 minutes
+	system time =       0.26 seconds =       0.00 minutes
+	total time  =          8 seconds =       0.13 minutes
 Total time:
-	user time   =      15.93 seconds =       0.27 minutes
-	system time =       0.39 seconds =       0.01 minutes
-	total time  =         11 seconds =       0.18 minutes
+	user time   =      11.53 seconds =       0.19 minutes
+	system time =       0.26 seconds =       0.00 minutes
+	total time  =          8 seconds =       0.13 minutes
 
 Scratch directory: /tmp/
 
-*** tstart() called on asax002.asc.edu
-*** at Wed Nov 20 10:27:07 2024
+*** tstart() called on asax027.asc.edu
+*** at Wed Dec  4 18:40:34 2024
 
    => Loading Basis Set <=
 
@@ -479,15 +479,15 @@ Properties computed using the SCF density matrix
 
  ------------------------------------------------------------------------------------
 
-*** tstop() called on asax002.asc.edu at Wed Nov 20 10:27:17 2024
+*** tstop() called on asax027.asc.edu at Wed Dec  4 18:40:42 2024
 Module time:
-	user time   =      15.84 seconds =       0.26 minutes
-	system time =       0.30 seconds =       0.01 minutes
-	total time  =         10 seconds =       0.17 minutes
+	user time   =      11.07 seconds =       0.18 minutes
+	system time =       0.23 seconds =       0.00 minutes
+	total time  =          8 seconds =       0.13 minutes
 Total time:
-	user time   =     164.12 seconds =       2.74 minutes
-	system time =       1.49 seconds =       0.02 minutes
-	total time  =        100 seconds =       1.67 minutes
+	user time   =     174.25 seconds =       2.90 minutes
+	system time =       2.82 seconds =       0.05 minutes
+	total time  =        127 seconds =       2.12 minutes
  MINTS: Wrapper to libmints.
    by Justin Turney
 
@@ -512,8 +512,8 @@ Total time:
         Stored in file 33.
 
 
-*** tstart() called on asax002.asc.edu
-*** at Wed Nov 20 10:27:25 2024
+*** tstart() called on asax027.asc.edu
+*** at Wed Dec  4 18:40:47 2024
 
 
 
@@ -682,13 +682,13 @@ Total time:
 	============================================================================== 
 
 
-*** tstop() called on asax002.asc.edu at Wed Nov 20 10:27:36 2024
+*** tstop() called on asax027.asc.edu at Wed Dec  4 18:40:55 2024
 Module time:
-	user time   =      21.70 seconds =       0.36 minutes
-	system time =       1.86 seconds =       0.03 minutes
-	total time  =         11 seconds =       0.18 minutes
+	user time   =      13.93 seconds =       0.23 minutes
+	system time =       1.52 seconds =       0.03 minutes
+	total time  =          8 seconds =       0.13 minutes
 Total time:
-	user time   =     193.03 seconds =       3.22 minutes
-	system time =       3.70 seconds =       0.06 minutes
-	total time  =        119 seconds =       1.98 minutes
+	user time   =     193.91 seconds =       3.23 minutes
+	system time =       4.61 seconds =       0.08 minutes
+	total time  =        140 seconds =       2.33 minutes
     MP2 Energy............................................................................PASSED

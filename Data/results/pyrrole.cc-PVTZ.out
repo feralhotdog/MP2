@@ -1,8 +1,8 @@
 
 Scratch directory: /tmp/
 
-*** tstart() called on asax002.asc.edu
-*** at Wed Nov 20 10:00:26 2024
+*** tstart() called on asax026.asc.edu
+*** at Wed Dec  4 15:47:42 2024
 
    => Loading Basis Set <=
 
@@ -259,20 +259,20 @@ Properties computed using the SCF density matrix
 
  ------------------------------------------------------------------------------------
 
-*** tstop() called on asax002.asc.edu at Wed Nov 20 10:01:02 2024
+*** tstop() called on asax026.asc.edu at Wed Dec  4 15:48:16 2024
 Module time:
-	user time   =      44.65 seconds =       0.74 minutes
-	system time =       0.73 seconds =       0.01 minutes
-	total time  =         36 seconds =       0.60 minutes
+	user time   =      31.20 seconds =       0.52 minutes
+	system time =       2.65 seconds =       0.04 minutes
+	total time  =         34 seconds =       0.57 minutes
 Total time:
-	user time   =      44.65 seconds =       0.74 minutes
-	system time =       0.73 seconds =       0.01 minutes
-	total time  =         36 seconds =       0.60 minutes
+	user time   =      31.20 seconds =       0.52 minutes
+	system time =       2.65 seconds =       0.04 minutes
+	total time  =         34 seconds =       0.57 minutes
 
 Scratch directory: /tmp/
 
-*** tstart() called on asax002.asc.edu
-*** at Wed Nov 20 10:06:43 2024
+*** tstart() called on asax026.asc.edu
+*** at Wed Dec  4 16:00:34 2024
 
    => Loading Basis Set <=
 
@@ -529,15 +529,15 @@ Properties computed using the SCF density matrix
 
  ------------------------------------------------------------------------------------
 
-*** tstop() called on asax002.asc.edu at Wed Nov 20 10:07:26 2024
+*** tstop() called on asax026.asc.edu at Wed Dec  4 16:01:08 2024
 Module time:
-	user time   =      51.64 seconds =       0.86 minutes
-	system time =       0.81 seconds =       0.01 minutes
-	total time  =         43 seconds =       0.72 minutes
+	user time   =      30.97 seconds =       0.52 minutes
+	system time =       2.48 seconds =       0.04 minutes
+	total time  =         34 seconds =       0.57 minutes
 Total time:
-	user time   =     796.54 seconds =      13.28 minutes
-	system time =       3.99 seconds =       0.07 minutes
-	total time  =        420 seconds =       7.00 minutes
+	user time   =     789.79 seconds =      13.16 minutes
+	system time =      10.88 seconds =       0.18 minutes
+	total time  =        806 seconds =      13.43 minutes
  MINTS: Wrapper to libmints.
    by Justin Turney
 
@@ -562,8 +562,8 @@ Total time:
         Stored in file 33.
 
 
-*** tstart() called on asax002.asc.edu
-*** at Wed Nov 20 10:07:57 2024
+*** tstart() called on asax026.asc.edu
+*** at Wed Dec  4 16:01:31 2024
 
 
 
@@ -723,7 +723,7 @@ Total time:
 	Scaled_SS Correlation Energy (a.u.):    -0.07560571618052
 	Scaled_OS Correlation Energy (a.u.):    -0.83881786152907
 	SCS-MP2 Total Energy (a.u.)        :  -209.79768256618843
-	SOS-MP2 Total Energy (a.u.)        :  -209.72207685000791
+	SOS-MP2 Total Energy (a.u.)        :  -209.79197833846868
 	SCSN-MP2 Total Energy (a.u.)       :  -209.28245716991196
 	SCS-MP2-VDW Total Energy (a.u.)    :  -209.89140661504726
 	SOS-PI-MP2 Total Energy (a.u.)     :  -209.86187982692942
@@ -732,13 +732,13 @@ Total time:
 	============================================================================== 
 
 
-*** tstop() called on asax002.asc.edu at Wed Nov 20 10:08:41 2024
+*** tstop() called on asax026.asc.edu at Wed Dec  4 16:02:21 2024
 Module time:
-	user time   =      69.79 seconds =       1.16 minutes
-	system time =       6.79 seconds =       0.11 minutes
-	total time  =         44 seconds =       0.73 minutes
+	user time   =      41.26 seconds =       0.69 minutes
+	system time =       8.38 seconds =       0.14 minutes
+	total time  =         50 seconds =       0.83 minutes
 Total time:
-	user time   =     895.05 seconds =      14.92 minutes
-	system time =      13.06 seconds =       0.22 minutes
-	total time  =        495 seconds =       8.25 minutes
+	user time   =     852.78 seconds =      14.21 minutes
+	system time =      21.03 seconds =       0.35 minutes
+	total time  =        879 seconds =      14.65 minutes
     MP2 Energy............................................................................PASSED

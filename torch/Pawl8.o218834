@@ -1,0 +1,24 @@
+setting asax scratch directory
+ 
+============================================================
+=====         Summary of your script job               =====
+============================================================
+  The script file is: torch_mp2_pawl_batch8.sh
+  The time limit is 360:00:00 HH:MM:SS.
+  The target directory is: /home/aubclsd0286/MP2/torch
+  The working directory is:  /scratch-local/aubclsd0286.Pawl8.218834.asax-pbs1
+  The memory limit is: 500gb
+  The job will start running after: 202412031604.08
+  Job Name: Pawl8
+  Queue: -q bigmem
+  Constraints: 
+  Using  8  cores on master node  asaxb001.asc.edu
+  Node list:  asaxb001.asc.edu asaxb001.asc.edu asaxb001.asc.edu asaxb001.asc.edu asaxb001.asc.edu asaxb001.asc.edu asaxb001.asc.edu asaxb001.asc.edu
+  Cores:  8
+  Command typed:
+/scripts/run_script torch_mp2_pawl_batch8.sh     
+  Queue submit command:
+qsub -q bigmem -j oe -N Pawl8 -a 202412031604.08 -r n -M wmh0011@auburn.edu -l walltime=360:00:00 -l select=ncpus=8:mpiprocs=8:mem=500000mb 
+./torch_mp2_pawl_batch8.sh: line 6: =/home/aubclsd0286/Scratch: No such file or directory
+
+  Memory set to 447.035 GiB by Python driver.

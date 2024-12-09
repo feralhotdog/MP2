@@ -1,0 +1,18 @@
+ 
+============================================================
+=====     Queued job information at submit time        =====
+============================================================
+  The submitted file is: torch_mp2_pawl_batch8.sh
+  The time limit is 360:00:00 HH:MM:SS.
+  The target directory is: /home/aubclsd0286/MP2/torch
+  The memory limit is: 500gb
+  The job will start running after: 202412031604.08
+  Job Name: Pawl8
+  Queue: -q bigmem
+  Constraints: 
+  Command typed:
+/scripts/run_script torch_mp2_pawl_batch8.sh     
+  Queue submit command:
+qsub -q bigmem -j oe -N Pawl8 -a 202412031604.08 -r n -M wmh0011@auburn.edu -l walltime=360:00:00 -l select=ncpus=8:mpiprocs=8:mem=500000mb 
+  Job number: 218834
+ 

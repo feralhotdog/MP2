@@ -1,0 +1,254 @@
+setting asax scratch directory
+ 
+============================================================
+=====         Summary of your script job               =====
+============================================================
+  The script file is: torch_mp2_OES_4core_batch.sh
+  The time limit is 360:00:00 HH:MM:SS.
+  The target directory is: /home/aubclsd0286/MP2/torch
+  The working directory is:  /scratch-local/aubclsd0286.OptEinSumQuadCore.219217.asax-pbs1
+  The memory limit is: 500gb
+  The job will start running after: 202412041328.10
+  Job Name: OptEinSumQuadCore
+  Queue: -q bigmem
+  Constraints: 
+  Using  4  cores on master node  asax030.asc.edu
+  Node list:  asax030.asc.edu asax030.asc.edu asax030.asc.edu asax030.asc.edu
+  Cores:  4
+  Command typed:
+/scripts/run_script torch_mp2_OES_4core_batch.sh     
+  Queue submit command:
+qsub -q bigmem -j oe -N OptEinSumQuadCore -a 202412041328.10 -r n -M wmh0011@auburn.edu -l walltime=360:00:00 -l select=ncpus=4:mpiprocs=4:mem=500000mb 
+./torch_mp2_OES_4core_batch.sh: line 6: =/home/aubclsd0286/Scratch: No such file or directory
+
+  Memory set to 447.035 GiB by Python driver.
+Using device: cpu
+6-31g benzene
+
+Size of ERI tensor is 18974736.00 bytes.
+MP2 energy calculated as:-231.14708758938457 AU
+Time to complete calculation:14445244601 ns
+Peak memory usage was 11011646 bytes
+    MP2 Energy............................................................................PASSED
+
+
+
+  Memory set to 447.035 GiB by Python driver.
+Using device: cpu
+6-31g dinitrogen
+
+Size of ERI tensor is 104976.00 bytes.
+MP2 energy calculated as:-109.05685410004463 AU
+Time to complete calculation:1576494488 ns
+Peak memory usage was 10011687 bytes
+    MP2 Energy............................................................................PASSED
+
+
+
+  Memory set to 447.035 GiB by Python driver.
+Using device: cpu
+6-31g h_peroxide
+
+Size of ERI tensor is 234256.00 bytes.
+MP2 energy calculated as:-150.8854163626773 AU
+Time to complete calculation:2086859620 ns
+Peak memory usage was 10066397 bytes
+    MP2 Energy............................................................................PASSED
+
+
+
+  Memory set to 447.035 GiB by Python driver.
+Using device: cpu
+6-31g pyrrole
+
+Size of ERI tensor is 9150625.00 bytes.
+MP2 energy calculated as:-209.19109700621814 AU
+Time to complete calculation:8252092587 ns
+Peak memory usage was 10686476 bytes
+    MP2 Energy............................................................................PASSED
+
+
+
+  Memory set to 447.035 GiB by Python driver.
+Using device: cpu
+6-31g water
+
+Size of ERI tensor is 28561.00 bytes.
+MP2 energy calculated as:-76.11330135791559 AU
+Time to complete calculation:1590067919 ns
+Peak memory usage was 9998773 bytes
+    MP2 Energy............................................................................PASSED
+
+
+
+  Memory set to 447.035 GiB by Python driver.
+Using device: cpu
+cc-PVDZ benzene
+
+Size of ERI tensor is 168896016.00 bytes.
+MP2 energy calculated as:-231.52072005602002 AU
+Time to complete calculation:67087583850 ns
+Peak memory usage was 12030641 bytes
+    MP2 Energy............................................................................PASSED
+
+
+
+  Memory set to 447.035 GiB by Python driver.
+Using device: cpu
+cc-PVDZ dinitrogen
+
+Size of ERI tensor is 614656.00 bytes.
+MP2 energy calculated as:-109.18255784624306 AU
+Time to complete calculation:2285288098 ns
+Peak memory usage was 10123918 bytes
+    MP2 Energy............................................................................PASSED
+
+
+
+  Memory set to 447.035 GiB by Python driver.
+Using device: cpu
+cc-PVDZ h_peroxide
+
+Size of ERI tensor is 2085136.00 bytes.
+MP2 energy calculated as:-151.06910029439655 AU
+Time to complete calculation:3115048380 ns
+Peak memory usage was 10301217 bytes
+    MP2 Energy............................................................................PASSED
+
+
+
+  Memory set to 447.035 GiB by Python driver.
+Using device: cpu
+cc-PVDZ pyrrole
+
+Size of ERI tensor is 81450625.00 bytes.
+MP2 energy calculated as:-209.53764682031257 AU
+Time to complete calculation:33565557256 ns
+Peak memory usage was 11394859 bytes
+    MP2 Energy............................................................................PASSED
+
+
+
+  Memory set to 447.035 GiB by Python driver.
+Using device: cpu
+cc-PVDZ water
+
+Size of ERI tensor is 331776.00 bytes.
+MP2 energy calculated as:-76.23081941401148 AU
+Time to complete calculation:1920105243 ns
+Peak memory usage was 10089724 bytes
+    MP2 Energy............................................................................PASSED
+
+
+
+  Memory set to 447.035 GiB by Python driver.
+Using device: cpu
+cc-PVTZ benzene
+
+Size of ERI tensor is 4857532416.00 bytes.
+MP2 energy calculated as:-231.82197048944428 AU
+Time to complete calculation:469881572803 ns
+Peak memory usage was 21111115 bytes
+    MP2 Energy............................................................................PASSED
+
+
+
+  Memory set to 447.035 GiB by Python driver.
+Using device: cpu
+cc-PVTZ dinitrogen
+
+Size of ERI tensor is 12960000.00 bytes.
+MP2 energy calculated as:-109.28604324279766 AU
+Time to complete calculation:3654743779 ns
+Peak memory usage was 10812618 bytes
+    MP2 Energy............................................................................PASSED
+
+
+
+  Memory set to 447.035 GiB by Python driver.
+Using device: cpu
+cc-PVTZ h_peroxide
+
+Size of ERI tensor is 59969536.00 bytes.
+MP2 energy calculated as:-151.24658542011323 AU
+Time to complete calculation:8296738182 ns
+Peak memory usage was 11838140 bytes
+    MP2 Energy............................................................................PASSED
+
+
+
+  Memory set to 447.035 GiB by Python driver.
+Using device: cpu
+cc-PVTZ pyrrole
+
+Size of ERI tensor is 2342560000.00 bytes.
+MP2 energy calculated as:-209.80909102162798 AU
+Time to complete calculation:232156533509 ns
+Peak memory usage was 17698567 bytes
+    MP2 Energy............................................................................PASSED
+
+
+
+  Memory set to 447.035 GiB by Python driver.
+Using device: cpu
+cc-PVTZ water
+
+Size of ERI tensor is 11316496.00 bytes.
+MP2 energy calculated as:-76.33200062409898 AU
+Time to complete calculation:3164763725 ns
+Peak memory usage was 10768293 bytes
+    MP2 Energy............................................................................PASSED
+
+
+
+  Memory set to 447.035 GiB by Python driver.
+./torch_mp2_OES_4core_batch.sh: line 12: 1577951 Killed                  python3 /home/aubclsd0286/MP2/src/torch_mp2_OES_4core.py $i $basis
+
+  Memory set to 447.035 GiB by Python driver.
+Using device: cpu
+cc-PVQZ dinitrogen
+
+Size of ERI tensor is 146410000.00 bytes.
+MP2 energy calculated as:-109.34843761488501 AU
+Time to complete calculation:15798334552 ns
+Peak memory usage was 11873947 bytes
+    MP2 Energy............................................................................PASSED
+
+
+
+  Memory set to 447.035 GiB by Python driver.
+Using device: cpu
+cc-PVQZ h_peroxide
+
+Size of ERI tensor is 835210000.00 bytes.
+MP2 energy calculated as:-151.33250189078086 AU
+Time to complete calculation:65559979782 ns
+Peak memory usage was 14578568 bytes
+    MP2 Energy............................................................................PASSED
+
+
+
+  Memory set to 447.035 GiB by Python driver.
+Using device: cpu
+cc-PVQZ pyrrole
+
+Size of ERI tensor is 32625390625.00 bytes.
+MP2 energy calculated as:-209.94176992870308 AU
+Time to complete calculation:2471124267121 ns
+Peak memory usage was 38845644 bytes
+    MP2 Energy............................................................................PASSED
+
+
+
+  Memory set to 447.035 GiB by Python driver.
+Using device: cpu
+cc-PVQZ water
+
+Size of ERI tensor is 174900625.00 bytes.
+MP2 energy calculated as:-76.37781696760017 AU
+Time to complete calculation:14562219255 ns
+Peak memory usage was 12067116 bytes
+    MP2 Energy............................................................................PASSED
+
+
+Cgroup memsw limit exceeded: oom-kill:constraint=CONSTRAINT_MEMCG,nodemask=(null),cpuset=219217.asax-pbs1,mems_allowed=0-1,oom_memcg=/pbs_jobs.service/jobid/219217.asax-pbs1,task_memcg=/pbs_jobs.service/jobid/219217.asax-pbs1,task=python3,pid=1577951,uid=7482

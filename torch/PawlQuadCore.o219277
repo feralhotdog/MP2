@@ -1,0 +1,479 @@
+setting asax scratch directory
+ 
+============================================================
+=====         Summary of your script job               =====
+============================================================
+  The script file is: torch_mp2_pawl_batch8.sh
+  The time limit is 360:00:00 HH:MM:SS.
+  The target directory is: /home/aubclsd0286/MP2/torch
+  The working directory is:  /scratch-local/aubclsd0286.PawlQuadCore.219277.asax-pbs1
+  The memory limit is: 500gb
+  The job will start running after: 202412041506.24
+  Job Name: PawlQuadCore
+  Queue: -q bigmem
+  Constraints: 
+  Using  4  cores on master node  asax027.asc.edu
+  Node list:  asax027.asc.edu asax027.asc.edu asax027.asc.edu asax027.asc.edu
+  Cores:  4
+  Command typed:
+/scripts/run_script torch_mp2_pawl_batch8.sh     
+  Queue submit command:
+qsub -q bigmem -j oe -N PawlQuadCore -a 202412041506.24 -r n -M wmh0011@auburn.edu -l walltime=360:00:00 -l select=ncpus=4:mpiprocs=4:mem=500000mb 
+./torch_mp2_pawl_batch8.sh: line 6: =/home/aubclsd0286/Scratch: No such file or directory
+
+  Memory set to 447.035 GiB by Python driver.
+ATen/Parallel:
+	at::get_num_threads() : 4
+	at::get_num_interop_threads() : 1
+OpenMP 201511 (a.k.a. OpenMP 4.5)
+	omp_get_max_threads() : 4
+Intel(R) oneAPI Math Kernel Library Version 2021.4-Product Build 20210904 for Intel(R) 64 architecture applications
+	mkl_get_max_threads() : 4
+Intel(R) MKL-DNN v2.6.0 (Git Hash N/A)
+std::thread::hardware_concurrency() : 128
+Environment variables:
+	OMP_NUM_THREADS : 4
+	MKL_NUM_THREADS : [not set]
+ATen parallel backend: OpenMP
+
+6-31g benzene
+
+Size of ERI tensor is 18974736.00 bytes.
+MP2 energy calculated as:-231.1470875893846 AU
+Time to complete calculation:26233772194 ns
+Peak memory usage was 176071837 bytes
+    MP2 Energy............................................................................PASSED
+
+
+
+  Memory set to 447.035 GiB by Python driver.
+ATen/Parallel:
+	at::get_num_threads() : 4
+	at::get_num_interop_threads() : 1
+OpenMP 201511 (a.k.a. OpenMP 4.5)
+	omp_get_max_threads() : 4
+Intel(R) oneAPI Math Kernel Library Version 2021.4-Product Build 20210904 for Intel(R) 64 architecture applications
+	mkl_get_max_threads() : 4
+Intel(R) MKL-DNN v2.6.0 (Git Hash N/A)
+std::thread::hardware_concurrency() : 128
+Environment variables:
+	OMP_NUM_THREADS : 4
+	MKL_NUM_THREADS : [not set]
+ATen parallel backend: OpenMP
+
+6-31g dinitrogen
+
+Size of ERI tensor is 104976.00 bytes.
+MP2 energy calculated as:-109.05685410004463 AU
+Time to complete calculation:1889499029 ns
+Peak memory usage was 10892725 bytes
+    MP2 Energy............................................................................PASSED
+
+
+
+  Memory set to 447.035 GiB by Python driver.
+ATen/Parallel:
+	at::get_num_threads() : 4
+	at::get_num_interop_threads() : 1
+OpenMP 201511 (a.k.a. OpenMP 4.5)
+	omp_get_max_threads() : 4
+Intel(R) oneAPI Math Kernel Library Version 2021.4-Product Build 20210904 for Intel(R) 64 architecture applications
+	mkl_get_max_threads() : 4
+Intel(R) MKL-DNN v2.6.0 (Git Hash N/A)
+std::thread::hardware_concurrency() : 128
+Environment variables:
+	OMP_NUM_THREADS : 4
+	MKL_NUM_THREADS : [not set]
+ATen parallel backend: OpenMP
+
+6-31g h_peroxide
+
+Size of ERI tensor is 234256.00 bytes.
+MP2 energy calculated as:-150.88541636267732 AU
+Time to complete calculation:2358173369 ns
+Peak memory usage was 12080480 bytes
+    MP2 Energy............................................................................PASSED
+
+
+
+  Memory set to 447.035 GiB by Python driver.
+ATen/Parallel:
+	at::get_num_threads() : 4
+	at::get_num_interop_threads() : 1
+OpenMP 201511 (a.k.a. OpenMP 4.5)
+	omp_get_max_threads() : 4
+Intel(R) oneAPI Math Kernel Library Version 2021.4-Product Build 20210904 for Intel(R) 64 architecture applications
+	mkl_get_max_threads() : 4
+Intel(R) MKL-DNN v2.6.0 (Git Hash N/A)
+std::thread::hardware_concurrency() : 128
+Environment variables:
+	OMP_NUM_THREADS : 4
+	MKL_NUM_THREADS : [not set]
+ATen parallel backend: OpenMP
+
+6-31g pyrrole
+
+Size of ERI tensor is 9150625.00 bytes.
+MP2 energy calculated as:-209.19109700621814 AU
+Time to complete calculation:13501646704 ns
+Peak memory usage was 90287241 bytes
+    MP2 Energy............................................................................PASSED
+
+
+
+  Memory set to 447.035 GiB by Python driver.
+ATen/Parallel:
+	at::get_num_threads() : 4
+	at::get_num_interop_threads() : 1
+OpenMP 201511 (a.k.a. OpenMP 4.5)
+	omp_get_max_threads() : 4
+Intel(R) oneAPI Math Kernel Library Version 2021.4-Product Build 20210904 for Intel(R) 64 architecture applications
+	mkl_get_max_threads() : 4
+Intel(R) MKL-DNN v2.6.0 (Git Hash N/A)
+std::thread::hardware_concurrency() : 128
+Environment variables:
+	OMP_NUM_THREADS : 4
+	MKL_NUM_THREADS : [not set]
+ATen parallel backend: OpenMP
+
+6-31g water
+
+Size of ERI tensor is 28561.00 bytes.
+MP2 energy calculated as:-76.11330135791559 AU
+Time to complete calculation:1596637585 ns
+Peak memory usage was 10190395 bytes
+    MP2 Energy............................................................................PASSED
+
+
+
+  Memory set to 447.035 GiB by Python driver.
+ATen/Parallel:
+	at::get_num_threads() : 4
+	at::get_num_interop_threads() : 1
+OpenMP 201511 (a.k.a. OpenMP 4.5)
+	omp_get_max_threads() : 4
+Intel(R) oneAPI Math Kernel Library Version 2021.4-Product Build 20210904 for Intel(R) 64 architecture applications
+	mkl_get_max_threads() : 4
+Intel(R) MKL-DNN v2.6.0 (Git Hash N/A)
+std::thread::hardware_concurrency() : 128
+Environment variables:
+	OMP_NUM_THREADS : 4
+	MKL_NUM_THREADS : [not set]
+ATen parallel backend: OpenMP
+
+cc-PVDZ benzene
+
+Size of ERI tensor is 168896016.00 bytes.
+MP2 energy calculated as:-231.52072005602014 AU
+Time to complete calculation:135789119001 ns
+Peak memory usage was 1422180093 bytes
+    MP2 Energy............................................................................PASSED
+
+
+
+  Memory set to 447.035 GiB by Python driver.
+ATen/Parallel:
+	at::get_num_threads() : 4
+	at::get_num_interop_threads() : 1
+OpenMP 201511 (a.k.a. OpenMP 4.5)
+	omp_get_max_threads() : 4
+Intel(R) oneAPI Math Kernel Library Version 2021.4-Product Build 20210904 for Intel(R) 64 architecture applications
+	mkl_get_max_threads() : 4
+Intel(R) MKL-DNN v2.6.0 (Git Hash N/A)
+std::thread::hardware_concurrency() : 128
+Environment variables:
+	OMP_NUM_THREADS : 4
+	MKL_NUM_THREADS : [not set]
+ATen parallel backend: OpenMP
+
+cc-PVDZ dinitrogen
+
+Size of ERI tensor is 614656.00 bytes.
+MP2 energy calculated as:-109.18255784624306 AU
+Time to complete calculation:2576189416 ns
+Peak memory usage was 15235499 bytes
+    MP2 Energy............................................................................PASSED
+
+
+
+  Memory set to 447.035 GiB by Python driver.
+ATen/Parallel:
+	at::get_num_threads() : 4
+	at::get_num_interop_threads() : 1
+OpenMP 201511 (a.k.a. OpenMP 4.5)
+	omp_get_max_threads() : 4
+Intel(R) oneAPI Math Kernel Library Version 2021.4-Product Build 20210904 for Intel(R) 64 architecture applications
+	mkl_get_max_threads() : 4
+Intel(R) MKL-DNN v2.6.0 (Git Hash N/A)
+std::thread::hardware_concurrency() : 128
+Environment variables:
+	OMP_NUM_THREADS : 4
+	MKL_NUM_THREADS : [not set]
+ATen parallel backend: OpenMP
+
+cc-PVDZ h_peroxide
+
+Size of ERI tensor is 2085136.00 bytes.
+MP2 energy calculated as:-151.06910029439655 AU
+Time to complete calculation:3719456879 ns
+Peak memory usage was 27758501 bytes
+    MP2 Energy............................................................................PASSED
+
+
+
+  Memory set to 447.035 GiB by Python driver.
+ATen/Parallel:
+	at::get_num_threads() : 4
+	at::get_num_interop_threads() : 1
+OpenMP 201511 (a.k.a. OpenMP 4.5)
+	omp_get_max_threads() : 4
+Intel(R) oneAPI Math Kernel Library Version 2021.4-Product Build 20210904 for Intel(R) 64 architecture applications
+	mkl_get_max_threads() : 4
+Intel(R) MKL-DNN v2.6.0 (Git Hash N/A)
+std::thread::hardware_concurrency() : 128
+Environment variables:
+	OMP_NUM_THREADS : 4
+	MKL_NUM_THREADS : [not set]
+ATen parallel backend: OpenMP
+
+cc-PVDZ pyrrole
+
+Size of ERI tensor is 81450625.00 bytes.
+MP2 energy calculated as:-209.53764682031263 AU
+Time to complete calculation:64750322578 ns
+Peak memory usage was 692326039 bytes
+    MP2 Energy............................................................................PASSED
+
+
+
+  Memory set to 447.035 GiB by Python driver.
+ATen/Parallel:
+	at::get_num_threads() : 4
+	at::get_num_interop_threads() : 1
+OpenMP 201511 (a.k.a. OpenMP 4.5)
+	omp_get_max_threads() : 4
+Intel(R) oneAPI Math Kernel Library Version 2021.4-Product Build 20210904 for Intel(R) 64 architecture applications
+	mkl_get_max_threads() : 4
+Intel(R) MKL-DNN v2.6.0 (Git Hash N/A)
+std::thread::hardware_concurrency() : 128
+Environment variables:
+	OMP_NUM_THREADS : 4
+	MKL_NUM_THREADS : [not set]
+ATen parallel backend: OpenMP
+
+cc-PVDZ water
+
+Size of ERI tensor is 331776.00 bytes.
+MP2 energy calculated as:-76.23081941401148 AU
+Time to complete calculation:2283046059 ns
+Peak memory usage was 12786662 bytes
+    MP2 Energy............................................................................PASSED
+
+
+
+  Memory set to 447.035 GiB by Python driver.
+ATen/Parallel:
+	at::get_num_threads() : 4
+	at::get_num_interop_threads() : 1
+OpenMP 201511 (a.k.a. OpenMP 4.5)
+	omp_get_max_threads() : 4
+Intel(R) oneAPI Math Kernel Library Version 2021.4-Product Build 20210904 for Intel(R) 64 architecture applications
+	mkl_get_max_threads() : 4
+Intel(R) MKL-DNN v2.6.0 (Git Hash N/A)
+std::thread::hardware_concurrency() : 128
+Environment variables:
+	OMP_NUM_THREADS : 4
+	MKL_NUM_THREADS : [not set]
+ATen parallel backend: OpenMP
+
+cc-PVTZ benzene
+
+Size of ERI tensor is 4857532416.00 bytes.
+MP2 energy calculated as:-231.82197048944712 AU
+Time to complete calculation:1919827985525 ns
+Peak memory usage was 39286893996 bytes
+    MP2 Energy............................................................................PASSED
+
+
+
+  Memory set to 447.035 GiB by Python driver.
+ATen/Parallel:
+	at::get_num_threads() : 4
+	at::get_num_interop_threads() : 1
+OpenMP 201511 (a.k.a. OpenMP 4.5)
+	omp_get_max_threads() : 4
+Intel(R) oneAPI Math Kernel Library Version 2021.4-Product Build 20210904 for Intel(R) 64 architecture applications
+	mkl_get_max_threads() : 4
+Intel(R) MKL-DNN v2.6.0 (Git Hash N/A)
+std::thread::hardware_concurrency() : 128
+Environment variables:
+	OMP_NUM_THREADS : 4
+	MKL_NUM_THREADS : [not set]
+ATen parallel backend: OpenMP
+
+cc-PVTZ dinitrogen
+
+Size of ERI tensor is 12960000.00 bytes.
+MP2 energy calculated as:-109.28604324279766 AU
+Time to complete calculation:5166794724 ns
+Peak memory usage was 115854245 bytes
+    MP2 Energy............................................................................PASSED
+
+
+
+  Memory set to 447.035 GiB by Python driver.
+ATen/Parallel:
+	at::get_num_threads() : 4
+	at::get_num_interop_threads() : 1
+OpenMP 201511 (a.k.a. OpenMP 4.5)
+	omp_get_max_threads() : 4
+Intel(R) oneAPI Math Kernel Library Version 2021.4-Product Build 20210904 for Intel(R) 64 architecture applications
+	mkl_get_max_threads() : 4
+Intel(R) MKL-DNN v2.6.0 (Git Hash N/A)
+std::thread::hardware_concurrency() : 128
+Environment variables:
+	OMP_NUM_THREADS : 4
+	MKL_NUM_THREADS : [not set]
+ATen parallel backend: OpenMP
+
+cc-PVTZ h_peroxide
+
+Size of ERI tensor is 59969536.00 bytes.
+MP2 energy calculated as:-151.24658542011323 AU
+Time to complete calculation:15009861684 ns
+Peak memory usage was 497829722 bytes
+    MP2 Energy............................................................................PASSED
+
+
+
+  Memory set to 447.035 GiB by Python driver.
+ATen/Parallel:
+	at::get_num_threads() : 4
+	at::get_num_interop_threads() : 1
+OpenMP 201511 (a.k.a. OpenMP 4.5)
+	omp_get_max_threads() : 4
+Intel(R) oneAPI Math Kernel Library Version 2021.4-Product Build 20210904 for Intel(R) 64 architecture applications
+	mkl_get_max_threads() : 4
+Intel(R) MKL-DNN v2.6.0 (Git Hash N/A)
+std::thread::hardware_concurrency() : 128
+Environment variables:
+	OMP_NUM_THREADS : 4
+	MKL_NUM_THREADS : [not set]
+ATen parallel backend: OpenMP
+
+cc-PVTZ pyrrole
+
+Size of ERI tensor is 2342560000.00 bytes.
+MP2 energy calculated as:-209.80909102162934 AU
+Time to complete calculation:779582990602 ns
+Peak memory usage was 18961990561 bytes
+    MP2 Energy............................................................................PASSED
+
+
+
+  Memory set to 447.035 GiB by Python driver.
+ATen/Parallel:
+	at::get_num_threads() : 4
+	at::get_num_interop_threads() : 1
+OpenMP 201511 (a.k.a. OpenMP 4.5)
+	omp_get_max_threads() : 4
+Intel(R) oneAPI Math Kernel Library Version 2021.4-Product Build 20210904 for Intel(R) 64 architecture applications
+	mkl_get_max_threads() : 4
+Intel(R) MKL-DNN v2.6.0 (Git Hash N/A)
+std::thread::hardware_concurrency() : 128
+Environment variables:
+	OMP_NUM_THREADS : 4
+	MKL_NUM_THREADS : [not set]
+ATen parallel backend: OpenMP
+
+cc-PVTZ water
+
+Size of ERI tensor is 11316496.00 bytes.
+MP2 energy calculated as:-76.33200062409898 AU
+Time to complete calculation:4058744822 ns
+Peak memory usage was 101641026 bytes
+    MP2 Energy............................................................................PASSED
+
+
+
+  Memory set to 447.035 GiB by Python driver.
+./torch_mp2_pawl_batch8.sh: line 12: 2204649 Killed                  python3 /home/aubclsd0286/MP2/src/torch_mp2_pawl8.py $i $basis
+
+  Memory set to 447.035 GiB by Python driver.
+ATen/Parallel:
+	at::get_num_threads() : 4
+	at::get_num_interop_threads() : 1
+OpenMP 201511 (a.k.a. OpenMP 4.5)
+	omp_get_max_threads() : 4
+Intel(R) oneAPI Math Kernel Library Version 2021.4-Product Build 20210904 for Intel(R) 64 architecture applications
+	mkl_get_max_threads() : 4
+Intel(R) MKL-DNN v2.6.0 (Git Hash N/A)
+std::thread::hardware_concurrency() : 128
+Environment variables:
+	OMP_NUM_THREADS : 4
+	MKL_NUM_THREADS : [not set]
+ATen parallel backend: OpenMP
+
+cc-PVQZ dinitrogen
+
+Size of ERI tensor is 146410000.00 bytes.
+MP2 energy calculated as:-109.34843761488501 AU
+Time to complete calculation:31114987221 ns
+Peak memory usage was 1189570433 bytes
+    MP2 Energy............................................................................PASSED
+
+
+
+  Memory set to 447.035 GiB by Python driver.
+ATen/Parallel:
+	at::get_num_threads() : 4
+	at::get_num_interop_threads() : 1
+OpenMP 201511 (a.k.a. OpenMP 4.5)
+	omp_get_max_threads() : 4
+Intel(R) oneAPI Math Kernel Library Version 2021.4-Product Build 20210904 for Intel(R) 64 architecture applications
+	mkl_get_max_threads() : 4
+Intel(R) MKL-DNN v2.6.0 (Git Hash N/A)
+std::thread::hardware_concurrency() : 128
+Environment variables:
+	OMP_NUM_THREADS : 4
+	MKL_NUM_THREADS : [not set]
+ATen parallel backend: OpenMP
+
+cc-PVQZ h_peroxide
+
+Size of ERI tensor is 835210000.00 bytes.
+MP2 energy calculated as:-151.33250189078083 AU
+Time to complete calculation:165690226235 ns
+Peak memory usage was 6725258690 bytes
+    MP2 Energy............................................................................PASSED
+
+
+
+  Memory set to 447.035 GiB by Python driver.
+./torch_mp2_pawl_batch8.sh: line 12: 2210692 Killed                  python3 /home/aubclsd0286/MP2/src/torch_mp2_pawl8.py $i $basis
+
+  Memory set to 447.035 GiB by Python driver.
+ATen/Parallel:
+	at::get_num_threads() : 4
+	at::get_num_interop_threads() : 1
+OpenMP 201511 (a.k.a. OpenMP 4.5)
+	omp_get_max_threads() : 4
+Intel(R) oneAPI Math Kernel Library Version 2021.4-Product Build 20210904 for Intel(R) 64 architecture applications
+	mkl_get_max_threads() : 4
+Intel(R) MKL-DNN v2.6.0 (Git Hash N/A)
+std::thread::hardware_concurrency() : 128
+Environment variables:
+	OMP_NUM_THREADS : 4
+	MKL_NUM_THREADS : [not set]
+ATen parallel backend: OpenMP
+
+cc-PVQZ water
+
+Size of ERI tensor is 174900625.00 bytes.
+MP2 energy calculated as:-76.37781696760018 AU
+Time to complete calculation:28598552767 ns
+Peak memory usage was 1414030999 bytes
+    MP2 Energy............................................................................PASSED
+
+
+Cgroup memsw limit exceeded: oom-kill:constraint=CONSTRAINT_MEMCG,nodemask=(null),cpuset=219277.asax-pbs1,mems_allowed=0-1,oom_memcg=/pbs_jobs.service/jobid/219277.asax-pbs1,task_memcg=/pbs_jobs.service/jobid/219277.asax-pbs1,task=python3,pid=2210692,uid=7482
